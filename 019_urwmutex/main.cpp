@@ -157,28 +157,28 @@ void DoTests(const long numReaders, const long numWriters, std::vector<Stats>& s
 {
     Stats stats;
 
-#if 01
+#if 0
     // NOTE: is perfectly fair
     printf("Mutex:\n");
     Test<Mutex> test_Mutex(numReaders, numWriters);
     test_Mutex.Execute();
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     printf("CriticalSection:\n");
     Test<CriticalSection> test_CriticalSection(numReaders, numWriters);
     test_CriticalSection.Execute();
 #endif
 
-#if 01
+#if 0
     // NOTE: is not fair
     printf("SlimReadWriteLock:\n");
     Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters);
     test_SlimReadWriteLock.Execute();
 #endif
 
-#if 0
+#if 01
     // NOTE: is not fair
     printf("UltraSpinReadWriteMutex:\n");
     Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters);
@@ -186,7 +186,7 @@ void DoTests(const long numReaders, const long numWriters, std::vector<Stats>& s
     statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is not fair
     printf("UltraFastReadWriteMutex:\n");
     Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters);
