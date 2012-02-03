@@ -1,0 +1,303 @@
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =     1785105.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =     1785105.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :     1785105.0
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    37550945.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    37550945.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :    37550945.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    39177055.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    39177055.5
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :    39177055.5
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =      262023.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =      262023.0
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =           2.0
+writerThreadCount=  0, writeRatio =           0.0
+{002R, 000W} :      262023.0
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    20932435.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    20932435.0
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =           2.0
+writerThreadCount=  0, writeRatio =           0.0
+{002R, 000W} :    20932435.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    22439760.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    22439760.5
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =           2.0
+writerThreadCount=  0, writeRatio =           0.0
+{002R, 000W} :    22439760.5
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =      103624.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =      103624.5
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =           3.0
+writerThreadCount=  0, writeRatio =           0.0
+{003R, 000W} :      103624.5
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    14980392.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    14980392.0
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =           3.0
+writerThreadCount=  0, writeRatio =           0.0
+{003R, 000W} :    14980392.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    11244567.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    11244567.0
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =           3.0
+writerThreadCount=  0, writeRatio =           0.0
+{003R, 000W} :    11244567.0
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       93564.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =       93564.5
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =           4.0
+writerThreadCount=  0, writeRatio =           0.0
+{004R, 000W} :       93564.5
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    14569168.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    14569168.5
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =           4.0
+writerThreadCount=  0, writeRatio =           0.0
+{004R, 000W} :    14569168.5
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    10758174.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    10758174.5
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =           4.0
+writerThreadCount=  0, writeRatio =           0.0
+{004R, 000W} :    10758174.5
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       50787.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =       50787.0
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =           5.0
+writerThreadCount=  0, writeRatio =           0.0
+{005R, 000W} :       50787.0
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    14216703.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    14216703.0
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =           5.0
+writerThreadCount=  0, writeRatio =           0.0
+{005R, 000W} :    14216703.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =     8977753.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =     8977753.0
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =           5.0
+writerThreadCount=  0, writeRatio =           0.0
+{005R, 000W} :     8977753.0
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       49512.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =       49512.5
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =           6.0
+writerThreadCount=  0, writeRatio =           0.0
+{006R, 000W} :       49512.5
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    14338979.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    14338979.0
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =           6.0
+writerThreadCount=  0, writeRatio =           0.0
+{006R, 000W} :    14338979.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =     8831528.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =     8831528.5
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =           6.0
+writerThreadCount=  0, writeRatio =           0.0
+{006R, 000W} :     8831528.5
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       58115.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =       58115.0
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =           7.0
+writerThreadCount=  0, writeRatio =           0.0
+{007R, 000W} :       58115.0
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    13679955.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    13679955.5
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =           7.0
+writerThreadCount=  0, writeRatio =           0.0
+{007R, 000W} :    13679955.5
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    10661612.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    10661612.5
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =           7.0
+writerThreadCount=  0, writeRatio =           0.0
+{007R, 000W} :    10661612.5
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       54714.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =       54714.5
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =           8.0
+writerThreadCount=  0, writeRatio =           0.0
+{008R, 000W} :       54714.5
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    16575843.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    16575843.0
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =           8.0
+writerThreadCount=  0, writeRatio =           0.0
+{008R, 000W} :    16575843.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    12181253.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    12181253.0
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =           8.0
+writerThreadCount=  0, writeRatio =           0.0
+{008R, 000W} :    12181253.0
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       56113.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =       56113.0
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =           9.0
+writerThreadCount=  0, writeRatio =           0.0
+{009R, 000W} :       56113.0
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    16277898.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    16277898.0
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =           9.0
+writerThreadCount=  0, writeRatio =           0.0
+{009R, 000W} :    16277898.0
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    11400462.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =    11400462.0
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =           9.0
+writerThreadCount=  0, writeRatio =           0.0
+{009R, 000W} :    11400462.0
+
+Mutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =       87952.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =       87952.5
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =          10.0
+writerThreadCount=  0, writeRatio =           0.0
+{010R, 000W} :       87952.5
+
+CriticalSection:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    14387055.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    14387055.5
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =          10.0
+writerThreadCount=  0, writeRatio =           0.0
+{010R, 000W} :    14387055.5
+
+SlimReadWriteLock:
+Running test for 2000 milliseconds...
+readsPerSecond                    =    10688198.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =    10688198.5
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =          10.0
+writerThreadCount=  0, writeRatio =           0.0
+{010R, 000W} :    10688198.5
+
+
+csv =
+

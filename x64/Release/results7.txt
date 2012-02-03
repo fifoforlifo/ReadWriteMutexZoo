@@ -1,0 +1,244 @@
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 108971.000000
+writesPerSecond                   = 22930.000000
+totalPerSecond                    = 131901.000000
+numThreads                        = 9
+readerThreadCount=  1, readRatio  = 7.435417
+writerThreadCount=  8, writeRatio = 1.564583
+{001R, 008W} : 131901.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 12446478.000000
+writesPerSecond                   = 649722.000000
+totalPerSecond                    = 13096200.000000
+numThreads                        = 9
+readerThreadCount=  1, readRatio  = 8.553497
+writerThreadCount=  8, writeRatio = 0.446503
+{001R, 008W} : 13096200.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 1261821.000000
+writesPerSecond                   = 9201.000000
+totalPerSecond                    = 1271022.000000
+numThreads                        = 10
+readerThreadCount=  2, readRatio  = 9.927609
+writerThreadCount=  8, writeRatio = 0.072391
+{002R, 008W} : 1271022.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 15422154.000000
+writesPerSecond                   = 513763.000000
+totalPerSecond                    = 15935917.000000
+numThreads                        = 10
+readerThreadCount=  2, readRatio  = 9.677607
+writerThreadCount=  8, writeRatio = 0.322393
+{002R, 008W} : 15935917.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 1045297.000000
+writesPerSecond                   = 5471.000000
+totalPerSecond                    = 1050768.000000
+numThreads                        = 11
+readerThreadCount=  3, readRatio  = 10.942727
+writerThreadCount=  8, writeRatio = 0.057273
+{003R, 008W} : 1050768.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 21581194.000000
+writesPerSecond                   = 337082.000000
+totalPerSecond                    = 21918276.000000
+numThreads                        = 11
+readerThreadCount=  3, readRatio  = 10.830831
+writerThreadCount=  8, writeRatio = 0.169169
+{003R, 008W} : 21918276.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 1710916.000000
+writesPerSecond                   = 7790.000000
+totalPerSecond                    = 1718706.000000
+numThreads                        = 12
+readerThreadCount=  4, readRatio  = 11.945610
+writerThreadCount=  8, writeRatio = 0.054390
+{004R, 008W} : 1718706.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 27021644.000000
+writesPerSecond                   = 271492.000000
+totalPerSecond                    = 27293136.000000
+numThreads                        = 12
+readerThreadCount=  4, readRatio  = 11.880633
+writerThreadCount=  8, writeRatio = 0.119367
+{004R, 008W} : 27293136.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 1535386.000000
+writesPerSecond                   = 7499.000000
+totalPerSecond                    = 1542885.000000
+numThreads                        = 13
+readerThreadCount=  5, readRatio  = 12.936815
+writerThreadCount=  8, writeRatio = 0.063185
+{005R, 008W} : 1542885.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 30456218.000000
+writesPerSecond                   = 238942.000000
+totalPerSecond                    = 30695160.000000
+numThreads                        = 13
+readerThreadCount=  5, readRatio  = 12.898803
+writerThreadCount=  8, writeRatio = 0.101197
+{005R, 008W} : 30695160.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 17853024.000000
+writesPerSecond                   = 6489.000000
+totalPerSecond                    = 17859513.000000
+numThreads                        = 14
+readerThreadCount=  6, readRatio  = 13.994913
+writerThreadCount=  8, writeRatio = 0.005087
+{006R, 008W} : 17859513.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 35965506.000000
+writesPerSecond                   = 201444.000000
+totalPerSecond                    = 36166950.000000
+numThreads                        = 14
+readerThreadCount=  6, readRatio  = 13.922022
+writerThreadCount=  8, writeRatio = 0.077978
+{006R, 008W} : 36166950.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 5308714.000000
+writesPerSecond                   = 5885.000000
+totalPerSecond                    = 5314599.000000
+numThreads                        = 15
+readerThreadCount=  7, readRatio  = 14.983390
+writerThreadCount=  8, writeRatio = 0.016610
+{007R, 008W} : 5314599.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 39261682.000000
+writesPerSecond                   = 200045.000000
+totalPerSecond                    = 39461727.000000
+numThreads                        = 15
+readerThreadCount=  7, readRatio  = 14.923960
+writerThreadCount=  8, writeRatio = 0.076040
+{007R, 008W} : 39461727.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 103694838.000000
+writesPerSecond                   = 5444.000000
+totalPerSecond                    = 103700282.000000
+numThreads                        = 16
+readerThreadCount=  8, readRatio  = 15.999160
+writerThreadCount=  8, writeRatio = 0.000840
+{008R, 008W} : 103700282.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 68802195.000000
+writesPerSecond                   = 162750.000000
+totalPerSecond                    = 68964945.000000
+numThreads                        = 16
+readerThreadCount=  8, readRatio  = 15.962242
+writerThreadCount=  8, writeRatio = 0.037758
+{008R, 008W} : 68964945.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 211186758.000000
+writesPerSecond                   = 4145.000000
+totalPerSecond                    = 211190903.000000
+numThreads                        = 17
+readerThreadCount=  9, readRatio  = 16.999666
+writerThreadCount=  8, writeRatio = 0.000334
+{009R, 008W} : 211190903.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 79017303.000000
+writesPerSecond                   = 156283.000000
+totalPerSecond                    = 79173586.000000
+numThreads                        = 17
+readerThreadCount=  9, readRatio  = 16.966443
+writerThreadCount=  8, writeRatio = 0.033557
+{009R, 008W} : 79173586.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 39894611.000000
+writesPerSecond                   = 4409.000000
+totalPerSecond                    = 39899020.000000
+numThreads                        = 18
+readerThreadCount= 10, readRatio  = 17.998011
+writerThreadCount=  8, writeRatio = 0.001989
+{010R, 008W} : 39899020.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 93557718.000000
+writesPerSecond                   = 156002.000000
+totalPerSecond                    = 93713720.000000
+numThreads                        = 18
+readerThreadCount= 10, readRatio  = 17.970036
+writerThreadCount=  8, writeRatio = 0.029964
+{010R, 008W} : 93713720.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 47126371.000000
+writesPerSecond                   = 8223.000000
+totalPerSecond                    = 47134594.000000
+numThreads                        = 19
+readerThreadCount= 11, readRatio  = 18.996685
+writerThreadCount=  8, writeRatio = 0.003315
+{011R, 008W} : 47134594.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 101644016.000000
+writesPerSecond                   = 165108.000000
+totalPerSecond                    = 101809124.000000
+numThreads                        = 19
+readerThreadCount= 11, readRatio  = 18.969187
+writerThreadCount=  8, writeRatio = 0.030813
+{011R, 008W} : 101809124.000000
+
+UltraSpinReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 28300641.000000
+writesPerSecond                   = 9325.000000
+totalPerSecond                    = 28309966.000000
+numThreads                        = 20
+readerThreadCount= 12, readRatio  = 19.993412
+writerThreadCount=  8, writeRatio = 0.006588
+{012R, 008W} : 28309966.000000
+
+UltraFastReadWriteMutex:
+Running test for 1000 milliseconds...
+readsPerSecond                    = 107049608.000000
+writesPerSecond                   = 150651.000000
+totalPerSecond                    = 107200259.000000
+numThreads                        = 20
+readerThreadCount= 12, readRatio  = 19.971894
+writerThreadCount=  8, writeRatio = 0.028106
+{012R, 008W} : 107200259.000000
+
+
+csv =
+108971.000000, 1261821.000000, 1045297.000000, 1710916.000000, 1535386.000000, 17853024.000000, 5308714.000000, 103694838.000000, 211186758.000000, 39894611.000000, 47126371.000000, 28300641.000000, 
+12446478.000000, 15422154.000000, 21581194.000000, 27021644.000000, 30456218.000000, 35965506.000000, 39261682.000000, 68802195.000000, 79017303.000000, 93557718.000000, 101644016.000000, 107049608.000000, 

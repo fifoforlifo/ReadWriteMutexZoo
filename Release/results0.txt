@@ -1,0 +1,70 @@
+UltraSpinSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =   388608270.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   388608270.5
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :   388608270.5
+
+UltraSpinSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =           0.0
+writesPerSecond                   =     1839569.5
+totalPerSecond                    =     1839569.5
+numThreads                        = 1
+readerThreadCount=  0, readRatio  =           0.0
+writerThreadCount=  1, writeRatio =           1.0
+{000R, 001W} :     1839569.5
+
+UltraSpinSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =   430849671.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   430849671.5
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :   430849671.5
+
+UltraSpinSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =      204920.5
+writesPerSecond                   =       18574.0
+totalPerSecond                    =      223494.5
+numThreads                        = 2
+readerThreadCount=  1, readRatio  =           1.8
+writerThreadCount=  1, writeRatio =           0.2
+{001R, 001W} :      223494.5
+
+UltraSyncSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =           0.0
+writesPerSecond                   =     1837250.5
+totalPerSecond                    =     1837250.5
+numThreads                        = 1
+readerThreadCount=  0, readRatio  =           0.0
+writerThreadCount=  1, writeRatio =           1.0
+{000R, 001W} :     1837250.5
+
+UltraSyncSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =   634840555.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   634840555.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =           1.0
+writerThreadCount=  0, writeRatio =           0.0
+{001R, 000W} :   634840555.0
+
+UltraSyncSingleReadWriteMutex:
+Running test for 2000 milliseconds...
+readsPerSecond                    =   223835204.5
+writesPerSecond                   =      941768.5
+totalPerSecond                    =   224776973.0
+numThreads                        = 2
+readerThreadCount=  1, readRatio  =           2.0
+writerThreadCount=  1, writeRatio =           0.0
+{001R, 001W} :   224776973.0
+
