@@ -6,10 +6,10 @@
 //#define WRITER_LOOP_NL_SLEEP Sleep(0)
 #define READER_LOOP_NL_SLEEP
 #define WRITER_LOOP_NL_SLEEP
-#define READER_LOOP_LK_SLEEP Sleep(0)
-#define WRITER_LOOP_LK_SLEEP Sleep(0)
-//#define READER_LOOP_LK_SLEEP
-//#define WRITER_LOOP_LK_SLEEP
+//#define READER_LOOP_LK_SLEEP Sleep(0)
+//#define WRITER_LOOP_LK_SLEEP Sleep(0)
+#define READER_LOOP_LK_SLEEP
+#define WRITER_LOOP_LK_SLEEP
 
 
 struct Stats
@@ -67,7 +67,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 1000;
+        long durationMilliseconds = 2000;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -196,21 +196,21 @@ void DoTests(
     test_Mutex.Execute();
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "CriticalSection";
     Test<CriticalSection> test_CriticalSection(numReaders, numWriters, pName);
     test_CriticalSection.Execute();
 #endif
 
-#if 01
+#if 0
     // NOTE: is not fair
     pName = "SlimReadWriteLock";
     Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters, pName);
     test_SlimReadWriteLock.Execute();
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraSpinReadWriteMutex";
     Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters, pName);
@@ -218,7 +218,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraFastReadWriteMutex";
     Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters, pName);
@@ -226,11 +226,19 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraLightReadWriteMutex";
     Test<UltraLightReadWriteMutex> test_UltraLightReadWriteMutex(numReaders, numWriters, pName);
     stats = test_UltraLightReadWriteMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 01
+    // NOTE: is kind of fair
+    pName = "FastFairReadWriteMutex";
+    Test<FastFairReadWriteMutex> test_FastFairReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_FastFairReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 }
@@ -276,8 +284,8 @@ int main()
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int readerTrials = 4;
-    const int writerTrials = 4;
+    const int readerTrials = 6;
+    const int writerTrials = 2;
     const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;
@@ -328,6 +336,26 @@ int main()
         {
             Stats const& stats = statss[trial * testsPerTrial + test];
             printf("%9f,", stats.writeRatio);
+        }
+        printf("\n");
+    }
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s r1rr\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.r1ReadRatio);
+        }
+        printf("\n");
+    }
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s r1wr\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.r1WriteRatio);
         }
         printf("\n");
     }
