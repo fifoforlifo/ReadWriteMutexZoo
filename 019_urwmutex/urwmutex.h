@@ -4,6 +4,8 @@
 #include <map>
 #include <Windows.h>
 
+#define CACHE_LINE_SIZE 64
+
 #if defined(_M_IX86)
 inline void* InlineTlsGetValue(DWORD dwTlsIndex)
 {
@@ -181,6 +183,8 @@ public:
 };
 
 
+#define UNFAIR_SCHED 0
+
 /// This class implements a read-write mutex that is
 /// heavily in favor of readers.
 /// When no writer is contending for a lock, readers
@@ -197,11 +201,9 @@ public:
 /// That issue is not accounted for in this code either.
 class UltraSpinReadWriteMutex
 {
-#define CACHE_LINE_SIZE 64
     // treated as an atomic bool
     volatile DWORD m_writeRequested;
     volatile char pad0[CACHE_LINE_SIZE - 4];
-#undef CACHE_LINE_SIZE
 
     DWORD m_tlsIndex;
     HANDLE m_writerDoneEvent;
@@ -242,6 +244,29 @@ private:
             pTlsData = initTlsData();
         }
         return pTlsData;
+    }
+
+    void readLock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = true;
+        while (m_writeRequested)
+        {
+            pTlsData->isReading = false;
+            // wait until writer finishes
+#if UNFAIR_SCHED
+            WaitForSingleObject(m_writerDoneEvent, INFINITE);
+            pTlsData->isReading = true;
+#else
+            {
+                CriticalSection::ScopedWriteLock lk(m_csWriters);
+                pTlsData->isReading = true;
+            }
+#endif
+        }
+    }
+    void readUnlock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = false;
     }
 
 public:
@@ -297,23 +322,33 @@ public:
     void ReadLock()
     {
         TlsData* pTlsData = getTlsData();
-        pTlsData->isReading = true;
-        while (m_writeRequested)
-        {
-            pTlsData->isReading = false;
-            // wait until writer finishes
-            WaitForSingleObject(m_writerDoneEvent, INFINITE);
-            pTlsData->isReading = true;
-        }
+        readLock(pTlsData);
     }
     void ReadUnlock()
     {
         TlsData* pTlsData = getTlsData();
-        pTlsData->isReading = false;
+        readUnlock(pTlsData);
     }
 
     typedef ScopedWriteLock<UltraSpinReadWriteMutex> ScopedWriteLock;
-    typedef ScopedReadLock<UltraSpinReadWriteMutex> ScopedReadLock;
+
+    class ScopedReadLock
+    {
+        UltraSpinReadWriteMutex& m_mutex;
+        TlsData* m_pTlsData;
+
+    public:
+        ScopedReadLock(UltraSpinReadWriteMutex& mutex)
+            : m_mutex(mutex)
+        {
+            m_pTlsData = m_mutex.getTlsData();
+            m_mutex.readLock(m_pTlsData);
+        }
+        ~ScopedReadLock()
+        {
+            m_mutex.readUnlock(m_pTlsData);
+        }
+    };
 };
 
 
@@ -332,11 +367,9 @@ public:
 ///     collection routine write-locks the heap.
 class UltraFastReadWriteMutex
 {
-#define CACHE_LINE_SIZE 64
     // treated as an atomic bool
     volatile DWORD m_writeRequested;
     volatile char pad0[CACHE_LINE_SIZE - 4];
-#undef CACHE_LINE_SIZE
 
     DWORD m_tlsIndex;
 
@@ -392,6 +425,35 @@ private:
         return pTlsData;
     }
 
+    void readLock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = true;
+        while (m_writeRequested)
+        {
+            pTlsData->isReading = false;
+            SetEvent(pTlsData->readerDoneEvent);
+            // wait until writer finishes
+#if UNFAIR_SCHED
+            WaitForSingleObject(m_writerDoneEvent, INFINITE);
+            pTlsData->isReading = true;
+#else
+            {
+                CriticalSection::ScopedWriteLock lk(m_csWriters);
+                pTlsData->isReading = true;
+            }
+#endif
+        }
+    }
+
+    void readUnlock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = false;
+        if (m_writeRequested)
+        {
+            SetEvent(pTlsData->readerDoneEvent);
+        }
+    }
+
 public:
     UltraFastReadWriteMutex()
         : m_tlsIndex(TLS_OUT_OF_INDEXES)
@@ -445,39 +507,43 @@ public:
     void ReadLock()
     {
         TlsData* pTlsData = getTlsData();
-        pTlsData->isReading = true;
-        while (m_writeRequested)
-        {
-            pTlsData->isReading = false;
-            SetEvent(pTlsData->readerDoneEvent);
-            WaitForSingleObject(m_writerDoneEvent, INFINITE);
-            pTlsData->isReading = true;
-        }
+        readLock(pTlsData);
     }
     void ReadUnlock()
     {
         TlsData* pTlsData = getTlsData();
-        pTlsData->isReading = false;
-        if (m_writeRequested)
-        {
-            SetEvent(pTlsData->readerDoneEvent);
-        }
+        readUnlock(pTlsData);
     }
 
     typedef ScopedWriteLock<UltraFastReadWriteMutex> ScopedWriteLock;
-    typedef ScopedReadLock<UltraFastReadWriteMutex> ScopedReadLock;
+
+    class ScopedReadLock
+    {
+        UltraFastReadWriteMutex& m_mutex;
+        TlsData* m_pTlsData;
+
+    public:
+        ScopedReadLock(UltraFastReadWriteMutex& mutex)
+            : m_mutex(mutex)
+        {
+            m_pTlsData = m_mutex.getTlsData();
+            m_mutex.readLock(m_pTlsData);
+        }
+        ~ScopedReadLock()
+        {
+            m_mutex.readUnlock(m_pTlsData);
+        }
+    };
 };
 
 
 class UltraSpinSingleReadWriteMutex
 {
-#define CACHE_LINE_SIZE 64
     // treated as an atomic bool
     volatile DWORD m_writeRequested;
     volatile char m_pad0[CACHE_LINE_SIZE - 4];
     volatile DWORD m_isReading;
     volatile char m_pad1[CACHE_LINE_SIZE - 4];
-#undef CACHE_LINE_SIZE
 
     HANDLE m_writerDoneEvent;
     // this critical section excludes writers from each other
@@ -535,13 +601,11 @@ public:
 
 class UltraSyncSingleReadWriteMutex
 {
-#define CACHE_LINE_SIZE 64
     // treated as an atomic bool
     volatile DWORD m_writeRequested;
     volatile char m_pad0[CACHE_LINE_SIZE - 4];
     volatile DWORD m_isReading;
     volatile char m_pad1[CACHE_LINE_SIZE - 4];
-#undef CACHE_LINE_SIZE
 
     HANDLE m_readerDoneEvent;
     HANDLE m_writerDoneEvent;
@@ -620,3 +684,164 @@ public:
 //      UltraSync:  {000R, 001W} :     2327532.0
 //                  {001R, 000W} :   846614680.5    <-- WIN
 //                  {001R, 001W} :   440648676.5
+
+
+class UltraLightReadWriteMutex
+{
+private: // types
+    struct TlsData
+    {
+        volatile DWORD isReading;
+        HANDLE readerDoneEvent;
+
+        TlsData()
+            : isReading(false)
+            , readerDoneEvent(NULL)
+        {
+            readerDoneEvent = CreateEvent(NULL, /* bManualReset */ FALSE, /* bInitialState */ FALSE, NULL);
+            assert(readerDoneEvent != NULL);
+        }
+        ~TlsData()
+        {
+            CloseHandle(readerDoneEvent);
+        }
+    };
+    typedef std::vector<TlsData*> ThreadStates;
+    typedef CriticalSection Mutex_t;
+
+private: // members
+    // treated as an atomic bool
+    volatile DWORD m_writeRequested;
+    volatile char pad0[CACHE_LINE_SIZE - 4];
+
+    DWORD m_tlsIndex;
+
+    // This critical section enforces the following
+    // - mutual exclusion of writers from each other
+    // - mutual exclusion of new readers from existing writers
+    // - mutual exclusion and fair ordering of readers that arrive after previous writers
+    // - protects the m_threadStates vector
+    Mutex_t m_cs;
+    ThreadStates m_threadStates;
+
+private: // methods
+    TlsData* initTlsData()
+    {
+        TlsData* pTlsData = new TlsData();
+        TlsSetValue(m_tlsIndex, (void*)pTlsData);
+        DWORD threadId = GetCurrentThreadId();
+
+        {
+            Mutex_t::ScopedWriteLock lk(m_cs);
+            m_threadStates.push_back(pTlsData);
+        }
+        return pTlsData;
+    }
+
+    TlsData* getTlsData()
+    {
+        TlsData* pTlsData = (TlsData*)InlineTlsGetValue(m_tlsIndex);
+        if (pTlsData == NULL)
+        {
+            pTlsData = initTlsData();
+        }
+        return pTlsData;
+    }
+
+    void readLock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = true;
+        while (m_writeRequested)
+        {
+            pTlsData->isReading = false;
+            SetEvent(pTlsData->readerDoneEvent);
+            // wait until writer finishes
+            {
+                Mutex_t::ScopedWriteLock lk(m_cs);
+                pTlsData->isReading = true;
+            }
+        }
+    }
+
+    void readUnlock(TlsData* pTlsData)
+    {
+        pTlsData->isReading = false;
+        if (m_writeRequested)
+        {
+            SetEvent(pTlsData->readerDoneEvent);
+        }
+    }
+
+public: // interface
+    UltraLightReadWriteMutex()
+        : m_tlsIndex(TLS_OUT_OF_INDEXES)
+        , m_writeRequested(false)
+    {
+        m_tlsIndex = TlsAlloc();
+        assert(m_tlsIndex != TLS_OUT_OF_INDEXES);
+    }
+    ~UltraLightReadWriteMutex()
+    {
+        for (ThreadStates::iterator iter = m_threadStates.begin(),
+                                     end = m_threadStates.end();
+             iter != end;
+             ++iter)
+        {
+            TlsData* pTlsData = *iter;
+            delete pTlsData;
+        }
+        TlsFree(m_tlsIndex);
+    }
+
+    void WriteLock()
+    {
+        m_cs.WriteLock();
+        m_writeRequested = true;
+        for (ThreadStates::iterator iter = m_threadStates.begin(),
+                                     end = m_threadStates.end();
+             iter != end;
+             ++iter)
+        {
+            TlsData* pTlsData = *iter;
+            while (pTlsData->isReading)
+            {
+                WaitForSingleObject(pTlsData->readerDoneEvent, INFINITE);
+            }
+        }
+    }
+    void WriteUnlock()
+    {
+        m_writeRequested = false;
+        m_cs.WriteUnlock();
+    }
+    void ReadLock()
+    {
+        TlsData* pTlsData = getTlsData();
+        readLock(pTlsData);
+    }
+    void ReadUnlock()
+    {
+        TlsData* pTlsData = getTlsData();
+        readUnlock(pTlsData);
+    }
+
+    typedef ScopedWriteLock<UltraLightReadWriteMutex> ScopedWriteLock;
+
+    class ScopedReadLock
+    {
+        UltraLightReadWriteMutex& m_mutex;
+        TlsData* m_pTlsData;
+
+    public:
+        ScopedReadLock(UltraLightReadWriteMutex& mutex)
+            : m_mutex(mutex)
+        {
+            m_pTlsData = m_mutex.getTlsData();
+            m_mutex.readLock(m_pTlsData);
+        }
+        ~ScopedReadLock()
+        {
+            m_mutex.readUnlock(m_pTlsData);
+        }
+    };
+};

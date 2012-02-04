@@ -2,9 +2,19 @@
 #include <vector>
 #include "urwmutex.h"
 
+//#define READER_LOOP_NL_SLEEP Sleep(0)
+//#define WRITER_LOOP_NL_SLEEP Sleep(0)
+#define READER_LOOP_NL_SLEEP
+#define WRITER_LOOP_NL_SLEEP
+#define READER_LOOP_LK_SLEEP Sleep(0)
+#define WRITER_LOOP_LK_SLEEP Sleep(0)
+//#define READER_LOOP_LK_SLEEP
+//#define WRITER_LOOP_LK_SLEEP
+
 
 struct Stats
 {
+    std::string name;
     double durationSeconds;
     double readsPerSecond;
     double writesPerSecond;
@@ -12,6 +22,9 @@ struct Stats
     long numThreads;
     double readRatio;
     double writeRatio;
+    long r1NumThreads;
+    double r1ReadRatio;
+    double r1WriteRatio;
 };
 
 
@@ -21,7 +34,8 @@ class Test
 public:
     Test(
         long readerThreadCount,
-        long writerThreadCount)
+        long writerThreadCount,
+        const char* pName)
     {
         m_hStartEvent = CreateEventA(NULL, TRUE, FALSE, NULL);
         m_done = 0;
@@ -30,6 +44,8 @@ public:
         m_writerThreadCount = writerThreadCount;
         m_readerLockCount = 0;
         m_writerLockCount = 0;
+
+        m_name = pName ? pName : "";
     }
     ~Test()
     {
@@ -51,7 +67,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 2000;
+        long durationMilliseconds = 1000;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -66,7 +82,8 @@ public:
         }
 
         // report statistics
-        Stats stats = {0};
+        Stats stats;
+        stats.name = m_name;
         stats.durationSeconds   = durationMilliseconds / 1000.0; 
         stats.readsPerSecond    = m_readerLockCount * 1.0 / stats.durationSeconds;
         stats.writesPerSecond   = m_writerLockCount * 1.0 / stats.durationSeconds;
@@ -74,12 +91,19 @@ public:
         stats.numThreads        = m_readerThreadCount + m_writerThreadCount;
         stats.readRatio         = stats.readsPerSecond * stats.numThreads / stats.totalPerSecond;
         stats.writeRatio        = stats.writesPerSecond * stats.numThreads / stats.totalPerSecond;
+        stats.r1NumThreads      = 1 + m_writerThreadCount;
+        stats.r1ReadRatio       = stats.readsPerSecond * stats.r1NumThreads / stats.totalPerSecond;
+        stats.r1WriteRatio      = stats.writesPerSecond * stats.r1NumThreads / stats.totalPerSecond;
+        printf("%s:\n", m_name.c_str());
         printf("readsPerSecond                    = %13.1f\n", stats.readsPerSecond);
         printf("writesPerSecond                   = %13.1f\n", stats.writesPerSecond);
         printf("totalPerSecond                    = %13.1f\n", stats.totalPerSecond);
         printf("numThreads                        = %d\n", stats.numThreads);
-        printf("readerThreadCount=%3d, readRatio  = %13.1f\n",  m_readerThreadCount, stats.readRatio);
-        printf("writerThreadCount=%3d, writeRatio = %13.1f\n", m_writerThreadCount, stats.writeRatio);
+        printf("readerThreadCount=%3d, readRatio  = %13.6f\n", m_readerThreadCount, stats.readRatio);
+        printf("writerThreadCount=%3d, writeRatio = %13.6f\n", m_writerThreadCount, stats.writeRatio);
+        printf("r1NumThreads                      = %d\n", stats.r1NumThreads);
+        printf("r1ReadRatio                       = %13.6f\n", stats.r1ReadRatio);
+        printf("r1WriteRatio                      = %13.6f\n", stats.r1WriteRatio);
         printf("{%3.3dR, %3.3dW} : %13.1f\n", m_readerThreadCount, m_writerThreadCount, stats.totalPerSecond);
         printf("\n");
 
@@ -94,8 +118,10 @@ private:
         int count = 0;
         while (!m_done)
         {
+            WRITER_LOOP_NL_SLEEP;
             TMutex::ScopedWriteLock lk(m_mutex);
             count += 1;
+            WRITER_LOOP_LK_SLEEP;
         }
 
         {
@@ -116,8 +142,10 @@ private:
         int count = 0;
         while (!m_done)
         {
+            READER_LOOP_NL_SLEEP;
             TMutex::ScopedReadLock lk(m_mutex);
             count += 1;
+            READER_LOOP_LK_SLEEP;
         }
 
         {
@@ -143,112 +171,163 @@ private:
 
     CriticalSection m_countCs;
 
-#define CACHE_LINE_SIZE 64
-    volatile char pad0[CACHE_LINE_SIZE - 4];
+    volatile char pad0[CACHE_LINE_SIZE - 8];
     volatile __int64 m_readerLockCount;
     volatile char pad1[CACHE_LINE_SIZE - 8];
     volatile __int64 m_writerLockCount;
     volatile char pad2[CACHE_LINE_SIZE - 8];
-#undef CACHE_LINE_SIZE
+
+    std::string m_name;
 };
 
 
-void DoTests(const long numReaders, const long numWriters, std::vector<Stats>& statss)
+void DoTests(
+    const long numReaders,
+    const long numWriters,
+    std::vector<Stats>& statss)
 {
+    const char* pName = "";
     Stats stats;
 
 #if 0
     // NOTE: is perfectly fair
-    printf("Mutex:\n");
+    pName = "Mutex";
     Test<Mutex> test_Mutex(numReaders, numWriters);
     test_Mutex.Execute();
 #endif
 
-#if 0
+#if 01
     // NOTE: is kind of fair
-    printf("CriticalSection:\n");
-    Test<CriticalSection> test_CriticalSection(numReaders, numWriters);
+    pName = "CriticalSection";
+    Test<CriticalSection> test_CriticalSection(numReaders, numWriters, pName);
     test_CriticalSection.Execute();
-#endif
-
-#if 0
-    // NOTE: is not fair
-    printf("SlimReadWriteLock:\n");
-    Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters);
-    test_SlimReadWriteLock.Execute();
 #endif
 
 #if 01
     // NOTE: is not fair
-    printf("UltraSpinReadWriteMutex:\n");
-    Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters);
+    pName = "SlimReadWriteLock";
+    Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters, pName);
+    test_SlimReadWriteLock.Execute();
+#endif
+
+#if 01
+    // NOTE: is kind of fair
+    pName = "UltraSpinReadWriteMutex";
+    Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters, pName);
     stats = test_UltraSpinReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 
 #if 01
-    // NOTE: is not fair
-    printf("UltraFastReadWriteMutex:\n");
-    Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters);
+    // NOTE: is kind of fair
+    pName = "UltraFastReadWriteMutex";
+    Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters, pName);
     stats = test_UltraFastReadWriteMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 01
+    // NOTE: is kind of fair
+    pName = "UltraLightReadWriteMutex";
+    Test<UltraLightReadWriteMutex> test_UltraLightReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_UltraLightReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 }
 
 void TestUltraSingleReadWriteMutex()
 {
+    const char* pName = "";
     Stats stats;
 
-    printf("UltraSpinSingleReadWriteMutex:\n");
-    Test<UltraSpinSingleReadWriteMutex> test_warmup(1, 0);
-    stats = test_warmup.Execute();
-
-    printf("UltraSpinSingleReadWriteMutex:\n");
-    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex01(0, 1);
+    pName = "UltraSpinSingleReadWriteMutex";
+    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex01(0, 1, pName);
     stats = test_UltraSpinSingleReadWriteMutex01.Execute();
 
-    printf("UltraSpinSingleReadWriteMutex:\n");
-    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex10(1, 0);
+    pName = "UltraSpinSingleReadWriteMutex";
+    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex10(1, 0, pName);
     stats = test_UltraSpinSingleReadWriteMutex10.Execute();
 
-    printf("UltraSpinSingleReadWriteMutex:\n");
-    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex11(1, 1);
+    pName = "UltraSpinSingleReadWriteMutex";
+    Test<UltraSpinSingleReadWriteMutex> test_UltraSpinSingleReadWriteMutex11(1, 1, pName);
     stats = test_UltraSpinSingleReadWriteMutex11.Execute();
 
-    printf("UltraSyncSingleReadWriteMutex:\n");
-    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex01(0, 1);
+    pName = "UltraSyncSingleReadWriteMutex";
+    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex01(0, 1, pName);
     stats = test_UltraSyncSingleReadWriteMutex01.Execute();
 
-    printf("UltraSyncSingleReadWriteMutex:\n");
-    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex10(1, 0);
+    pName = "UltraSyncSingleReadWriteMutex";
+    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex10(1, 0, pName);
     stats = test_UltraSyncSingleReadWriteMutex10.Execute();
 
-    printf("UltraSyncSingleReadWriteMutex:\n");
-    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex11(1, 1);
+    pName = "UltraSyncSingleReadWriteMutex";
+    Test<UltraSyncSingleReadWriteMutex> test_UltraSyncSingleReadWriteMutex11(1, 1, pName);
     stats = test_UltraSyncSingleReadWriteMutex11.Execute();
 }
 
 int main()
 {
+    {
+        const char* pName = "warmup";
+        Test<UltraSpinReadWriteMutex> test_warmup(1, 0, pName);
+        test_warmup.Execute();
+    }
+
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int trials = 10;
+    const int readerTrials = 4;
+    const int writerTrials = 4;
+    const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;
-    for (int numReaders = 1; numReaders <= trials; numReaders++)
+    for (int numWriters = 1; numWriters <= writerTrials; numWriters++)
     {
-        DoTests(numReaders, 0, statss);
+        for (int numReaders = 1; numReaders <= readerTrials; numReaders++)
+        {
+            DoTests(numReaders, numWriters, statss);
+        }
     }
 
     printf("\ncsv =\n");
     const int testsPerTrial = (int)statss.size() / trials;
     for (int test = 0; test < testsPerTrial; test++)
     {
+        printf("\"%s rps\",", statss[test].name.c_str());
         for (int trial = 0; trial < trials; trial++)
         {
             Stats const& stats = statss[trial * testsPerTrial + test];
-            printf("%9f, ", stats.readsPerSecond);
+            printf("%9f,", stats.readsPerSecond);
+        }
+        printf("\n");
+    }
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s wps\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.writesPerSecond);
+        }
+        printf("\n");
+    }
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s rr\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.readRatio);
+        }
+        printf("\n");
+    }
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s wr\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.writeRatio);
         }
         printf("\n");
     }
