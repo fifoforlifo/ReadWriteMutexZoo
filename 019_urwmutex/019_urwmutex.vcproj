@@ -332,6 +332,10 @@
 			>
 		</File>
 		<File
+			RelativePath=".\fair_rwmutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\fastfair_rwmutex.h"
 			>
 		</File>
@@ -344,7 +348,15 @@
 			>
 		</File>
 		<File
+			RelativePath=".\qt_rwmutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\scoped_locks.h"
+			>
+		</File>
+		<File
+			RelativePath=".\semaphore.h"
 			>
 		</File>
 		<File

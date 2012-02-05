@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <vector>
+#include "semaphore.h"
 #include "mutex.h"
 #include "critical_section.h"
 #include "slim_rwlock.h"
 #include "ultraspin_rwmutex.h"
 #include "ultrafast_rwmutex.h"
 #include "ultralight_rwmutex.h"
+#include "fair_rwmutex.h"
 #include "fastfair_rwmutex.h"
-
-// single reader, multiple writer
+#include "qt_rwmutex.h"
+// single reader, multiple writer -- these are just to get upper bounds on perf
 #include "ultraspin_single_rwmutex.h"
 #include "ultrasync_single_rwmutex.h"
 
@@ -78,7 +80,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 1000;
+        long durationMilliseconds = 500;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -200,25 +202,28 @@ void DoTests(
     const char* pName = "";
     Stats stats;
 
-#if 0
+#if 01
     // NOTE: is perfectly fair
     pName = "Mutex";
-    Test<Mutex> test_Mutex(numReaders, numWriters);
-    test_Mutex.Execute();
+    Test<Mutex> test_Mutex(numReaders, numWriters, pName);
+    stats = test_Mutex.Execute();
+    statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is kind of fair
     pName = "CriticalSection";
     Test<CriticalSection> test_CriticalSection(numReaders, numWriters, pName);
-    test_CriticalSection.Execute();
+    stats = test_CriticalSection.Execute();
+    statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is not fair
     pName = "SlimReadWriteLock";
     Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters, pName);
-    test_SlimReadWriteLock.Execute();
+    stats = test_SlimReadWriteLock.Execute();
+    statss.push_back(stats);
 #endif
 
 #if 01
@@ -246,7 +251,15 @@ void DoTests(
 #endif
 
 #if 01
-    // NOTE: is kind of fair
+    // NOTE: is perfectly fair, but bog slow
+    pName = "FairReadWriteMutex";
+    Test<FairReadWriteMutex<Semaphore> > test_FairReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_FairReadWriteMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 0
+    // NOTE: is broke
     pName = "FastFairReadWriteMutex";
     Test<FastFairReadWriteMutex> test_FastFairReadWriteMutex(numReaders, numWriters, pName);
     stats = test_FastFairReadWriteMutex.Execute();
@@ -295,14 +308,14 @@ int main()
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int readerTrials = 8;
-    const int writerTrials = 2;
+    const int readerTrials = 12;
+    const int writerTrials = 12;
     const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;
     for (int numWriters = 0; numWriters < writerTrials; numWriters++)
     {
-        for (int numReaders = 1; numReaders <= readerTrials; numReaders++)
+        for (int numReaders = 0; numReaders < readerTrials; numReaders++)
         {
             DoTests(numReaders, numWriters, statss);
         }
@@ -310,6 +323,16 @@ int main()
 
     printf("\ncsv =\n");
     const int testsPerTrial = (int)statss.size() / trials;
+    for (int test = 0; test < testsPerTrial; test++)
+    {
+        printf("\"%s tps\",", statss[test].name.c_str());
+        for (int trial = 0; trial < trials; trial++)
+        {
+            Stats const& stats = statss[trial * testsPerTrial + test];
+            printf("%9f,", stats.totalPerSecond);
+        }
+        printf("\n");
+    }
     for (int test = 0; test < testsPerTrial; test++)
     {
         printf("\"%s rps\",", statss[test].name.c_str());
