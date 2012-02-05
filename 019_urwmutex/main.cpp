@@ -12,6 +12,7 @@
 #include "ticketed_rwmutex.h"
 #include "faircs_rwmutex.h"
 #include "qt_rwmutex.h"
+#include "cohort_rwmutex.h"
 // single reader, multiple writer -- these are just to get upper bounds on perf
 #include "ultraspin_single_rwmutex.h"
 #include "ultrasync_single_rwmutex.h"
@@ -84,7 +85,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 700;
+        long durationMilliseconds = 2000;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -274,10 +275,17 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     pName = "FairCsReadWriteMutex";
     Test<FairCsReadWriteMutex> test_FairCsReadWriteMutex(numReaders, numWriters, pName);
     stats = test_FairCsReadWriteMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 01
+    pName = "CohortReadWriteMutex";
+    Test<CohortReadWriteMutex<Semaphore> > test_CohortReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_CohortReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 }
@@ -323,8 +331,8 @@ int main()
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int readerTrials = 6;
-    const int writerTrials = 4;
+    const int readerTrials = 12;
+    const int writerTrials = 12;
     const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;

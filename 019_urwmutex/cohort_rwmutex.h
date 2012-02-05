@@ -6,21 +6,20 @@
 #include "critical_section.h"
 
 /// This mutex is OK in terms of reader speed, but writer speed is still lacking.
-class TicketedReadWriteMutex
+template <class TSema>
+class CohortReadWriteMutex
 {
 private: // types
     struct TlsData
     {
         volatile DWORD isReading;
+        long readerOrder;
         HANDLE readerDoneEvent;
-        bool isLockedReader;
-        bool isFirstReader;
 
         TlsData()
             : isReading(false)
+            , readerOrder(0)
             , readerDoneEvent(NULL)
-            , isLockedReader(false)
-            , isFirstReader(false)
         {
             readerDoneEvent = CreateEvent(NULL, /* bManualReset */ FALSE, /* bInitialState */ FALSE, NULL);
             assert(readerDoneEvent != NULL);
@@ -34,27 +33,26 @@ private: // types
     typedef CriticalSection Mutex_t;
 
 private: // members
-    volatile long m_ticket;
-    volatile char pad0[CACHE_LINE_SIZE - 4];
-    volatile long m_lastReaderTicket;
-    volatile char pad1[CACHE_LINE_SIZE - 4];
     volatile long m_writeRequested;
-    volatile char pad2[CACHE_LINE_SIZE - 4];
+    volatile char pad0[CACHE_LINE_SIZE - 4];
     volatile long m_readerCount;
-    volatile char pad3[CACHE_LINE_SIZE - 4];
+    volatile char pad1[CACHE_LINE_SIZE - 4];
+    volatile long m_cohortCount;
+    volatile char pad2[CACHE_LINE_SIZE - 4];
 
     DWORD m_tlsIndex;
 
-    // Queue mutex, to enforce fair ordering between readers and writers.
-    Mutex_t m_csQueue;
     // Writer mutex, to mutually exclude writers from each other and from all-consecutive-readers.
     // Also protects m_threadStates when new readers arrive.
     Mutex_t m_csWriter;
     ThreadStates m_threadStates;
 
-    // This gets signaled when the last locked reader exits the mutex,
-    // so that the first locked reader may release m_csWriter.
-    HANDLE m_lastLockedReaderEvent;
+    // ManualRE Signaled when the current cohort of readers gets signaled.
+    TSema m_cohortReadySema;
+
+    // AutoRE gets signaled when the last reader in the current cohort
+    // exits the mutex, so that the first locked reader may release m_csWriter.
+    HANDLE m_cohortDoneEvent;
 
 private: // methods
     TlsData* initTlsData()
@@ -64,7 +62,6 @@ private: // methods
         DWORD threadId = GetCurrentThreadId();
 
         {
-            Mutex_t::ScopedWriteLock queueLk(m_csQueue);
             Mutex_t::ScopedWriteLock lk(m_csWriter);
             m_threadStates.push_back(pTlsData);
         }
@@ -84,33 +81,24 @@ private: // methods
     void readLock(TlsData* pTlsData)
     {
         pTlsData->isReading = true;
-        const long lastReaderTicket = m_lastReaderTicket;
-        const long ticket = m_ticket;
-        if (ticket - lastReaderTicket <= 1)
-        {
-            return;
-        }
-        else
+        if (m_writeRequested)
         {
             pTlsData->isReading = false;
             SetEvent(pTlsData->readerDoneEvent);
+            pTlsData->readerOrder = _InterlockedIncrement(&m_readerCount);
+
+            if (pTlsData->readerOrder != 1)
             {
-                m_csQueue.WriteLock();
-                long readerCount = _InterlockedIncrement(&m_readerCount);
-                if (readerCount == 1)
-                {
-                    m_csWriter.WriteLock();
-                    const long newTicket = _InterlockedIncrement(&m_ticket);
-                    m_lastReaderTicket = newTicket;
-                    pTlsData->isLockedReader = true;
-                    pTlsData->isFirstReader = true;
-                }
-                else
-                {
-                    pTlsData->isLockedReader = true;
-                }
+                m_cohortReadySema.P();
                 pTlsData->isReading = true;
-                m_csQueue.WriteUnlock();
+            }
+            else // pTlsData->readerOrder == 1
+            {
+                m_csWriter.WriteLock();
+                long cohortCount = _InterlockedExchange(&m_readerCount, 0);
+                m_cohortCount = cohortCount;
+                m_cohortReadySema.V(cohortCount - 1);
+                pTlsData->isReading = true;
             }
         }
     }
@@ -118,31 +106,29 @@ private: // methods
     void readUnlock(TlsData* pTlsData)
     {
         pTlsData->isReading = false;
-        if (pTlsData->isLockedReader)
+        if (pTlsData->readerOrder)
         {
-            pTlsData->isLockedReader = false;
-            long readerCount = _InterlockedDecrement(&m_readerCount);
-            if (readerCount == 0)
+            long cohortExitOrder = _InterlockedExchangeAdd(&m_cohortCount, -1);
+            if (cohortExitOrder == 1)
             {
-                if (pTlsData->isFirstReader)
+                if (pTlsData->readerOrder == 1)
                 {
                     m_csWriter.WriteUnlock();
-                    pTlsData->isFirstReader = false;
                 }
                 else
                 {
-                    SetEvent(m_lastLockedReaderEvent);
+                    SetEvent(m_cohortDoneEvent);
                 }
             }
             else
             {
-                if (pTlsData->isFirstReader)
+                if (pTlsData->readerOrder == 1)
                 {
-                    WaitForSingleObject(m_lastLockedReaderEvent, INFINITE);
-                    pTlsData->isFirstReader = false;
+                    WaitForSingleObject(m_cohortDoneEvent, INFINITE);
                     m_csWriter.WriteUnlock();
                 }
             }
+            pTlsData->readerOrder = 0;
         }
         if (m_writeRequested)
         {
@@ -151,22 +137,26 @@ private: // methods
     }
 
 public: // interface
-    TicketedReadWriteMutex()
+    CohortReadWriteMutex()
         : m_tlsIndex(TLS_OUT_OF_INDEXES)
-        , m_ticket(0)
-        , m_lastReaderTicket(0)
         , m_writeRequested(false)
         , m_readerCount(0)
-        , m_lastLockedReaderEvent(NULL)
+        , m_cohortCount(0)
+        , m_cohortReadySema(/* initialCount */ 0, /* maxCount */ 0x7fffffff)
+        , m_cohortDoneEvent(NULL)
     {
+        memset((void*)pad0, 0, sizeof(pad0));
+        memset((void*)pad1, 0, sizeof(pad0));
+        memset((void*)pad2, 0, sizeof(pad0));
+
         m_tlsIndex = TlsAlloc();
         assert(m_tlsIndex != TLS_OUT_OF_INDEXES);
-        m_lastLockedReaderEvent = CreateEventA(NULL, /* bManualReset */ FALSE, /* bInitialState */ FALSE, NULL);
-        assert(m_lastLockedReaderEvent != NULL);
+        m_cohortDoneEvent = CreateEventA(NULL, /* bManualReset */ FALSE, /* bInitialState */ FALSE, NULL);
+        assert(m_cohortDoneEvent != NULL);
     }
-    ~TicketedReadWriteMutex()
+    ~CohortReadWriteMutex()
     {
-        CloseHandle(m_lastLockedReaderEvent);
+        CloseHandle(m_cohortDoneEvent);
         for (ThreadStates::iterator iter = m_threadStates.begin(),
                                      end = m_threadStates.end();
              iter != end;
@@ -180,11 +170,8 @@ public: // interface
 
     void WriteLock()
     {
-        m_csQueue.WriteLock();
-        _InterlockedExchangeAdd(&m_ticket, 2);
         m_csWriter.WriteLock();
         m_writeRequested = true;
-        m_csQueue.WriteUnlock();
         for (ThreadStates::iterator iter = m_threadStates.begin(),
                                      end = m_threadStates.end();
              iter != end;
@@ -213,15 +200,15 @@ public: // interface
         readUnlock(pTlsData);
     }
 
-    typedef ScopedWriteLock<TicketedReadWriteMutex> ScopedWriteLock;
+    typedef ScopedWriteLock<CohortReadWriteMutex> ScopedWriteLock;
 
     class ScopedReadLock
     {
-        TicketedReadWriteMutex& m_mutex;
+        CohortReadWriteMutex& m_mutex;
         TlsData* m_pTlsData;
 
     public:
-        ScopedReadLock(TicketedReadWriteMutex& mutex)
+        ScopedReadLock(CohortReadWriteMutex& mutex)
             : m_mutex(mutex)
         {
             m_pTlsData = m_mutex.getTlsData();

@@ -1,0 +1,2185 @@
+Running test for 2000 milliseconds...
+warmup:
+readsPerSecond                    =   199226844.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   199226844.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   199226844.0
+r1TotalPerSecond                  =   199226844.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :   199226844.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =           0.0
+numThreads                        = 0
+readerThreadCount=  0, readRatio  =     -1.#IND00
+writerThreadCount=  0, writeRatio =     -1.#IND00
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 000W} :           0.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   183965008.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   183965008.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   183965008.0
+r1TotalPerSecond                  =   183965008.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :   183965008.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   132854166.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   132854166.5
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =      2.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    66427083.3
+r1TotalPerSecond                  =    66427083.3
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{002R, 000W} :   132854166.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   226914605.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   226914605.5
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =      3.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    75638201.8
+r1TotalPerSecond                  =    75638201.8
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{003R, 000W} :   226914605.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   233456619.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   233456619.0
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =      4.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    58364154.8
+r1TotalPerSecond                  =    58364154.8
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{004R, 000W} :   233456619.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   359465864.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   359465864.5
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =      5.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    71893172.9
+r1TotalPerSecond                  =    71893172.9
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{005R, 000W} :   359465864.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   429249503.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   429249503.5
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =      6.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    71541583.9
+r1TotalPerSecond                  =    71541583.9
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{006R, 000W} :   429249503.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   299726031.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   299726031.0
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =      7.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    42818004.4
+r1TotalPerSecond                  =    42818004.4
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{007R, 000W} :   299726031.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   321699002.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   321699002.5
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =      8.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    40212375.3
+r1TotalPerSecond                  =    40212375.3
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{008R, 000W} :   321699002.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   287705196.5
+writesPerSecond                   =           0.0
+totalPerSecond                    =   287705196.5
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =      9.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    31967244.1
+r1TotalPerSecond                  =    31967244.1
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{009R, 000W} :   287705196.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   355912427.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   355912427.0
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =     10.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    35591242.7
+r1TotalPerSecond                  =    35591242.7
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{010R, 000W} :   355912427.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   550397390.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =   550397390.0
+numThreads                        = 11
+readerThreadCount= 11, readRatio  =     11.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    50036126.4
+r1TotalPerSecond                  =    50036126.4
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{011R, 000W} :   550397390.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    37786006.0
+totalPerSecond                    =    37786006.0
+numThreads                        = 1
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  1, writeRatio =      1.000000
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 001W} :    37786006.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    20140815.5
+writesPerSecond                   =    18313382.0
+totalPerSecond                    =    38454197.5
+numThreads                        = 2
+readerThreadCount=  1, readRatio  =      1.047522
+writerThreadCount=  1, writeRatio =      0.952478
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    20140815.5
+r1TotalPerSecond                  =    38454197.5
+r1ReadRatio                       =      1.047522
+r1WriteRatio                      =      0.952478
+{001R, 001W} :    38454197.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    36354350.0
+writesPerSecond                   =     4889911.0
+totalPerSecond                    =    41244261.0
+numThreads                        = 3
+readerThreadCount=  2, readRatio  =      2.644321
+writerThreadCount=  1, writeRatio =      0.355679
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    18177175.0
+r1TotalPerSecond                  =    23067086.0
+r1ReadRatio                       =      1.576027
+r1WriteRatio                      =      0.423973
+{002R, 001W} :    41244261.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   103377849.0
+writesPerSecond                   =     4565561.5
+totalPerSecond                    =   107943410.5
+numThreads                        = 4
+readerThreadCount=  3, readRatio  =      3.830816
+writerThreadCount=  1, writeRatio =      0.169184
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    34459283.0
+r1TotalPerSecond                  =    39024844.5
+r1ReadRatio                       =      1.766018
+r1WriteRatio                      =      0.233982
+{003R, 001W} :   107943410.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   133837714.5
+writesPerSecond                   =     3285659.5
+totalPerSecond                    =   137123374.0
+numThreads                        = 5
+readerThreadCount=  4, readRatio  =      4.880193
+writerThreadCount=  1, writeRatio =      0.119807
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    33459428.6
+r1TotalPerSecond                  =    36745088.1
+r1ReadRatio                       =      1.821165
+r1WriteRatio                      =      0.178835
+{004R, 001W} :   137123374.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   161564015.5
+writesPerSecond                   =     3814672.0
+totalPerSecond                    =   165378687.5
+numThreads                        = 6
+readerThreadCount=  5, readRatio  =      5.861602
+writerThreadCount=  1, writeRatio =      0.138398
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    32312803.1
+r1TotalPerSecond                  =    36127475.1
+r1ReadRatio                       =      1.788822
+r1WriteRatio                      =      0.211178
+{005R, 001W} :   165378687.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   226805903.5
+writesPerSecond                   =     3189674.5
+totalPerSecond                    =   229995578.0
+numThreads                        = 7
+readerThreadCount=  6, readRatio  =      6.902921
+writerThreadCount=  1, writeRatio =      0.097079
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    37800983.9
+r1TotalPerSecond                  =    40990658.4
+r1ReadRatio                       =      1.844371
+r1WriteRatio                      =      0.155629
+{006R, 001W} :   229995578.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   281576573.5
+writesPerSecond                   =     2729625.0
+totalPerSecond                    =   284306198.5
+numThreads                        = 8
+readerThreadCount=  7, readRatio  =      7.923192
+writerThreadCount=  1, writeRatio =      0.076808
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    40225224.8
+r1TotalPerSecond                  =    42954849.8
+r1ReadRatio                       =      1.872907
+r1WriteRatio                      =      0.127093
+{007R, 001W} :   284306198.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   637561569.5
+writesPerSecond                   =        4192.5
+totalPerSecond                    =   637565762.0
+numThreads                        = 9
+readerThreadCount=  8, readRatio  =      8.999941
+writerThreadCount=  1, writeRatio =      0.000059
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    79695196.2
+r1TotalPerSecond                  =    79699388.7
+r1ReadRatio                       =      1.999895
+r1WriteRatio                      =      0.000105
+{008R, 001W} :   637565762.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   417141375.5
+writesPerSecond                   =        3357.5
+totalPerSecond                    =   417144733.0
+numThreads                        = 10
+readerThreadCount=  9, readRatio  =      9.999920
+writerThreadCount=  1, writeRatio =      0.000080
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    46349041.7
+r1TotalPerSecond                  =    46352399.2
+r1ReadRatio                       =      1.999855
+r1WriteRatio                      =      0.000145
+{009R, 001W} :   417144733.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   441913532.5
+writesPerSecond                   =        2604.0
+totalPerSecond                    =   441916136.5
+numThreads                        = 11
+readerThreadCount= 10, readRatio  =     10.999935
+writerThreadCount=  1, writeRatio =      0.000065
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    44191353.3
+r1TotalPerSecond                  =    44193957.3
+r1ReadRatio                       =      1.999882
+r1WriteRatio                      =      0.000118
+{010R, 001W} :   441916136.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   405768737.0
+writesPerSecond                   =        1851.0
+totalPerSecond                    =   405770588.0
+numThreads                        = 12
+readerThreadCount= 11, readRatio  =     11.999945
+writerThreadCount=  1, writeRatio =      0.000055
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    36888067.0
+r1TotalPerSecond                  =    36889918.0
+r1ReadRatio                       =      1.999900
+r1WriteRatio                      =      0.000100
+{011R, 001W} :   405770588.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    14874223.0
+totalPerSecond                    =    14874223.0
+numThreads                        = 2
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  2, writeRatio =      2.000000
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 002W} :    14874223.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    17434431.5
+writesPerSecond                   =     9643514.0
+totalPerSecond                    =    27077945.5
+numThreads                        = 3
+readerThreadCount=  1, readRatio  =      1.931583
+writerThreadCount=  2, writeRatio =      1.068417
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    17434431.5
+r1TotalPerSecond                  =    27077945.5
+r1ReadRatio                       =      1.931583
+r1WriteRatio                      =      1.068417
+{001R, 002W} :    27077945.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    25595820.0
+writesPerSecond                   =     5678304.5
+totalPerSecond                    =    31274124.5
+numThreads                        = 4
+readerThreadCount=  2, readRatio  =      3.273738
+writerThreadCount=  2, writeRatio =      0.726262
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    12797910.0
+r1TotalPerSecond                  =    18476214.5
+r1ReadRatio                       =      2.078008
+r1WriteRatio                      =      0.921992
+{002R, 002W} :    31274124.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    60031413.0
+writesPerSecond                   =     4684853.0
+totalPerSecond                    =    64716266.0
+numThreads                        = 5
+readerThreadCount=  3, readRatio  =      4.638047
+writerThreadCount=  2, writeRatio =      0.361953
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    20010471.0
+r1TotalPerSecond                  =    24695324.0
+r1ReadRatio                       =      2.430882
+r1WriteRatio                      =      0.569118
+{003R, 002W} :    64716266.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    68051391.0
+writesPerSecond                   =     5199690.5
+totalPerSecond                    =    73251081.5
+numThreads                        = 6
+readerThreadCount=  4, readRatio  =      5.574093
+writerThreadCount=  2, writeRatio =      0.425907
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    17012847.8
+r1TotalPerSecond                  =    22212538.3
+r1ReadRatio                       =      2.297736
+r1WriteRatio                      =      0.702264
+{004R, 002W} :    73251081.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   146766058.0
+writesPerSecond                   =     4135638.0
+totalPerSecond                    =   150901696.0
+numThreads                        = 7
+readerThreadCount=  5, readRatio  =      6.808157
+writerThreadCount=  2, writeRatio =      0.191843
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    29353211.6
+r1TotalPerSecond                  =    33488849.6
+r1ReadRatio                       =      2.629521
+r1WriteRatio                      =      0.370479
+{005R, 002W} :   150901696.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   114267152.5
+writesPerSecond                   =     3827908.0
+totalPerSecond                    =   118095060.5
+numThreads                        = 8
+readerThreadCount=  6, readRatio  =      7.740690
+writerThreadCount=  2, writeRatio =      0.259310
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    19044525.4
+r1TotalPerSecond                  =    22872433.4
+r1ReadRatio                       =      2.497923
+r1WriteRatio                      =      0.502077
+{006R, 002W} :   118095060.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   217669095.5
+writesPerSecond                   =     3124838.5
+totalPerSecond                    =   220793934.0
+numThreads                        = 9
+readerThreadCount=  7, readRatio  =      8.872625
+writerThreadCount=  2, writeRatio =      0.127375
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    31095585.1
+r1TotalPerSecond                  =    34220423.6
+r1ReadRatio                       =      2.726055
+r1WriteRatio                      =      0.273945
+{007R, 002W} :   220793934.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   581782516.5
+writesPerSecond                   =        9204.5
+totalPerSecond                    =   581791721.0
+numThreads                        = 10
+readerThreadCount=  8, readRatio  =      9.999842
+writerThreadCount=  2, writeRatio =      0.000158
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    72722814.6
+r1TotalPerSecond                  =    72732019.1
+r1ReadRatio                       =      2.999620
+r1WriteRatio                      =      0.000380
+{008R, 002W} :   581791721.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   389933777.5
+writesPerSecond                   =        6509.5
+totalPerSecond                    =   389940287.0
+numThreads                        = 11
+readerThreadCount=  9, readRatio  =     10.999816
+writerThreadCount=  2, writeRatio =      0.000184
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    43325975.3
+r1TotalPerSecond                  =    43332484.8
+r1ReadRatio                       =      2.999549
+r1WriteRatio                      =      0.000451
+{009R, 002W} :   389940287.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   417061398.5
+writesPerSecond                   =        4724.0
+totalPerSecond                    =   417066122.5
+numThreads                        = 12
+readerThreadCount= 10, readRatio  =     11.999864
+writerThreadCount=  2, writeRatio =      0.000136
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    41706139.9
+r1TotalPerSecond                  =    41710863.9
+r1ReadRatio                       =      2.999660
+r1WriteRatio                      =      0.000340
+{010R, 002W} :   417066122.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   402715345.5
+writesPerSecond                   =        4029.5
+totalPerSecond                    =   402719375.0
+numThreads                        = 13
+readerThreadCount= 11, readRatio  =     12.999870
+writerThreadCount=  2, writeRatio =      0.000130
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =    36610486.0
+r1TotalPerSecond                  =    36614515.5
+r1ReadRatio                       =      2.999670
+r1WriteRatio                      =      0.000330
+{011R, 002W} :   402719375.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    15317886.0
+totalPerSecond                    =    15317886.0
+numThreads                        = 3
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  3, writeRatio =      3.000000
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 003W} :    15317886.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    10183042.0
+writesPerSecond                   =    11916613.0
+totalPerSecond                    =    22099655.0
+numThreads                        = 4
+readerThreadCount=  1, readRatio  =      1.843113
+writerThreadCount=  3, writeRatio =      2.156887
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    10183042.0
+r1TotalPerSecond                  =    22099655.0
+r1ReadRatio                       =      1.843113
+r1WriteRatio                      =      2.156887
+{001R, 003W} :    22099655.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    33750164.0
+writesPerSecond                   =    10154519.0
+totalPerSecond                    =    43904683.0
+numThreads                        = 5
+readerThreadCount=  2, readRatio  =      3.843572
+writerThreadCount=  3, writeRatio =      1.156428
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    16875082.0
+r1TotalPerSecond                  =    27029601.0
+r1ReadRatio                       =      2.497274
+r1WriteRatio                      =      1.502726
+{002R, 003W} :    43904683.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    65573905.5
+writesPerSecond                   =     6184980.5
+totalPerSecond                    =    71758886.0
+numThreads                        = 6
+readerThreadCount=  3, readRatio  =      5.482853
+writerThreadCount=  3, writeRatio =      0.517147
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    21857968.5
+r1TotalPerSecond                  =    28042949.0
+r1ReadRatio                       =      3.117785
+r1WriteRatio                      =      0.882215
+{003R, 003W} :    71758886.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   173473168.5
+writesPerSecond                   =     6135860.0
+totalPerSecond                    =   179609028.5
+numThreads                        = 7
+readerThreadCount=  4, readRatio  =      6.760864
+writerThreadCount=  3, writeRatio =      0.239136
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    43368292.1
+r1TotalPerSecond                  =    49504152.1
+r1ReadRatio                       =      3.504215
+r1WriteRatio                      =      0.495785
+{004R, 003W} :   179609028.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   197964339.0
+writesPerSecond                   =     5031978.5
+totalPerSecond                    =   202996317.5
+numThreads                        = 8
+readerThreadCount=  5, readRatio  =      7.801692
+writerThreadCount=  3, writeRatio =      0.198308
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    39592867.8
+r1TotalPerSecond                  =    44624846.3
+r1ReadRatio                       =      3.548953
+r1WriteRatio                      =      0.451047
+{005R, 003W} :   202996317.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   243733603.0
+writesPerSecond                   =     3704187.0
+totalPerSecond                    =   247437790.0
+numThreads                        = 9
+readerThreadCount=  6, readRatio  =      8.865268
+writerThreadCount=  3, writeRatio =      0.134732
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    40622267.2
+r1TotalPerSecond                  =    44326454.2
+r1ReadRatio                       =      3.665736
+r1WriteRatio                      =      0.334264
+{006R, 003W} :   247437790.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   258552433.0
+writesPerSecond                   =     3337738.0
+totalPerSecond                    =   261890171.0
+numThreads                        = 10
+readerThreadCount=  7, readRatio  =      9.872552
+writerThreadCount=  3, writeRatio =      0.127448
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    36936061.9
+r1TotalPerSecond                  =    40273799.9
+r1ReadRatio                       =      3.668495
+r1WriteRatio                      =      0.331505
+{007R, 003W} :   261890171.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   547812502.5
+writesPerSecond                   =       12470.5
+totalPerSecond                    =   547824973.0
+numThreads                        = 11
+readerThreadCount=  8, readRatio  =     10.999750
+writerThreadCount=  3, writeRatio =      0.000250
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    68476562.8
+r1TotalPerSecond                  =    68489033.3
+r1ReadRatio                       =      3.999272
+r1WriteRatio                      =      0.000728
+{008R, 003W} :   547824973.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   477907403.0
+writesPerSecond                   =        8580.5
+totalPerSecond                    =   477915983.5
+numThreads                        = 12
+readerThreadCount=  9, readRatio  =     11.999785
+writerThreadCount=  3, writeRatio =      0.000215
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    53100822.6
+r1TotalPerSecond                  =    53109403.1
+r1ReadRatio                       =      3.999354
+r1WriteRatio                      =      0.000646
+{009R, 003W} :   477915983.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   469937089.0
+writesPerSecond                   =        7583.0
+totalPerSecond                    =   469944672.0
+numThreads                        = 13
+readerThreadCount= 10, readRatio  =     12.999790
+writerThreadCount=  3, writeRatio =      0.000210
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    46993708.9
+r1TotalPerSecond                  =    47001291.9
+r1ReadRatio                       =      3.999355
+r1WriteRatio                      =      0.000645
+{010R, 003W} :   469944672.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   434058233.0
+writesPerSecond                   =        7235.0
+totalPerSecond                    =   434065468.0
+numThreads                        = 14
+readerThreadCount= 11, readRatio  =     13.999767
+writerThreadCount=  3, writeRatio =      0.000233
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =    39459839.4
+r1TotalPerSecond                  =    39467074.4
+r1ReadRatio                       =      3.999267
+r1WriteRatio                      =      0.000733
+{011R, 003W} :   434065468.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    13578498.0
+totalPerSecond                    =    13578498.0
+numThreads                        = 4
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  4, writeRatio =      4.000000
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 004W} :    13578498.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     9094982.5
+writesPerSecond                   =    11892529.0
+totalPerSecond                    =    20987511.5
+numThreads                        = 5
+readerThreadCount=  1, readRatio  =      2.166761
+writerThreadCount=  4, writeRatio =      2.833239
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =     9094982.5
+r1TotalPerSecond                  =    20987511.5
+r1ReadRatio                       =      2.166761
+r1WriteRatio                      =      2.833239
+{001R, 004W} :    20987511.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    22823686.5
+writesPerSecond                   =     9961189.5
+totalPerSecond                    =    32784876.0
+numThreads                        = 6
+readerThreadCount=  2, readRatio  =      4.176991
+writerThreadCount=  4, writeRatio =      1.823009
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    11411843.3
+r1TotalPerSecond                  =    21373032.8
+r1ReadRatio                       =      2.669683
+r1WriteRatio                      =      2.330317
+{002R, 004W} :    32784876.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    33788675.5
+writesPerSecond                   =     9037193.0
+totalPerSecond                    =    42825868.5
+numThreads                        = 7
+readerThreadCount=  3, readRatio  =      5.522847
+writerThreadCount=  4, writeRatio =      1.477153
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    11262891.8
+r1TotalPerSecond                  =    20300084.8
+r1ReadRatio                       =      2.774100
+r1WriteRatio                      =      2.225900
+{003R, 004W} :    42825868.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    80817513.0
+writesPerSecond                   =     5185099.0
+totalPerSecond                    =    86002612.0
+numThreads                        = 8
+readerThreadCount=  4, readRatio  =      7.517680
+writerThreadCount=  4, writeRatio =      0.482320
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    20204378.3
+r1TotalPerSecond                  =    25389477.3
+r1ReadRatio                       =      3.978888
+r1WriteRatio                      =      1.021112
+{004R, 004W} :    86002612.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    78924698.5
+writesPerSecond                   =     5215272.0
+totalPerSecond                    =    84139970.5
+numThreads                        = 9
+readerThreadCount=  5, readRatio  =      8.442150
+writerThreadCount=  4, writeRatio =      0.557850
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    15784939.7
+r1TotalPerSecond                  =    21000211.7
+r1ReadRatio                       =      3.758281
+r1WriteRatio                      =      1.241719
+{005R, 004W} :    84139970.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   153970584.5
+writesPerSecond                   =     4131071.0
+totalPerSecond                    =   158101655.5
+numThreads                        = 10
+readerThreadCount=  6, readRatio  =      9.738708
+writerThreadCount=  4, writeRatio =      0.261292
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    25661764.1
+r1TotalPerSecond                  =    29792835.1
+r1ReadRatio                       =      4.306701
+r1WriteRatio                      =      0.693299
+{006R, 004W} :   158101655.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   137518045.5
+writesPerSecond                   =     3679595.5
+totalPerSecond                    =   141197641.0
+numThreads                        = 11
+readerThreadCount=  7, readRatio  =     10.713341
+writerThreadCount=  4, writeRatio =      0.286659
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    19645435.1
+r1TotalPerSecond                  =    23325030.6
+r1ReadRatio                       =      4.211235
+r1WriteRatio                      =      0.788765
+{007R, 004W} :   141197641.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   319292955.5
+writesPerSecond                   =       14880.0
+totalPerSecond                    =   319307835.5
+numThreads                        = 12
+readerThreadCount=  8, readRatio  =     11.999441
+writerThreadCount=  4, writeRatio =      0.000559
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    39911619.4
+r1TotalPerSecond                  =    39926499.4
+r1ReadRatio                       =      4.998137
+r1WriteRatio                      =      0.001863
+{008R, 004W} :   319307835.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   440580667.0
+writesPerSecond                   =       11869.0
+totalPerSecond                    =   440592536.0
+numThreads                        = 13
+readerThreadCount=  9, readRatio  =     12.999650
+writerThreadCount=  4, writeRatio =      0.000350
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    48953407.4
+r1TotalPerSecond                  =    48965276.4
+r1ReadRatio                       =      4.998788
+r1WriteRatio                      =      0.001212
+{009R, 004W} :   440592536.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   414053712.5
+writesPerSecond                   =        9976.0
+totalPerSecond                    =   414063688.5
+numThreads                        = 14
+readerThreadCount= 10, readRatio  =     13.999663
+writerThreadCount=  4, writeRatio =      0.000337
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    41405371.3
+r1TotalPerSecond                  =    41415347.3
+r1ReadRatio                       =      4.998796
+r1WriteRatio                      =      0.001204
+{010R, 004W} :   414063688.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   480053535.0
+writesPerSecond                   =        8903.5
+totalPerSecond                    =   480062438.5
+numThreads                        = 15
+readerThreadCount= 11, readRatio  =     14.999722
+writerThreadCount=  4, writeRatio =      0.000278
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =    43641230.5
+r1TotalPerSecond                  =    43650134.0
+r1ReadRatio                       =      4.998980
+r1WriteRatio                      =      0.001020
+{011R, 004W} :   480062438.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    17244486.5
+totalPerSecond                    =    17244486.5
+numThreads                        = 5
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  5, writeRatio =      5.000000
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 005W} :    17244486.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    12131042.0
+writesPerSecond                   =    17243210.5
+totalPerSecond                    =    29374252.5
+numThreads                        = 6
+readerThreadCount=  1, readRatio  =      2.477893
+writerThreadCount=  5, writeRatio =      3.522107
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    12131042.0
+r1TotalPerSecond                  =    29374252.5
+r1ReadRatio                       =      2.477893
+r1WriteRatio                      =      3.522107
+{001R, 005W} :    29374252.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    18936597.0
+writesPerSecond                   =    14653840.0
+totalPerSecond                    =    33590437.0
+numThreads                        = 7
+readerThreadCount=  2, readRatio  =      3.946248
+writerThreadCount=  5, writeRatio =      3.053752
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =     9468298.5
+r1TotalPerSecond                  =    24122138.5
+r1ReadRatio                       =      2.355089
+r1WriteRatio                      =      3.644911
+{002R, 005W} :    33590437.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    38111421.0
+writesPerSecond                   =     9240720.5
+totalPerSecond                    =    47352141.5
+numThreads                        = 8
+readerThreadCount=  3, readRatio  =      6.438808
+writerThreadCount=  5, writeRatio =      1.561192
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    12703807.0
+r1TotalPerSecond                  =    21944527.5
+r1ReadRatio                       =      3.473433
+r1WriteRatio                      =      2.526567
+{003R, 005W} :    47352141.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    71470312.5
+writesPerSecond                   =     6721498.5
+totalPerSecond                    =    78191811.0
+numThreads                        = 9
+readerThreadCount=  4, readRatio  =      8.226345
+writerThreadCount=  5, writeRatio =      0.773655
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    17867578.1
+r1TotalPerSecond                  =    24589076.6
+r1ReadRatio                       =      4.359882
+r1WriteRatio                      =      1.640118
+{004R, 005W} :    78191811.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   141893362.5
+writesPerSecond                   =     5751416.0
+totalPerSecond                    =   147644778.5
+numThreads                        = 10
+readerThreadCount=  5, readRatio  =      9.610456
+writerThreadCount=  5, writeRatio =      0.389544
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    28378672.5
+r1TotalPerSecond                  =    34130088.5
+r1ReadRatio                       =      4.988913
+r1WriteRatio                      =      1.011087
+{005R, 005W} :   147644778.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   168230066.0
+writesPerSecond                   =     4050699.0
+totalPerSecond                    =   172280765.0
+numThreads                        = 11
+readerThreadCount=  6, readRatio  =     10.741366
+writerThreadCount=  5, writeRatio =      0.258634
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    28038344.3
+r1TotalPerSecond                  =    32089043.3
+r1ReadRatio                       =      5.242601
+r1WriteRatio                      =      0.757399
+{006R, 005W} :   172280765.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   226672529.0
+writesPerSecond                   =     3631779.5
+totalPerSecond                    =   230304308.5
+numThreads                        = 12
+readerThreadCount=  7, readRatio  =     11.810766
+writerThreadCount=  5, writeRatio =      0.189234
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    32381789.9
+r1TotalPerSecond                  =    36013569.4
+r1ReadRatio                       =      5.394931
+r1WriteRatio                      =      0.605069
+{007R, 005W} :   230304308.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   579159573.5
+writesPerSecond                   =       22808.0
+totalPerSecond                    =   579182381.5
+numThreads                        = 13
+readerThreadCount=  8, readRatio  =     12.999488
+writerThreadCount=  5, writeRatio =      0.000512
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    72394946.7
+r1TotalPerSecond                  =    72417754.7
+r1ReadRatio                       =      5.998110
+r1WriteRatio                      =      0.001890
+{008R, 005W} :   579182381.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   476108905.5
+writesPerSecond                   =       16142.5
+totalPerSecond                    =   476125048.0
+numThreads                        = 14
+readerThreadCount=  9, readRatio  =     13.999525
+writerThreadCount=  5, writeRatio =      0.000475
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    52900989.5
+r1TotalPerSecond                  =    52917132.0
+r1ReadRatio                       =      5.998170
+r1WriteRatio                      =      0.001830
+{009R, 005W} :   476125048.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   588054580.0
+writesPerSecond                   =       15253.0
+totalPerSecond                    =   588069833.0
+numThreads                        = 15
+readerThreadCount= 10, readRatio  =     14.999611
+writerThreadCount=  5, writeRatio =      0.000389
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    58805458.0
+r1TotalPerSecond                  =    58820711.0
+r1ReadRatio                       =      5.998444
+r1WriteRatio                      =      0.001556
+{010R, 005W} :   588069833.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   402761626.0
+writesPerSecond                   =       12465.0
+totalPerSecond                    =   402774091.0
+numThreads                        = 16
+readerThreadCount= 11, readRatio  =     15.999505
+writerThreadCount=  5, writeRatio =      0.000495
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =    36614693.3
+r1TotalPerSecond                  =    36627158.3
+r1ReadRatio                       =      5.997958
+r1WriteRatio                      =      0.002042
+{011R, 005W} :   402774091.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    11910571.5
+totalPerSecond                    =    11910571.5
+numThreads                        = 6
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  6, writeRatio =      6.000000
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 006W} :    11910571.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     6469911.0
+writesPerSecond                   =    10402364.5
+totalPerSecond                    =    16872275.5
+numThreads                        = 7
+readerThreadCount=  1, readRatio  =      2.684248
+writerThreadCount=  6, writeRatio =      4.315752
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =     6469911.0
+r1TotalPerSecond                  =    16872275.5
+r1ReadRatio                       =      2.684248
+r1WriteRatio                      =      4.315752
+{001R, 006W} :    16872275.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    14596066.0
+writesPerSecond                   =    10090722.5
+totalPerSecond                    =    24686788.5
+numThreads                        = 8
+readerThreadCount=  2, readRatio  =      4.730001
+writerThreadCount=  6, writeRatio =      3.269999
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =     7298033.0
+r1TotalPerSecond                  =    17388755.5
+r1ReadRatio                       =      2.937889
+r1WriteRatio                      =      4.062111
+{002R, 006W} :    24686788.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    46040642.0
+writesPerSecond                   =     9438121.5
+totalPerSecond                    =    55478763.5
+numThreads                        = 9
+readerThreadCount=  3, readRatio  =      7.468908
+writerThreadCount=  6, writeRatio =      1.531092
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    15346880.7
+r1TotalPerSecond                  =    24785002.2
+r1ReadRatio                       =      4.334402
+r1WriteRatio                      =      2.665598
+{003R, 006W} :    55478763.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    68925980.0
+writesPerSecond                   =     6653660.5
+totalPerSecond                    =    75579640.5
+numThreads                        = 10
+readerThreadCount=  4, readRatio  =      9.119649
+writerThreadCount=  6, writeRatio =      0.880351
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    17231495.0
+r1TotalPerSecond                  =    23885155.5
+r1ReadRatio                       =      5.050018
+r1WriteRatio                      =      1.949982
+{004R, 006W} :    75579640.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   106311080.0
+writesPerSecond                   =     6185739.0
+totalPerSecond                    =   112496819.0
+numThreads                        = 11
+readerThreadCount=  5, readRatio  =     10.395155
+writerThreadCount=  6, writeRatio =      0.604845
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    21262216.0
+r1TotalPerSecond                  =    27447955.0
+r1ReadRatio                       =      5.422463
+r1WriteRatio                      =      1.577537
+{005R, 006W} :   112496819.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   161233805.5
+writesPerSecond                   =     4226304.0
+totalPerSecond                    =   165460109.5
+numThreads                        = 12
+readerThreadCount=  6, readRatio  =     11.693487
+writerThreadCount=  6, writeRatio =      0.306513
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    26872300.9
+r1TotalPerSecond                  =    31098604.9
+r1ReadRatio                       =      6.048699
+r1WriteRatio                      =      0.951301
+{006R, 006W} :   165460109.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   164068238.0
+writesPerSecond                   =     3870587.5
+totalPerSecond                    =   167938825.5
+numThreads                        = 13
+readerThreadCount=  7, readRatio  =     12.700381
+writerThreadCount=  6, writeRatio =      0.299619
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    23438319.7
+r1TotalPerSecond                  =    27308907.2
+r1ReadRatio                       =      6.007865
+r1WriteRatio                      =      0.992135
+{007R, 006W} :   167938825.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   492423967.5
+writesPerSecond                   =       33714.5
+totalPerSecond                    =   492457682.0
+numThreads                        = 14
+readerThreadCount=  8, readRatio  =     13.999042
+writerThreadCount=  6, writeRatio =      0.000958
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    61552995.9
+r1TotalPerSecond                  =    61586710.4
+r1ReadRatio                       =      6.996168
+r1WriteRatio                      =      0.003832
+{008R, 006W} :   492457682.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   452062237.0
+writesPerSecond                   =       18347.0
+totalPerSecond                    =   452080584.0
+numThreads                        = 15
+readerThreadCount=  9, readRatio  =     14.999391
+writerThreadCount=  6, writeRatio =      0.000609
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    50229137.4
+r1TotalPerSecond                  =    50247484.4
+r1ReadRatio                       =      6.997444
+r1WriteRatio                      =      0.002556
+{009R, 006W} :   452080584.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   435551812.0
+writesPerSecond                   =       15728.0
+totalPerSecond                    =   435567540.0
+numThreads                        = 16
+readerThreadCount= 10, readRatio  =     15.999422
+writerThreadCount=  6, writeRatio =      0.000578
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    43555181.2
+r1TotalPerSecond                  =    43570909.2
+r1ReadRatio                       =      6.997473
+r1WriteRatio                      =      0.002527
+{010R, 006W} :   435567540.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   438454452.5
+writesPerSecond                   =       17330.0
+totalPerSecond                    =   438471782.5
+numThreads                        = 17
+readerThreadCount= 11, readRatio  =     16.999328
+writerThreadCount=  6, writeRatio =      0.000672
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =    39859495.7
+r1TotalPerSecond                  =    39876825.7
+r1ReadRatio                       =      6.996958
+r1WriteRatio                      =      0.003042
+{011R, 006W} :   438471782.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    16828477.0
+totalPerSecond                    =    16828477.0
+numThreads                        = 7
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  7, writeRatio =      7.000000
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 007W} :    16828477.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     6609824.0
+writesPerSecond                   =    15842724.5
+totalPerSecond                    =    22452548.5
+numThreads                        = 8
+readerThreadCount=  1, readRatio  =      2.355127
+writerThreadCount=  7, writeRatio =      5.644873
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =     6609824.0
+r1TotalPerSecond                  =    22452548.5
+r1ReadRatio                       =      2.355127
+r1WriteRatio                      =      5.644873
+{001R, 007W} :    22452548.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    16743060.5
+writesPerSecond                   =    13962553.5
+totalPerSecond                    =    30705614.0
+numThreads                        = 9
+readerThreadCount=  2, readRatio  =      4.907492
+writerThreadCount=  7, writeRatio =      4.092508
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =     8371530.3
+r1TotalPerSecond                  =    22334083.8
+r1ReadRatio                       =      2.998656
+r1WriteRatio                      =      5.001344
+{002R, 007W} :    30705614.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    39715128.5
+writesPerSecond                   =     9716516.5
+totalPerSecond                    =    49431645.0
+numThreads                        = 10
+readerThreadCount=  3, readRatio  =      8.034353
+writerThreadCount=  7, writeRatio =      1.965647
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    13238376.2
+r1TotalPerSecond                  =    22954892.7
+r1ReadRatio                       =      4.613701
+r1WriteRatio                      =      3.386299
+{003R, 007W} :    49431645.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    61392456.5
+writesPerSecond                   =     7235297.5
+totalPerSecond                    =    68627754.0
+numThreads                        = 11
+readerThreadCount=  4, readRatio  =      9.840290
+writerThreadCount=  7, writeRatio =      1.159710
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    15348114.1
+r1TotalPerSecond                  =    22583411.6
+r1ReadRatio                       =      5.436951
+r1WriteRatio                      =      2.563049
+{004R, 007W} :    68627754.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    78578618.5
+writesPerSecond                   =     6875907.5
+totalPerSecond                    =    85454526.0
+numThreads                        = 12
+readerThreadCount=  5, readRatio  =     11.034447
+writerThreadCount=  7, writeRatio =      0.965553
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    15715723.7
+r1TotalPerSecond                  =    22591631.2
+r1ReadRatio                       =      5.565149
+r1WriteRatio                      =      2.434851
+{005R, 007W} :    85454526.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    90180350.5
+writesPerSecond                   =     4407712.0
+totalPerSecond                    =    94588062.5
+numThreads                        = 13
+readerThreadCount=  6, readRatio  =     12.394213
+writerThreadCount=  7, writeRatio =      0.605787
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    15030058.4
+r1TotalPerSecond                  =    19437770.4
+r1ReadRatio                       =      6.185919
+r1WriteRatio                      =      1.814081
+{006R, 007W} :    94588062.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   133792926.0
+writesPerSecond                   =     3786425.5
+totalPerSecond                    =   137579351.5
+numThreads                        = 14
+readerThreadCount=  7, readRatio  =     13.614695
+writerThreadCount=  7, writeRatio =      0.385305
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    19113275.1
+r1TotalPerSecond                  =    22899700.6
+r1ReadRatio                       =      6.677214
+r1WriteRatio                      =      1.322786
+{007R, 007W} :   137579351.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   399449852.0
+writesPerSecond                   =       25576.5
+totalPerSecond                    =   399475428.5
+numThreads                        = 15
+readerThreadCount=  8, readRatio  =     14.999040
+writerThreadCount=  7, writeRatio =      0.000960
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    49931231.5
+r1TotalPerSecond                  =    49956808.0
+r1ReadRatio                       =      7.995904
+r1WriteRatio                      =      0.004096
+{008R, 007W} :   399475428.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   592500713.0
+writesPerSecond                   =       29073.5
+totalPerSecond                    =   592529786.5
+numThreads                        = 16
+readerThreadCount=  9, readRatio  =     15.999215
+writerThreadCount=  7, writeRatio =      0.000785
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    65833412.6
+r1TotalPerSecond                  =    65862486.1
+r1ReadRatio                       =      7.996469
+r1WriteRatio                      =      0.003531
+{009R, 007W} :   592529786.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   416970415.5
+writesPerSecond                   =       16509.0
+totalPerSecond                    =   416986924.5
+numThreads                        = 17
+readerThreadCount= 10, readRatio  =     16.999327
+writerThreadCount=  7, writeRatio =      0.000673
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    41697041.5
+r1TotalPerSecond                  =    41713550.5
+r1ReadRatio                       =      7.996834
+r1WriteRatio                      =      0.003166
+{010R, 007W} :   416986924.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   480753459.5
+writesPerSecond                   =       15364.5
+totalPerSecond                    =   480768824.0
+numThreads                        = 18
+readerThreadCount= 11, readRatio  =     17.999425
+writerThreadCount=  7, writeRatio =      0.000575
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =    43704860.0
+r1TotalPerSecond                  =    43720224.5
+r1ReadRatio                       =      7.997189
+r1WriteRatio                      =      0.002811
+{011R, 007W} :   480768824.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    17861982.0
+totalPerSecond                    =    17861982.0
+numThreads                        = 8
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  8, writeRatio =      8.000000
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 008W} :    17861982.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     5775308.5
+writesPerSecond                   =    16177800.5
+totalPerSecond                    =    21953109.0
+numThreads                        = 9
+readerThreadCount=  1, readRatio  =      2.367673
+writerThreadCount=  8, writeRatio =      6.632327
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =     5775308.5
+r1TotalPerSecond                  =    21953109.0
+r1ReadRatio                       =      2.367673
+r1WriteRatio                      =      6.632327
+{001R, 008W} :    21953109.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    14604845.0
+writesPerSecond                   =    13360036.5
+totalPerSecond                    =    27964881.5
+numThreads                        = 10
+readerThreadCount=  2, readRatio  =      5.222566
+writerThreadCount=  8, writeRatio =      4.777434
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =     7302422.5
+r1TotalPerSecond                  =    20662459.0
+r1ReadRatio                       =      3.180735
+r1WriteRatio                      =      5.819265
+{002R, 008W} :    27964881.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    22962587.0
+writesPerSecond                   =    11707177.5
+totalPerSecond                    =    34669764.5
+numThreads                        = 11
+readerThreadCount=  3, readRatio  =      7.285554
+writerThreadCount=  8, writeRatio =      3.714446
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =     7654195.7
+r1TotalPerSecond                  =    19361373.2
+r1ReadRatio                       =      3.558000
+r1WriteRatio                      =      5.442000
+{003R, 008W} :    34669764.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    65072623.5
+writesPerSecond                   =     7262359.0
+totalPerSecond                    =    72334982.5
+numThreads                        = 12
+readerThreadCount=  4, readRatio  =     10.795212
+writerThreadCount=  8, writeRatio =      1.204788
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    16268155.9
+r1TotalPerSecond                  =    23530514.9
+r1ReadRatio                       =      6.222278
+r1WriteRatio                      =      2.777722
+{004R, 008W} :    72334982.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   139455325.0
+writesPerSecond                   =     6722441.0
+totalPerSecond                    =   146177766.0
+numThreads                        = 13
+readerThreadCount=  5, readRatio  =     12.402154
+writerThreadCount=  8, writeRatio =      0.597846
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    27891065.0
+r1TotalPerSecond                  =    34613506.0
+r1ReadRatio                       =      7.252070
+r1WriteRatio                      =      1.747930
+{005R, 008W} :   146177766.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   179811688.5
+writesPerSecond                   =     4687279.5
+totalPerSecond                    =   184498968.0
+numThreads                        = 14
+readerThreadCount=  6, readRatio  =     13.644324
+writerThreadCount=  8, writeRatio =      0.355676
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    29968614.8
+r1TotalPerSecond                  =    34655894.3
+r1ReadRatio                       =      7.782732
+r1WriteRatio                      =      1.217268
+{006R, 008W} :   184498968.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   266831645.5
+writesPerSecond                   =     2891603.5
+totalPerSecond                    =   269723249.0
+numThreads                        = 15
+readerThreadCount=  7, readRatio  =     14.839191
+writerThreadCount=  8, writeRatio =      0.160809
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    38118806.5
+r1TotalPerSecond                  =    41010410.0
+r1ReadRatio                       =      8.365419
+r1WriteRatio                      =      0.634581
+{007R, 008W} :   269723249.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   300901722.0
+writesPerSecond                   =       36393.5
+totalPerSecond                    =   300938115.5
+numThreads                        = 16
+readerThreadCount=  8, readRatio  =     15.998065
+writerThreadCount=  8, writeRatio =      0.001935
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    37612715.3
+r1TotalPerSecond                  =    37649108.8
+r1ReadRatio                       =      8.991300
+r1WriteRatio                      =      0.008700
+{008R, 008W} :   300938115.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   393421868.5
+writesPerSecond                   =       28881.5
+totalPerSecond                    =   393450750.0
+numThreads                        = 17
+readerThreadCount=  9, readRatio  =     16.998752
+writerThreadCount=  8, writeRatio =      0.001248
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    43713540.9
+r1TotalPerSecond                  =    43742422.4
+r1ReadRatio                       =      8.994058
+r1WriteRatio                      =      0.005942
+{009R, 008W} :   393450750.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   422296060.5
+writesPerSecond                   =       23136.0
+totalPerSecond                    =   422319196.5
+numThreads                        = 18
+readerThreadCount= 10, readRatio  =     17.999014
+writerThreadCount=  8, writeRatio =      0.000986
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    42229606.0
+r1TotalPerSecond                  =    42252742.0
+r1ReadRatio                       =      8.995072
+r1WriteRatio                      =      0.004928
+{010R, 008W} :   422319196.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   455209423.0
+writesPerSecond                   =       32014.0
+totalPerSecond                    =   455241437.0
+numThreads                        = 19
+readerThreadCount= 11, readRatio  =     18.998664
+writerThreadCount=  8, writeRatio =      0.001336
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =    41382674.8
+r1TotalPerSecond                  =    41414688.8
+r1ReadRatio                       =      8.993043
+r1WriteRatio                      =      0.006957
+{011R, 008W} :   455241437.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    21356550.5
+totalPerSecond                    =    21356550.5
+numThreads                        = 9
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  9, writeRatio =      9.000000
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 009W} :    21356550.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     6313638.5
+writesPerSecond                   =    16715187.5
+totalPerSecond                    =    23028826.0
+numThreads                        = 10
+readerThreadCount=  1, readRatio  =      2.741624
+writerThreadCount=  9, writeRatio =      7.258376
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =     6313638.5
+r1TotalPerSecond                  =    23028826.0
+r1ReadRatio                       =      2.741624
+r1WriteRatio                      =      7.258376
+{001R, 009W} :    23028826.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    11577209.5
+writesPerSecond                   =    14536121.5
+totalPerSecond                    =    26113331.0
+numThreads                        = 11
+readerThreadCount=  2, readRatio  =      4.876793
+writerThreadCount=  9, writeRatio =      6.123207
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =     5788604.8
+r1TotalPerSecond                  =    20324726.3
+r1ReadRatio                       =      2.848060
+r1WriteRatio                      =      7.151940
+{002R, 009W} :    26113331.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    38121846.0
+writesPerSecond                   =    12002621.5
+totalPerSecond                    =    50124467.5
+numThreads                        = 12
+readerThreadCount=  3, readRatio  =      9.126524
+writerThreadCount=  9, writeRatio =      2.873476
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    12707282.0
+r1TotalPerSecond                  =    24709903.5
+r1ReadRatio                       =      5.142587
+r1WriteRatio                      =      4.857413
+{003R, 009W} :    50124467.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   110040206.0
+writesPerSecond                   =     6716563.0
+totalPerSecond                    =   116756769.0
+numThreads                        = 13
+readerThreadCount=  4, readRatio  =     12.252161
+writerThreadCount=  9, writeRatio =      0.747839
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    27510051.5
+r1TotalPerSecond                  =    34226614.5
+r1ReadRatio                       =      8.037620
+r1WriteRatio                      =      1.962380
+{004R, 009W} :   116756769.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   109287825.0
+writesPerSecond                   =     7463014.0
+totalPerSecond                    =   116750839.0
+numThreads                        = 14
+readerThreadCount=  5, readRatio  =     13.105084
+writerThreadCount=  9, writeRatio =      0.894916
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    21857565.0
+r1TotalPerSecond                  =    29320579.0
+r1ReadRatio                       =      7.454684
+r1WriteRatio                      =      2.545316
+{005R, 009W} :   116750839.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   141919209.0
+writesPerSecond                   =     4390834.0
+totalPerSecond                    =   146310043.0
+numThreads                        = 15
+readerThreadCount=  6, readRatio  =     14.549843
+writerThreadCount=  9, writeRatio =      0.450157
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    23653201.5
+r1TotalPerSecond                  =    28044035.5
+r1ReadRatio                       =      8.434307
+r1WriteRatio                      =      1.565693
+{006R, 009W} :   146310043.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   132108469.5
+writesPerSecond                   =     3725923.5
+totalPerSecond                    =   135834393.0
+numThreads                        = 16
+readerThreadCount=  7, readRatio  =     15.561122
+writerThreadCount=  9, writeRatio =      0.438878
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    18872638.5
+r1TotalPerSecond                  =    22598562.0
+r1ReadRatio                       =      8.351256
+r1WriteRatio                      =      1.648744
+{007R, 009W} :   135834393.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   351601245.5
+writesPerSecond                   =       49540.5
+totalPerSecond                    =   351650786.0
+numThreads                        = 17
+readerThreadCount=  8, readRatio  =     16.997605
+writerThreadCount=  9, writeRatio =      0.002395
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    43950155.7
+r1TotalPerSecond                  =    43999696.2
+r1ReadRatio                       =      9.988741
+r1WriteRatio                      =      0.011259
+{008R, 009W} :   351650786.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   379373032.5
+writesPerSecond                   =       32057.0
+totalPerSecond                    =   379405089.5
+numThreads                        = 18
+readerThreadCount=  9, readRatio  =     17.998479
+writerThreadCount=  9, writeRatio =      0.001521
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    42152559.2
+r1TotalPerSecond                  =    42184616.2
+r1ReadRatio                       =      9.992401
+r1WriteRatio                      =      0.007599
+{009R, 009W} :   379405089.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   348941391.5
+writesPerSecond                   =       26849.5
+totalPerSecond                    =   348968241.0
+numThreads                        = 19
+readerThreadCount= 10, readRatio  =     18.998538
+writerThreadCount=  9, writeRatio =      0.001462
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    34894139.1
+r1TotalPerSecond                  =    34920988.6
+r1ReadRatio                       =      9.992311
+r1WriteRatio                      =      0.007689
+{010R, 009W} :   348968241.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   424034328.5
+writesPerSecond                   =       20052.0
+totalPerSecond                    =   424054380.5
+numThreads                        = 20
+readerThreadCount= 11, readRatio  =     19.999054
+writerThreadCount=  9, writeRatio =      0.000946
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =    38548575.3
+r1TotalPerSecond                  =    38568627.3
+r1ReadRatio                       =      9.994801
+r1WriteRatio                      =      0.005199
+{011R, 009W} :   424054380.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    18270741.0
+totalPerSecond                    =    18270741.0
+numThreads                        = 10
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 10, writeRatio =     10.000000
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 010W} :    18270741.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     5624441.5
+writesPerSecond                   =    16677623.0
+totalPerSecond                    =    22302064.5
+numThreads                        = 11
+readerThreadCount=  1, readRatio  =      2.774131
+writerThreadCount= 10, writeRatio =      8.225869
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =     5624441.5
+r1TotalPerSecond                  =    22302064.5
+r1ReadRatio                       =      2.774131
+r1WriteRatio                      =      8.225869
+{001R, 010W} :    22302064.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    11235061.5
+writesPerSecond                   =    16451422.0
+totalPerSecond                    =    27686483.5
+numThreads                        = 12
+readerThreadCount=  2, readRatio  =      4.869551
+writerThreadCount= 10, writeRatio =      7.130449
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =     5617530.8
+r1TotalPerSecond                  =    22068952.8
+r1ReadRatio                       =      2.799990
+r1WriteRatio                      =      8.200010
+{002R, 010W} :    27686483.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    27642682.0
+writesPerSecond                   =    13840662.0
+totalPerSecond                    =    41483344.0
+numThreads                        = 13
+readerThreadCount=  3, readRatio  =      8.662630
+writerThreadCount= 10, writeRatio =      4.337370
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =     9214227.3
+r1TotalPerSecond                  =    23054889.3
+r1ReadRatio                       =      4.396313
+r1WriteRatio                      =      6.603687
+{003R, 010W} :    41483344.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   101994437.0
+writesPerSecond                   =     7402232.0
+totalPerSecond                    =   109396669.0
+numThreads                        = 14
+readerThreadCount=  4, readRatio  =     13.052702
+writerThreadCount= 10, writeRatio =      0.947298
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    25498609.3
+r1TotalPerSecond                  =    32900841.3
+r1ReadRatio                       =      8.525153
+r1WriteRatio                      =      2.474847
+{004R, 010W} :   109396669.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   119361832.5
+writesPerSecond                   =     6751675.5
+totalPerSecond                    =   126113508.0
+numThreads                        = 15
+readerThreadCount=  5, readRatio  =     14.196953
+writerThreadCount= 10, writeRatio =      0.803047
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    23872366.5
+r1TotalPerSecond                  =    30624042.0
+r1ReadRatio                       =      8.574833
+r1WriteRatio                      =      2.425167
+{005R, 010W} :   126113508.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   182459732.5
+writesPerSecond                   =     4887981.5
+totalPerSecond                    =   187347714.0
+numThreads                        = 16
+readerThreadCount=  6, readRatio  =     15.582553
+writerThreadCount= 10, writeRatio =      0.417447
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    30409955.4
+r1TotalPerSecond                  =    35297936.9
+r1ReadRatio                       =      9.476744
+r1WriteRatio                      =      1.523256
+{006R, 010W} :   187347714.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   180706244.0
+writesPerSecond                   =     4094910.5
+totalPerSecond                    =   184801154.5
+numThreads                        = 17
+readerThreadCount=  7, readRatio  =     16.623306
+writerThreadCount= 10, writeRatio =      0.376694
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    25815177.7
+r1TotalPerSecond                  =    29910088.2
+r1ReadRatio                       =      9.494019
+r1WriteRatio                      =      1.505981
+{007R, 010W} :   184801154.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   374887633.5
+writesPerSecond                   =       37933.5
+totalPerSecond                    =   374925567.0
+numThreads                        = 18
+readerThreadCount=  8, readRatio  =     17.998179
+writerThreadCount= 10, writeRatio =      0.001821
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    46860954.2
+r1TotalPerSecond                  =    46898887.7
+r1ReadRatio                       =     10.991103
+r1WriteRatio                      =      0.008897
+{008R, 010W} :   374925567.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   391807024.5
+writesPerSecond                   =       31680.5
+totalPerSecond                    =   391838705.0
+numThreads                        = 19
+readerThreadCount=  9, readRatio  =     18.998464
+writerThreadCount= 10, writeRatio =      0.001536
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    43534113.8
+r1TotalPerSecond                  =    43565794.3
+r1ReadRatio                       =     10.992001
+r1WriteRatio                      =      0.007999
+{009R, 010W} :   391838705.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   392273239.0
+writesPerSecond                   =       20780.0
+totalPerSecond                    =   392294019.0
+numThreads                        = 20
+readerThreadCount= 10, readRatio  =     19.998941
+writerThreadCount= 10, writeRatio =      0.001059
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    39227323.9
+r1TotalPerSecond                  =    39248103.9
+r1ReadRatio                       =     10.994176
+r1WriteRatio                      =      0.005824
+{010R, 010W} :   392294019.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   400541113.5
+writesPerSecond                   =       18138.0
+totalPerSecond                    =   400559251.5
+numThreads                        = 21
+readerThreadCount= 11, readRatio  =     20.999049
+writerThreadCount= 10, writeRatio =      0.000951
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =    36412828.5
+r1TotalPerSecond                  =    36430966.5
+r1ReadRatio                       =     10.994523
+r1WriteRatio                      =      0.005477
+{011R, 010W} :   400559251.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    18185445.0
+totalPerSecond                    =    18185445.0
+numThreads                        = 11
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 11, writeRatio =     11.000000
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 011W} :    18185445.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =     4137554.0
+writesPerSecond                   =    17211935.5
+totalPerSecond                    =    21349489.5
+numThreads                        = 12
+readerThreadCount=  1, readRatio  =      2.325613
+writerThreadCount= 11, writeRatio =      9.674387
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =     4137554.0
+r1TotalPerSecond                  =    21349489.5
+r1ReadRatio                       =      2.325613
+r1WriteRatio                      =      9.674387
+{001R, 011W} :    21349489.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    11677518.5
+writesPerSecond                   =    16729102.0
+totalPerSecond                    =    28406620.5
+numThreads                        = 13
+readerThreadCount=  2, readRatio  =      5.344097
+writerThreadCount= 11, writeRatio =      7.655903
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =     5838759.3
+r1TotalPerSecond                  =    22567861.3
+r1ReadRatio                       =      3.104641
+r1WriteRatio                      =      8.895359
+{002R, 011W} :    28406620.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =    35368441.0
+writesPerSecond                   =    13188800.5
+totalPerSecond                    =    48557241.5
+numThreads                        = 14
+readerThreadCount=  3, readRatio  =     10.197412
+writerThreadCount= 11, writeRatio =      3.802588
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    11789480.3
+r1TotalPerSecond                  =    24978280.8
+r1ReadRatio                       =      5.663871
+r1WriteRatio                      =      6.336129
+{003R, 011W} :    48557241.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   105879974.5
+writesPerSecond                   =     7352617.0
+totalPerSecond                    =   113232591.5
+numThreads                        = 15
+readerThreadCount=  4, readRatio  =     14.025994
+writerThreadCount= 11, writeRatio =      0.974006
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    26469993.6
+r1TotalPerSecond                  =    33822610.6
+r1ReadRatio                       =      9.391348
+r1WriteRatio                      =      2.608652
+{004R, 011W} :   113232591.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   100153582.5
+writesPerSecond                   =     7710945.5
+totalPerSecond                    =   107864528.0
+numThreads                        = 16
+readerThreadCount=  5, readRatio  =     14.856203
+writerThreadCount= 11, writeRatio =      1.143797
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    20030716.5
+r1TotalPerSecond                  =    27741662.0
+r1ReadRatio                       =      8.664535
+r1WriteRatio                      =      3.335465
+{005R, 011W} :   107864528.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   163979198.5
+writesPerSecond                   =     4947064.5
+totalPerSecond                    =   168926263.0
+numThreads                        = 17
+readerThreadCount=  6, readRatio  =     16.502149
+writerThreadCount= 11, writeRatio =      0.497851
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    27329866.4
+r1TotalPerSecond                  =    32276930.9
+r1ReadRatio                       =     10.160768
+r1WriteRatio                      =      1.839232
+{006R, 011W} :   168926263.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   188038349.5
+writesPerSecond                   =     3959303.0
+totalPerSecond                    =   191997652.5
+numThreads                        = 18
+readerThreadCount=  7, readRatio  =     17.628811
+writerThreadCount= 11, writeRatio =      0.371189
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    26862621.4
+r1TotalPerSecond                  =    30821924.4
+r1ReadRatio                       =     10.458512
+r1WriteRatio                      =      1.541488
+{007R, 011W} :   191997652.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   470137960.0
+writesPerSecond                   =       55574.5
+totalPerSecond                    =   470193534.5
+numThreads                        = 19
+readerThreadCount=  8, readRatio  =     18.997754
+writerThreadCount= 11, writeRatio =      0.002246
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    58767245.0
+r1TotalPerSecond                  =    58822819.5
+r1ReadRatio                       =     11.988663
+r1WriteRatio                      =      0.011337
+{008R, 011W} :   470193534.5
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   595210396.5
+writesPerSecond                   =       43291.5
+totalPerSecond                    =   595253688.0
+numThreads                        = 20
+readerThreadCount=  9, readRatio  =     19.998545
+writerThreadCount= 11, writeRatio =      0.001455
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    66134488.5
+r1TotalPerSecond                  =    66177780.0
+r1ReadRatio                       =     11.992150
+r1WriteRatio                      =      0.007850
+{009R, 011W} :   595253688.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   527546853.0
+writesPerSecond                   =       37484.0
+totalPerSecond                    =   527584337.0
+numThreads                        = 21
+readerThreadCount= 10, readRatio  =     20.998508
+writerThreadCount= 11, writeRatio =      0.001492
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    52754685.3
+r1TotalPerSecond                  =    52792169.3
+r1ReadRatio                       =     11.991480
+r1WriteRatio                      =      0.008520
+{010R, 011W} :   527584337.0
+
+Running test for 2000 milliseconds...
+CohortReadWriteMutex:
+readsPerSecond                    =   430649973.0
+writesPerSecond                   =       23087.0
+totalPerSecond                    =   430673060.0
+numThreads                        = 22
+readerThreadCount= 11, readRatio  =     21.998821
+writerThreadCount= 11, writeRatio =      0.001179
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =    39149997.5
+r1TotalPerSecond                  =    39173084.5
+r1ReadRatio                       =     11.992928
+r1WriteRatio                      =      0.007072
+{011R, 011W} :   430673060.0
+
+
+csv =
+"CohortReadWriteMutex tps", 0.000000,183965008.000000,132854166.500000,226914605.500000,233456619.000000,359465864.500000,429249503.500000,299726031.000000,321699002.500000,287705196.500000,355912427.000000,550397390.000000,37786006.000000,38454197.500000,41244261.000000,107943410.500000,137123374.000000,165378687.500000,229995578.000000,284306198.500000,637565762.000000,417144733.000000,441916136.500000,405770588.000000,14874223.000000,27077945.500000,31274124.500000,64716266.000000,73251081.500000,150901696.000000,118095060.500000,220793934.000000,581791721.000000,389940287.000000,417066122.500000,402719375.000000,15317886.000000,22099655.000000,43904683.000000,71758886.000000,179609028.500000,202996317.500000,247437790.000000,261890171.000000,547824973.000000,477915983.500000,469944672.000000,434065468.000000,13578498.000000,20987511.500000,32784876.000000,42825868.500000,86002612.000000,84139970.500000,158101655.500000,141197641.000000,319307835.500000,440592536.000000,414063688.500000,480062438.500000,17244486.500000,29374252.500000,33590437.000000,47352141.500000,78191811.000000,147644778.500000,172280765.000000,230304308.500000,579182381.500000,476125048.000000,588069833.000000,402774091.000000,11910571.500000,16872275.500000,24686788.500000,55478763.500000,75579640.500000,112496819.000000,165460109.500000,167938825.500000,492457682.000000,452080584.000000,435567540.000000,438471782.500000,16828477.000000,22452548.500000,30705614.000000,49431645.000000,68627754.000000,85454526.000000,94588062.500000,137579351.500000,399475428.500000,592529786.500000,416986924.500000,480768824.000000,17861982.000000,21953109.000000,27964881.500000,34669764.500000,72334982.500000,146177766.000000,184498968.000000,269723249.000000,300938115.500000,393450750.000000,422319196.500000,455241437.000000,21356550.500000,23028826.000000,26113331.000000,50124467.500000,116756769.000000,116750839.000000,146310043.000000,135834393.000000,351650786.000000,379405089.500000,348968241.000000,424054380.500000,18270741.000000,22302064.500000,27686483.500000,41483344.000000,109396669.000000,126113508.000000,187347714.000000,184801154.500000,374925567.000000,391838705.000000,392294019.000000,400559251.500000,18185445.000000,21349489.500000,28406620.500000,48557241.500000,113232591.500000,107864528.000000,168926263.000000,191997652.500000,470193534.500000,595253688.000000,527584337.000000,430673060.000000,
+"CohortReadWriteMutex rps", 0.000000,183965008.000000,132854166.500000,226914605.500000,233456619.000000,359465864.500000,429249503.500000,299726031.000000,321699002.500000,287705196.500000,355912427.000000,550397390.000000, 0.000000,20140815.500000,36354350.000000,103377849.000000,133837714.500000,161564015.500000,226805903.500000,281576573.500000,637561569.500000,417141375.500000,441913532.500000,405768737.000000, 0.000000,17434431.500000,25595820.000000,60031413.000000,68051391.000000,146766058.000000,114267152.500000,217669095.500000,581782516.500000,389933777.500000,417061398.500000,402715345.500000, 0.000000,10183042.000000,33750164.000000,65573905.500000,173473168.500000,197964339.000000,243733603.000000,258552433.000000,547812502.500000,477907403.000000,469937089.000000,434058233.000000, 0.000000,9094982.500000,22823686.500000,33788675.500000,80817513.000000,78924698.500000,153970584.500000,137518045.500000,319292955.500000,440580667.000000,414053712.500000,480053535.000000, 0.000000,12131042.000000,18936597.000000,38111421.000000,71470312.500000,141893362.500000,168230066.000000,226672529.000000,579159573.500000,476108905.500000,588054580.000000,402761626.000000, 0.000000,6469911.000000,14596066.000000,46040642.000000,68925980.000000,106311080.000000,161233805.500000,164068238.000000,492423967.500000,452062237.000000,435551812.000000,438454452.500000, 0.000000,6609824.000000,16743060.500000,39715128.500000,61392456.500000,78578618.500000,90180350.500000,133792926.000000,399449852.000000,592500713.000000,416970415.500000,480753459.500000, 0.000000,5775308.500000,14604845.000000,22962587.000000,65072623.500000,139455325.000000,179811688.500000,266831645.500000,300901722.000000,393421868.500000,422296060.500000,455209423.000000, 0.000000,6313638.500000,11577209.500000,38121846.000000,110040206.000000,109287825.000000,141919209.000000,132108469.500000,351601245.500000,379373032.500000,348941391.500000,424034328.500000, 0.000000,5624441.500000,11235061.500000,27642682.000000,101994437.000000,119361832.500000,182459732.500000,180706244.000000,374887633.500000,391807024.500000,392273239.000000,400541113.500000, 0.000000,4137554.000000,11677518.500000,35368441.000000,105879974.500000,100153582.500000,163979198.500000,188038349.500000,470137960.000000,595210396.500000,527546853.000000,430649973.000000,
+"CohortReadWriteMutex wps", 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,37786006.000000,18313382.000000,4889911.000000,4565561.500000,3285659.500000,3814672.000000,3189674.500000,2729625.000000,4192.500000,3357.500000,2604.000000,1851.000000,14874223.000000,9643514.000000,5678304.500000,4684853.000000,5199690.500000,4135638.000000,3827908.000000,3124838.500000,9204.500000,6509.500000,4724.000000,4029.500000,15317886.000000,11916613.000000,10154519.000000,6184980.500000,6135860.000000,5031978.500000,3704187.000000,3337738.000000,12470.500000,8580.500000,7583.000000,7235.000000,13578498.000000,11892529.000000,9961189.500000,9037193.000000,5185099.000000,5215272.000000,4131071.000000,3679595.500000,14880.000000,11869.000000,9976.000000,8903.500000,17244486.500000,17243210.500000,14653840.000000,9240720.500000,6721498.500000,5751416.000000,4050699.000000,3631779.500000,22808.000000,16142.500000,15253.000000,12465.000000,11910571.500000,10402364.500000,10090722.500000,9438121.500000,6653660.500000,6185739.000000,4226304.000000,3870587.500000,33714.500000,18347.000000,15728.000000,17330.000000,16828477.000000,15842724.500000,13962553.500000,9716516.500000,7235297.500000,6875907.500000,4407712.000000,3786425.500000,25576.500000,29073.500000,16509.000000,15364.500000,17861982.000000,16177800.500000,13360036.500000,11707177.500000,7262359.000000,6722441.000000,4687279.500000,2891603.500000,36393.500000,28881.500000,23136.000000,32014.000000,21356550.500000,16715187.500000,14536121.500000,12002621.500000,6716563.000000,7463014.000000,4390834.000000,3725923.500000,49540.500000,32057.000000,26849.500000,20052.000000,18270741.000000,16677623.000000,16451422.000000,13840662.000000,7402232.000000,6751675.500000,4887981.500000,4094910.500000,37933.500000,31680.500000,20780.000000,18138.000000,18185445.000000,17211935.500000,16729102.000000,13188800.500000,7352617.000000,7710945.500000,4947064.500000,3959303.000000,55574.500000,43291.500000,37484.000000,23087.000000,
+"CohortReadWriteMutex rr",-1.#IND00, 1.000000, 2.000000, 3.000000, 4.000000, 5.000000, 6.000000, 7.000000, 8.000000, 9.000000,10.000000,11.000000, 0.000000, 1.047522, 2.644321, 3.830816, 4.880193, 5.861602, 6.902921, 7.923192, 8.999941, 9.999920,10.999935,11.999945, 0.000000, 1.931583, 3.273738, 4.638047, 5.574093, 6.808157, 7.740690, 8.872625, 9.999842,10.999816,11.999864,12.999870, 0.000000, 1.843113, 3.843572, 5.482853, 6.760864, 7.801692, 8.865268, 9.872552,10.999750,11.999785,12.999790,13.999767, 0.000000, 2.166761, 4.176991, 5.522847, 7.517680, 8.442150, 9.738708,10.713341,11.999441,12.999650,13.999663,14.999722, 0.000000, 2.477893, 3.946248, 6.438808, 8.226345, 9.610456,10.741366,11.810766,12.999488,13.999525,14.999611,15.999505, 0.000000, 2.684248, 4.730001, 7.468908, 9.119649,10.395155,11.693487,12.700381,13.999042,14.999391,15.999422,16.999328, 0.000000, 2.355127, 4.907492, 8.034353, 9.840290,11.034447,12.394213,13.614695,14.999040,15.999215,16.999327,17.999425, 0.000000, 2.367673, 5.222566, 7.285554,10.795212,12.402154,13.644324,14.839191,15.998065,16.998752,17.999014,18.998664, 0.000000, 2.741624, 4.876793, 9.126524,12.252161,13.105084,14.549843,15.561122,16.997605,17.998479,18.998538,19.999054, 0.000000, 2.774131, 4.869551, 8.662630,13.052702,14.196953,15.582553,16.623306,17.998179,18.998464,19.998941,20.999049, 0.000000, 2.325613, 5.344097,10.197412,14.025994,14.856203,16.502149,17.628811,18.997754,19.998545,20.998508,21.998821,
+"CohortReadWriteMutex wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.952478, 0.355679, 0.169184, 0.119807, 0.138398, 0.097079, 0.076808, 0.000059, 0.000080, 0.000065, 0.000055, 2.000000, 1.068417, 0.726262, 0.361953, 0.425907, 0.191843, 0.259310, 0.127375, 0.000158, 0.000184, 0.000136, 0.000130, 3.000000, 2.156887, 1.156428, 0.517147, 0.239136, 0.198308, 0.134732, 0.127448, 0.000250, 0.000215, 0.000210, 0.000233, 4.000000, 2.833239, 1.823009, 1.477153, 0.482320, 0.557850, 0.261292, 0.286659, 0.000559, 0.000350, 0.000337, 0.000278, 5.000000, 3.522107, 3.053752, 1.561192, 0.773655, 0.389544, 0.258634, 0.189234, 0.000512, 0.000475, 0.000389, 0.000495, 6.000000, 4.315752, 3.269999, 1.531092, 0.880351, 0.604845, 0.306513, 0.299619, 0.000958, 0.000609, 0.000578, 0.000672, 7.000000, 5.644873, 4.092508, 1.965647, 1.159710, 0.965553, 0.605787, 0.385305, 0.000960, 0.000785, 0.000673, 0.000575, 8.000000, 6.632327, 4.777434, 3.714446, 1.204788, 0.597846, 0.355676, 0.160809, 0.001935, 0.001248, 0.000986, 0.001336, 9.000000, 7.258376, 6.123207, 2.873476, 0.747839, 0.894916, 0.450157, 0.438878, 0.002395, 0.001521, 0.001462, 0.000946,10.000000, 8.225869, 7.130449, 4.337370, 0.947298, 0.803047, 0.417447, 0.376694, 0.001821, 0.001536, 0.001059, 0.000951,11.000000, 9.674387, 7.655903, 3.802588, 0.974006, 1.143797, 0.497851, 0.371189, 0.002246, 0.001455, 0.001492, 0.001179,
+"CohortReadWriteMutex r1rr",-1.#IND00, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000,-1.#IND00, 1.047522, 1.576027, 1.766018, 1.821165, 1.788822, 1.844371, 1.872907, 1.999895, 1.999855, 1.999882, 1.999900,-1.#IND00, 1.931583, 2.078008, 2.430882, 2.297736, 2.629521, 2.497923, 2.726055, 2.999620, 2.999549, 2.999660, 2.999670,-1.#IND00, 1.843113, 2.497274, 3.117785, 3.504215, 3.548953, 3.665736, 3.668495, 3.999272, 3.999354, 3.999355, 3.999267,-1.#IND00, 2.166761, 2.669683, 2.774100, 3.978888, 3.758281, 4.306701, 4.211235, 4.998137, 4.998788, 4.998796, 4.998980,-1.#IND00, 2.477893, 2.355089, 3.473433, 4.359882, 4.988913, 5.242601, 5.394931, 5.998110, 5.998170, 5.998444, 5.997958,-1.#IND00, 2.684248, 2.937889, 4.334402, 5.050018, 5.422463, 6.048699, 6.007865, 6.996168, 6.997444, 6.997473, 6.996958,-1.#IND00, 2.355127, 2.998656, 4.613701, 5.436951, 5.565149, 6.185919, 6.677214, 7.995904, 7.996469, 7.996834, 7.997189,-1.#IND00, 2.367673, 3.180735, 3.558000, 6.222278, 7.252070, 7.782732, 8.365419, 8.991300, 8.994058, 8.995072, 8.993043,-1.#IND00, 2.741624, 2.848060, 5.142587, 8.037620, 7.454684, 8.434307, 8.351256, 9.988741, 9.992401, 9.992311, 9.994801,-1.#IND00, 2.774131, 2.799990, 4.396313, 8.525153, 8.574833, 9.476744, 9.494019,10.991103,10.992001,10.994176,10.994523,-1.#IND00, 2.325613, 3.104641, 5.663871, 9.391348, 8.664535,10.160768,10.458512,11.988663,11.992150,11.991480,11.992928,
+"CohortReadWriteMutex r1wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,-1.#IND00, 0.952478, 0.423973, 0.233982, 0.178835, 0.211178, 0.155629, 0.127093, 0.000105, 0.000145, 0.000118, 0.000100,-1.#IND00, 1.068417, 0.921992, 0.569118, 0.702264, 0.370479, 0.502077, 0.273945, 0.000380, 0.000451, 0.000340, 0.000330,-1.#IND00, 2.156887, 1.502726, 0.882215, 0.495785, 0.451047, 0.334264, 0.331505, 0.000728, 0.000646, 0.000645, 0.000733,-1.#IND00, 2.833239, 2.330317, 2.225900, 1.021112, 1.241719, 0.693299, 0.788765, 0.001863, 0.001212, 0.001204, 0.001020,-1.#IND00, 3.522107, 3.644911, 2.526567, 1.640118, 1.011087, 0.757399, 0.605069, 0.001890, 0.001830, 0.001556, 0.002042,-1.#IND00, 4.315752, 4.062111, 2.665598, 1.949982, 1.577537, 0.951301, 0.992135, 0.003832, 0.002556, 0.002527, 0.003042,-1.#IND00, 5.644873, 5.001344, 3.386299, 2.563049, 2.434851, 1.814081, 1.322786, 0.004096, 0.003531, 0.003166, 0.002811,-1.#IND00, 6.632327, 5.819265, 5.442000, 2.777722, 1.747930, 1.217268, 0.634581, 0.008700, 0.005942, 0.004928, 0.006957,-1.#IND00, 7.258376, 7.151940, 4.857413, 1.962380, 2.545316, 1.565693, 1.648744, 0.011259, 0.007599, 0.007689, 0.005199,-1.#IND00, 8.225869, 8.200010, 6.603687, 2.474847, 2.425167, 1.523256, 1.505981, 0.008897, 0.007999, 0.005824, 0.005477,-1.#IND00, 9.674387, 8.895359, 6.336129, 2.608652, 3.335465, 1.839232, 1.541488, 0.011337, 0.007850, 0.008520, 0.007072,
+

@@ -324,6 +324,10 @@
 	</References>
 	<Files>
 		<File
+			RelativePath=".\cohort_rwmutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\common.h"
 			>
 		</File>
