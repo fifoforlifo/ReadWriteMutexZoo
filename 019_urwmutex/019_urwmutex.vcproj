@@ -336,7 +336,7 @@
 			>
 		</File>
 		<File
-			RelativePath=".\fastfair_rwmutex.h"
+			RelativePath=".\faircs_rwmutex.h"
 			>
 		</File>
 		<File
@@ -356,11 +356,19 @@
 			>
 		</File>
 		<File
+			RelativePath=".\sema_mutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\semaphore.h"
 			>
 		</File>
 		<File
 			RelativePath=".\slim_rwlock.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ticketed_rwmutex.h"
 			>
 		</File>
 		<File

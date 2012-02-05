@@ -2,13 +2,15 @@
 #include <vector>
 #include "semaphore.h"
 #include "mutex.h"
+#include "sema_mutex.h"
 #include "critical_section.h"
 #include "slim_rwlock.h"
 #include "ultraspin_rwmutex.h"
 #include "ultrafast_rwmutex.h"
 #include "ultralight_rwmutex.h"
 #include "fair_rwmutex.h"
-#include "fastfair_rwmutex.h"
+#include "ticketed_rwmutex.h"
+#include "faircs_rwmutex.h"
 #include "qt_rwmutex.h"
 // single reader, multiple writer -- these are just to get upper bounds on perf
 #include "ultraspin_single_rwmutex.h"
@@ -36,6 +38,8 @@ struct Stats
     double readRatio;
     double writeRatio;
     long r1NumThreads;
+    double r1ReadsPerSecond;
+    double r1TotalPerSecond;
     double r1ReadRatio;
     double r1WriteRatio;
 };
@@ -80,7 +84,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 500;
+        long durationMilliseconds = 700;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -102,11 +106,13 @@ public:
         stats.writesPerSecond   = m_writerLockCount * 1.0 / stats.durationSeconds;
         stats.totalPerSecond    = stats.readsPerSecond + stats.writesPerSecond;
         stats.numThreads        = m_readerThreadCount + m_writerThreadCount;
-        stats.readRatio         = stats.readsPerSecond * stats.numThreads / stats.totalPerSecond;
+        stats.readRatio         = stats.readsPerSecond  * stats.numThreads / stats.totalPerSecond;
         stats.writeRatio        = stats.writesPerSecond * stats.numThreads / stats.totalPerSecond;
         stats.r1NumThreads      = 1 + m_writerThreadCount;
-        stats.r1ReadRatio       = stats.readsPerSecond * stats.r1NumThreads / stats.totalPerSecond;
-        stats.r1WriteRatio      = stats.writesPerSecond * stats.r1NumThreads / stats.totalPerSecond;
+        stats.r1ReadsPerSecond  = stats.readsPerSecond / m_readerThreadCount;
+        stats.r1TotalPerSecond  = stats.r1ReadsPerSecond + stats.writesPerSecond;
+        stats.r1ReadRatio       = stats.r1ReadsPerSecond * stats.r1NumThreads / stats.r1TotalPerSecond;
+        stats.r1WriteRatio      = stats.writesPerSecond  * stats.r1NumThreads / stats.r1TotalPerSecond;
         printf("%s:\n", m_name.c_str());
         printf("readsPerSecond                    = %13.1f\n", stats.readsPerSecond);
         printf("writesPerSecond                   = %13.1f\n", stats.writesPerSecond);
@@ -115,6 +121,8 @@ public:
         printf("readerThreadCount=%3d, readRatio  = %13.6f\n", m_readerThreadCount, stats.readRatio);
         printf("writerThreadCount=%3d, writeRatio = %13.6f\n", m_writerThreadCount, stats.writeRatio);
         printf("r1NumThreads                      = %d\n", stats.r1NumThreads);
+        printf("r1ReadsPerSecond                  = %13.1f\n", stats.r1ReadsPerSecond);
+        printf("r1TotalPerSecond                  = %13.1f\n", stats.r1TotalPerSecond);
         printf("r1ReadRatio                       = %13.6f\n", stats.r1ReadRatio);
         printf("r1WriteRatio                      = %13.6f\n", stats.r1WriteRatio);
         printf("{%3.3dR, %3.3dW} : %13.1f\n", m_readerThreadCount, m_writerThreadCount, stats.totalPerSecond);
@@ -202,7 +210,7 @@ void DoTests(
     const char* pName = "";
     Stats stats;
 
-#if 01
+#if 0
     // NOTE: is perfectly fair
     pName = "Mutex";
     Test<Mutex> test_Mutex(numReaders, numWriters, pName);
@@ -210,7 +218,15 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
+    // NOTE: is perfectly fair, but horribly slow
+    pName = "SemaMutex<Semaphore>";
+    Test<SemaMutex<Semaphore> > test_SemaMutex(numReaders, numWriters, pName);
+    stats = test_SemaMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 0
     // NOTE: is kind of fair
     pName = "CriticalSection";
     Test<CriticalSection> test_CriticalSection(numReaders, numWriters, pName);
@@ -218,7 +234,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is not fair
     pName = "SlimReadWriteLock";
     Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters, pName);
@@ -226,7 +242,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraSpinReadWriteMutex";
     Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters, pName);
@@ -234,7 +250,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraFastReadWriteMutex";
     Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters, pName);
@@ -242,7 +258,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is kind of fair
     pName = "UltraLightReadWriteMutex";
     Test<UltraLightReadWriteMutex> test_UltraLightReadWriteMutex(numReaders, numWriters, pName);
@@ -250,7 +266,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     // NOTE: is perfectly fair, but bog slow
     pName = "FairReadWriteMutex";
     Test<FairReadWriteMutex<Semaphore> > test_FairReadWriteMutex(numReaders, numWriters, pName);
@@ -258,11 +274,10 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 0
-    // NOTE: is broke
-    pName = "FastFairReadWriteMutex";
-    Test<FastFairReadWriteMutex> test_FastFairReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_FastFairReadWriteMutex.Execute();
+#if 01
+    pName = "FairCsReadWriteMutex";
+    Test<FairCsReadWriteMutex> test_FairCsReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_FairCsReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 }
@@ -308,8 +323,8 @@ int main()
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int readerTrials = 12;
-    const int writerTrials = 12;
+    const int readerTrials = 6;
+    const int writerTrials = 4;
     const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;
