@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <vector>
-#include "urwmutex.h"
+#include "mutex.h"
+#include "critical_section.h"
+#include "slim_rwlock.h"
+#include "ultraspin_rwmutex.h"
+#include "ultrafast_rwmutex.h"
+#include "ultralight_rwmutex.h"
+#include "fastfair_rwmutex.h"
+
+// single reader, multiple writer
+#include "ultraspin_single_rwmutex.h"
+#include "ultrasync_single_rwmutex.h"
+
 
 //#define READER_LOOP_NL_SLEEP Sleep(0)
 //#define WRITER_LOOP_NL_SLEEP Sleep(0)
@@ -67,7 +78,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 2000;
+        long durationMilliseconds = 1000;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -210,7 +221,7 @@ void DoTests(
     test_SlimReadWriteLock.Execute();
 #endif
 
-#if 0
+#if 01
     // NOTE: is kind of fair
     pName = "UltraSpinReadWriteMutex";
     Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters, pName);
@@ -218,7 +229,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is kind of fair
     pName = "UltraFastReadWriteMutex";
     Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters, pName);
@@ -226,7 +237,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is kind of fair
     pName = "UltraLightReadWriteMutex";
     Test<UltraLightReadWriteMutex> test_UltraLightReadWriteMutex(numReaders, numWriters, pName);
@@ -284,12 +295,12 @@ int main()
     //TestUltraSingleReadWriteMutex();
     //return 0;
 
-    const int readerTrials = 6;
+    const int readerTrials = 8;
     const int writerTrials = 2;
     const int trials = readerTrials * writerTrials;
 
     std::vector<Stats> statss;
-    for (int numWriters = 1; numWriters <= writerTrials; numWriters++)
+    for (int numWriters = 0; numWriters < writerTrials; numWriters++)
     {
         for (int numReaders = 1; numReaders <= readerTrials; numReaders++)
         {

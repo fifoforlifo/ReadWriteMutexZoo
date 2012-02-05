@@ -324,11 +324,51 @@
 	</References>
 	<Files>
 		<File
+			RelativePath=".\common.h"
+			>
+		</File>
+		<File
+			RelativePath=".\critical_section.h"
+			>
+		</File>
+		<File
+			RelativePath=".\fastfair_rwmutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\main.cpp"
 			>
 		</File>
 		<File
-			RelativePath=".\urwmutex.h"
+			RelativePath=".\mutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\scoped_locks.h"
+			>
+		</File>
+		<File
+			RelativePath=".\slim_rwlock.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ultrafast_rwmutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ultralight_rwmutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ultraspin_rwmutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ultraspin_single_rwmutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ultrasync_single_rwmutex.h"
 			>
 		</File>
 	</Files>
