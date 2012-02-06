@@ -1,0 +1,2185 @@
+Running test for 700 milliseconds...
+warmup:
+readsPerSecond                    =   191626385.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =   191626385.7
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   191626385.7
+r1TotalPerSecond                  =   191626385.7
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :   191626385.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =           0.0
+numThreads                        = 0
+readerThreadCount=  0, readRatio  =     -1.#IND00
+writerThreadCount=  0, writeRatio =     -1.#IND00
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 000W} :           0.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   180451065.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =   180451065.7
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   180451065.7
+r1TotalPerSecond                  =   180451065.7
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :   180451065.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   130037804.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =   130037804.3
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =      2.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    65018902.1
+r1TotalPerSecond                  =    65018902.1
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{002R, 000W} :   130037804.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   356646101.4
+writesPerSecond                   =           0.0
+totalPerSecond                    =   356646101.4
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =      3.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   118882033.8
+r1TotalPerSecond                  =   118882033.8
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{003R, 000W} :   356646101.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   229895124.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =   229895124.3
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =      4.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    57473781.1
+r1TotalPerSecond                  =    57473781.1
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{004R, 000W} :   229895124.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   260731381.4
+writesPerSecond                   =           0.0
+totalPerSecond                    =   260731381.4
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =      5.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    52146276.3
+r1TotalPerSecond                  =    52146276.3
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{005R, 000W} :   260731381.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   299489941.4
+writesPerSecond                   =           0.0
+totalPerSecond                    =   299489941.4
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =      6.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    49914990.2
+r1TotalPerSecond                  =    49914990.2
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{006R, 000W} :   299489941.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   404935202.9
+writesPerSecond                   =           0.0
+totalPerSecond                    =   404935202.9
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =      7.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    57847886.1
+r1TotalPerSecond                  =    57847886.1
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{007R, 000W} :   404935202.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   325987265.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =   325987265.7
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =      8.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    40748408.2
+r1TotalPerSecond                  =    40748408.2
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{008R, 000W} :   325987265.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   370971234.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =   370971234.3
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =      9.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    41219026.0
+r1TotalPerSecond                  =    41219026.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{009R, 000W} :   370971234.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   393429391.4
+writesPerSecond                   =           0.0
+totalPerSecond                    =   393429391.4
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =     10.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    39342939.1
+r1TotalPerSecond                  =    39342939.1
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{010R, 000W} :   393429391.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   451992457.1
+writesPerSecond                   =           0.0
+totalPerSecond                    =   451992457.1
+numThreads                        = 11
+readerThreadCount= 11, readRatio  =     11.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =    41090223.4
+r1TotalPerSecond                  =    41090223.4
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{011R, 000W} :   451992457.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    40029495.7
+totalPerSecond                    =    40029495.7
+numThreads                        = 1
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  1, writeRatio =      1.000000
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 001W} :    40029495.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    12186162.9
+writesPerSecond                   =    20687827.1
+totalPerSecond                    =    32873990.0
+numThreads                        = 2
+readerThreadCount=  1, readRatio  =      0.741386
+writerThreadCount=  1, writeRatio =      1.258614
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    12186162.9
+r1TotalPerSecond                  =    32873990.0
+r1ReadRatio                       =      0.741386
+r1WriteRatio                      =      1.258614
+{001R, 001W} :    32873990.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     9945932.9
+writesPerSecond                   =    17371857.1
+totalPerSecond                    =    27317790.0
+numThreads                        = 3
+readerThreadCount=  2, readRatio  =      1.092248
+writerThreadCount=  1, writeRatio =      1.907752
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =     4972966.4
+r1TotalPerSecond                  =    22344823.6
+r1ReadRatio                       =      0.445111
+r1WriteRatio                      =      1.554889
+{002R, 001W} :    27317790.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    11787582.9
+writesPerSecond                   =    11327940.0
+totalPerSecond                    =    23115522.9
+numThreads                        = 4
+readerThreadCount=  3, readRatio  =      2.039769
+writerThreadCount=  1, writeRatio =      1.960231
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =     3929194.3
+r1TotalPerSecond                  =    15257134.3
+r1ReadRatio                       =      0.515063
+r1WriteRatio                      =      1.484937
+{003R, 001W} :    23115522.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     8353014.3
+writesPerSecond                   =    13172637.1
+totalPerSecond                    =    21525651.4
+numThreads                        = 5
+readerThreadCount=  4, readRatio  =      1.940247
+writerThreadCount=  1, writeRatio =      3.059753
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =     2088253.6
+r1TotalPerSecond                  =    15260890.7
+r1ReadRatio                       =      0.273674
+r1WriteRatio                      =      1.726326
+{004R, 001W} :    21525651.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     4367247.1
+writesPerSecond                   =    12419904.3
+totalPerSecond                    =    16787151.4
+numThreads                        = 6
+readerThreadCount=  5, readRatio  =      1.560925
+writerThreadCount=  1, writeRatio =      4.439075
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =      873449.4
+r1TotalPerSecond                  =    13293353.7
+r1ReadRatio                       =      0.131411
+r1WriteRatio                      =      1.868589
+{005R, 001W} :    16787151.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3398654.3
+writesPerSecond                   =    10826264.3
+totalPerSecond                    =    14224918.6
+numThreads                        = 7
+readerThreadCount=  6, readRatio  =      1.672458
+writerThreadCount=  1, writeRatio =      5.327542
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =      566442.4
+r1TotalPerSecond                  =    11392706.7
+r1ReadRatio                       =      0.099439
+r1WriteRatio                      =      1.900561
+{006R, 001W} :    14224918.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     4295755.7
+writesPerSecond                   =    10027215.7
+totalPerSecond                    =    14322971.4
+numThreads                        = 8
+readerThreadCount=  7, readRatio  =      2.399366
+writerThreadCount=  1, writeRatio =      5.600634
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =      613679.4
+r1TotalPerSecond                  =    10640895.1
+r1ReadRatio                       =      0.115344
+r1WriteRatio                      =      1.884656
+{007R, 001W} :    14322971.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    82414530.0
+writesPerSecond                   =     7493224.3
+totalPerSecond                    =    89907754.3
+numThreads                        = 9
+readerThreadCount=  8, readRatio  =      8.249909
+writerThreadCount=  1, writeRatio =      0.750091
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    10301816.3
+r1TotalPerSecond                  =    17795040.5
+r1ReadRatio                       =      1.157830
+r1WriteRatio                      =      0.842170
+{008R, 001W} :    89907754.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    27801805.7
+writesPerSecond                   =     8024144.3
+totalPerSecond                    =    35825950.0
+numThreads                        = 10
+readerThreadCount=  9, readRatio  =      7.760242
+writerThreadCount=  1, writeRatio =      2.239758
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =     3089089.5
+r1TotalPerSecond                  =    11113233.8
+r1ReadRatio                       =      0.555930
+r1WriteRatio                      =      1.444070
+{009R, 001W} :    35825950.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =   114927561.4
+writesPerSecond                   =     4137932.9
+totalPerSecond                    =   119065494.3
+numThreads                        = 11
+readerThreadCount= 10, readRatio  =     10.617712
+writerThreadCount=  1, writeRatio =      0.382288
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =    11492756.1
+r1TotalPerSecond                  =    15630689.0
+r1ReadRatio                       =      1.470537
+r1WriteRatio                      =      0.529463
+{010R, 001W} :   119065494.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    84957141.4
+writesPerSecond                   =     4906125.7
+totalPerSecond                    =    89863267.1
+numThreads                        = 12
+readerThreadCount= 11, readRatio  =     11.344855
+writerThreadCount=  1, writeRatio =      0.655145
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =     7723376.5
+r1TotalPerSecond                  =    12629502.2
+r1ReadRatio                       =      1.223069
+r1WriteRatio                      =      0.776931
+{011R, 001W} :    89863267.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    28031411.4
+totalPerSecond                    =    28031411.4
+numThreads                        = 2
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  2, writeRatio =      2.000000
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 002W} :    28031411.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     7619520.0
+writesPerSecond                   =    19179311.4
+totalPerSecond                    =    26798831.4
+numThreads                        = 3
+readerThreadCount=  1, readRatio  =      0.852969
+writerThreadCount=  2, writeRatio =      2.147031
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     7619520.0
+r1TotalPerSecond                  =    26798831.4
+r1ReadRatio                       =      0.852969
+r1WriteRatio                      =      2.147031
+{001R, 002W} :    26798831.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     9264437.1
+writesPerSecond                   =    15427590.0
+totalPerSecond                    =    24692027.1
+numThreads                        = 4
+readerThreadCount=  2, readRatio  =      1.500798
+writerThreadCount=  2, writeRatio =      2.499202
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     4632218.6
+r1TotalPerSecond                  =    20059808.6
+r1ReadRatio                       =      0.692761
+r1WriteRatio                      =      2.307239
+{002R, 002W} :    24692027.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     8329421.4
+writesPerSecond                   =    11982334.3
+totalPerSecond                    =    20311755.7
+numThreads                        = 5
+readerThreadCount=  3, readRatio  =      2.050394
+writerThreadCount=  2, writeRatio =      2.949606
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     2776473.8
+r1TotalPerSecond                  =    14758808.1
+r1ReadRatio                       =      0.564370
+r1WriteRatio                      =      2.435630
+{003R, 002W} :    20311755.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3794571.4
+writesPerSecond                   =    14523562.9
+totalPerSecond                    =    18318134.3
+numThreads                        = 6
+readerThreadCount=  4, readRatio  =      1.242890
+writerThreadCount=  2, writeRatio =      4.757110
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =      948642.9
+r1TotalPerSecond                  =    15472205.7
+r1ReadRatio                       =      0.183938
+r1WriteRatio                      =      2.816062
+{004R, 002W} :    18318134.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3455407.1
+writesPerSecond                   =    12160694.3
+totalPerSecond                    =    15616101.4
+numThreads                        = 7
+readerThreadCount=  5, readRatio  =      1.548905
+writerThreadCount=  2, writeRatio =      5.451095
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =      691081.4
+r1TotalPerSecond                  =    12851775.7
+r1ReadRatio                       =      0.161320
+r1WriteRatio                      =      2.838680
+{005R, 002W} :    15616101.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2568912.9
+writesPerSecond                   =    11026912.9
+totalPerSecond                    =    13595825.7
+numThreads                        = 8
+readerThreadCount=  6, readRatio  =      1.511589
+writerThreadCount=  2, writeRatio =      6.488411
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =      428152.1
+r1TotalPerSecond                  =    11455065.0
+r1ReadRatio                       =      0.112130
+r1WriteRatio                      =      2.887870
+{006R, 002W} :    13595825.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2369534.3
+writesPerSecond                   =    10097638.6
+totalPerSecond                    =    12467172.9
+numThreads                        = 9
+readerThreadCount=  7, readRatio  =      1.710557
+writerThreadCount=  2, writeRatio =      7.289443
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =      338504.9
+r1TotalPerSecond                  =    10436143.5
+r1ReadRatio                       =      0.097307
+r1WriteRatio                      =      2.902693
+{007R, 002W} :    12467172.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    37309800.0
+writesPerSecond                   =     8099517.1
+totalPerSecond                    =    45409317.1
+numThreads                        = 10
+readerThreadCount=  8, readRatio  =      8.216331
+writerThreadCount=  2, writeRatio =      1.783669
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     4663725.0
+r1TotalPerSecond                  =    12763242.1
+r1ReadRatio                       =      1.096209
+r1WriteRatio                      =      1.903791
+{008R, 002W} :    45409317.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    50674471.4
+writesPerSecond                   =     7822492.9
+totalPerSecond                    =    58496964.3
+numThreads                        = 11
+readerThreadCount=  9, readRatio  =      9.529028
+writerThreadCount=  2, writeRatio =      1.470972
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     5630496.8
+r1TotalPerSecond                  =    13452989.7
+r1ReadRatio                       =      1.255594
+r1WriteRatio                      =      1.744406
+{009R, 002W} :    58496964.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    98516968.6
+writesPerSecond                   =     5224217.1
+totalPerSecond                    =   103741185.7
+numThreads                        = 12
+readerThreadCount= 10, readRatio  =     11.395702
+writerThreadCount=  2, writeRatio =      0.604298
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     9851696.9
+r1TotalPerSecond                  =    15075914.0
+r1ReadRatio                       =      1.960418
+r1WriteRatio                      =      1.039582
+{010R, 002W} :   103741185.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    74547207.1
+writesPerSecond                   =     4349361.4
+totalPerSecond                    =    78896568.6
+numThreads                        = 13
+readerThreadCount= 11, readRatio  =     12.283344
+writerThreadCount=  2, writeRatio =      0.716656
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =     6777018.8
+r1TotalPerSecond                  =    11126380.3
+r1ReadRatio                       =      1.827284
+r1WriteRatio                      =      1.172716
+{011R, 002W} :    78896568.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22990057.1
+totalPerSecond                    =    22990057.1
+numThreads                        = 3
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  3, writeRatio =      3.000000
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 003W} :    22990057.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3466954.3
+writesPerSecond                   =    17577557.1
+totalPerSecond                    =    21044511.4
+numThreads                        = 4
+readerThreadCount=  1, readRatio  =      0.658975
+writerThreadCount=  3, writeRatio =      3.341025
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     3466954.3
+r1TotalPerSecond                  =    21044511.4
+r1ReadRatio                       =      0.658975
+r1WriteRatio                      =      3.341025
+{001R, 003W} :    21044511.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     4957651.4
+writesPerSecond                   =    15024805.7
+totalPerSecond                    =    19982457.1
+numThreads                        = 5
+readerThreadCount=  2, readRatio  =      1.240501
+writerThreadCount=  3, writeRatio =      3.759499
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     2478825.7
+r1TotalPerSecond                  =    17503631.4
+r1ReadRatio                       =      0.566471
+r1WriteRatio                      =      3.433529
+{002R, 003W} :    19982457.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     6021208.6
+writesPerSecond                   =    14035924.3
+totalPerSecond                    =    20057132.9
+numThreads                        = 6
+readerThreadCount=  3, readRatio  =      1.801217
+writerThreadCount=  3, writeRatio =      4.198783
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     2007069.5
+r1TotalPerSecond                  =    16042993.8
+r1ReadRatio                       =      0.500423
+r1WriteRatio                      =      3.499577
+{003R, 003W} :    20057132.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3509192.9
+writesPerSecond                   =    13099331.4
+totalPerSecond                    =    16608524.3
+numThreads                        = 7
+readerThreadCount=  4, readRatio  =      1.479021
+writerThreadCount=  3, writeRatio =      5.520979
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =      877298.2
+r1TotalPerSecond                  =    13976629.6
+r1ReadRatio                       =      0.251076
+r1WriteRatio                      =      3.748924
+{004R, 003W} :    16608524.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2620232.9
+writesPerSecond                   =    11793717.1
+totalPerSecond                    =    14413950.0
+numThreads                        = 8
+readerThreadCount=  5, readRatio  =      1.454276
+writerThreadCount=  3, writeRatio =      6.545724
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =      524046.6
+r1TotalPerSecond                  =    12317763.7
+r1ReadRatio                       =      0.170176
+r1WriteRatio                      =      3.829824
+{005R, 003W} :    14413950.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2569837.1
+writesPerSecond                   =    10825802.9
+totalPerSecond                    =    13395640.0
+numThreads                        = 9
+readerThreadCount=  6, readRatio  =      1.726572
+writerThreadCount=  3, writeRatio =      7.273428
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =      428306.2
+r1TotalPerSecond                  =    11254109.0
+r1ReadRatio                       =      0.152231
+r1WriteRatio                      =      3.847769
+{006R, 003W} :    13395640.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1992794.3
+writesPerSecond                   =     9720681.4
+totalPerSecond                    =    11713475.7
+numThreads                        = 10
+readerThreadCount=  7, readRatio  =      1.701283
+writerThreadCount=  3, writeRatio =      8.298717
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =      284684.9
+r1TotalPerSecond                  =    10005366.3
+r1ReadRatio                       =      0.113813
+r1WriteRatio                      =      3.886187
+{007R, 003W} :    11713475.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     7868811.4
+writesPerSecond                   =     9325572.9
+totalPerSecond                    =    17194384.3
+numThreads                        = 11
+readerThreadCount=  8, readRatio  =      5.034023
+writerThreadCount=  3, writeRatio =      5.965977
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =      983601.4
+r1TotalPerSecond                  =    10309174.3
+r1ReadRatio                       =      0.381641
+r1WriteRatio                      =      3.618359
+{008R, 003W} :    17194384.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    12056457.1
+writesPerSecond                   =     8279150.0
+totalPerSecond                    =    20335607.1
+numThreads                        = 12
+readerThreadCount=  9, readRatio  =      7.114491
+writerThreadCount=  3, writeRatio =      4.885509
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     1339606.3
+r1TotalPerSecond                  =     9618756.3
+r1ReadRatio                       =      0.557081
+r1WriteRatio                      =      3.442919
+{009R, 003W} :    20335607.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    12381584.3
+writesPerSecond                   =     7432870.0
+totalPerSecond                    =    19814454.3
+numThreads                        = 13
+readerThreadCount= 10, readRatio  =      8.123393
+writerThreadCount=  3, writeRatio =      4.876607
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     1238158.4
+r1TotalPerSecond                  =     8671028.4
+r1ReadRatio                       =      0.571170
+r1WriteRatio                      =      3.428830
+{010R, 003W} :    19814454.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    41103025.7
+writesPerSecond                   =     5224872.9
+totalPerSecond                    =    46327898.6
+numThreads                        = 14
+readerThreadCount= 11, readRatio  =     12.421076
+writerThreadCount=  3, writeRatio =      1.578924
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =     3736638.7
+r1TotalPerSecond                  =     8961511.6
+r1ReadRatio                       =      1.667861
+r1WriteRatio                      =      2.332139
+{011R, 003W} :    46327898.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22065001.4
+totalPerSecond                    =    22065001.4
+numThreads                        = 4
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  4, writeRatio =      4.000000
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 004W} :    22065001.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1627974.3
+writesPerSecond                   =    17595285.7
+totalPerSecond                    =    19223260.0
+numThreads                        = 5
+readerThreadCount=  1, readRatio  =      0.423439
+writerThreadCount=  4, writeRatio =      4.576561
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =     1627974.3
+r1TotalPerSecond                  =    19223260.0
+r1ReadRatio                       =      0.423439
+r1WriteRatio                      =      4.576561
+{001R, 004W} :    19223260.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3674442.9
+writesPerSecond                   =    16168594.3
+totalPerSecond                    =    19843037.1
+numThreads                        = 6
+readerThreadCount=  2, readRatio  =      1.111053
+writerThreadCount=  4, writeRatio =      4.888947
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =     1837221.4
+r1TotalPerSecond                  =    18005815.7
+r1ReadRatio                       =      0.510174
+r1WriteRatio                      =      4.489826
+{002R, 004W} :    19843037.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1720134.3
+writesPerSecond                   =    16796134.3
+totalPerSecond                    =    18516268.6
+numThreads                        = 7
+readerThreadCount=  3, readRatio  =      0.650290
+writerThreadCount=  4, writeRatio =      6.349710
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      573378.1
+r1TotalPerSecond                  =    17369512.4
+r1ReadRatio                       =      0.165053
+r1WriteRatio                      =      4.834947
+{003R, 004W} :    18516268.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2317231.4
+writesPerSecond                   =    12900755.7
+totalPerSecond                    =    15217987.1
+numThreads                        = 8
+readerThreadCount=  4, readRatio  =      1.218154
+writerThreadCount=  4, writeRatio =      6.781846
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      579307.9
+r1TotalPerSecond                  =    13480063.6
+r1ReadRatio                       =      0.214876
+r1WriteRatio                      =      4.785124
+{004R, 004W} :    15217987.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2203927.1
+writesPerSecond                   =    11854448.6
+totalPerSecond                    =    14058375.7
+numThreads                        = 9
+readerThreadCount=  5, readRatio  =      1.410927
+writerThreadCount=  4, writeRatio =      7.589073
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      440785.4
+r1TotalPerSecond                  =    12295234.0
+r1ReadRatio                       =      0.179251
+r1WriteRatio                      =      4.820749
+{005R, 004W} :    14058375.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2030861.4
+writesPerSecond                   =    11161912.9
+totalPerSecond                    =    13192774.3
+numThreads                        = 10
+readerThreadCount=  6, readRatio  =      1.539374
+writerThreadCount=  4, writeRatio =      8.460626
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      338476.9
+r1TotalPerSecond                  =    11500389.8
+r1ReadRatio                       =      0.147159
+r1WriteRatio                      =      4.852841
+{006R, 004W} :    13192774.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1529857.1
+writesPerSecond                   =    10184702.9
+totalPerSecond                    =    11714560.0
+numThreads                        = 11
+readerThreadCount=  7, readRatio  =      1.436540
+writerThreadCount=  4, writeRatio =      9.563460
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      218551.0
+r1TotalPerSecond                  =    10403253.9
+r1ReadRatio                       =      0.105040
+r1WriteRatio                      =      4.894960
+{007R, 004W} :    11714560.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2386285.7
+writesPerSecond                   =     9217901.4
+totalPerSecond                    =    11604187.1
+numThreads                        = 12
+readerThreadCount=  8, readRatio  =      2.467681
+writerThreadCount=  4, writeRatio =      9.532319
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      298285.7
+r1TotalPerSecond                  =     9516187.1
+r1ReadRatio                       =      0.156725
+r1WriteRatio                      =      4.843275
+{008R, 004W} :    11604187.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1679064.3
+writesPerSecond                   =     8462105.7
+totalPerSecond                    =    10141170.0
+numThreads                        = 13
+readerThreadCount=  9, readRatio  =      2.152398
+writerThreadCount=  4, writeRatio =     10.847602
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      186562.7
+r1TotalPerSecond                  =     8648668.4
+r1ReadRatio                       =      0.107856
+r1WriteRatio                      =      4.892144
+{009R, 004W} :    10141170.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     6390538.6
+writesPerSecond                   =     6171344.3
+totalPerSecond                    =    12561882.9
+numThreads                        = 14
+readerThreadCount= 10, readRatio  =      7.122144
+writerThreadCount=  4, writeRatio =      6.877856
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =      639053.9
+r1TotalPerSecond                  =     6810398.1
+r1ReadRatio                       =      0.469175
+r1WriteRatio                      =      4.530825
+{010R, 004W} :    12561882.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    21785494.3
+writesPerSecond                   =     4894704.3
+totalPerSecond                    =    26680198.6
+numThreads                        = 15
+readerThreadCount= 11, readRatio  =     12.248125
+writerThreadCount=  4, writeRatio =      2.751875
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =     1980499.5
+r1TotalPerSecond                  =     6875203.8
+r1ReadRatio                       =      1.440321
+r1WriteRatio                      =      3.559679
+{011R, 004W} :    26680198.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22775828.6
+totalPerSecond                    =    22775828.6
+numThreads                        = 5
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  5, writeRatio =      5.000000
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 005W} :    22775828.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1579577.1
+writesPerSecond                   =    17475232.9
+totalPerSecond                    =    19054810.0
+numThreads                        = 6
+readerThreadCount=  1, readRatio  =      0.497379
+writerThreadCount=  5, writeRatio =      5.502621
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =     1579577.1
+r1TotalPerSecond                  =    19054810.0
+r1ReadRatio                       =      0.497379
+r1WriteRatio                      =      5.502621
+{001R, 005W} :    19054810.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2044340.0
+writesPerSecond                   =    15997922.9
+totalPerSecond                    =    18042262.9
+numThreads                        = 7
+readerThreadCount=  2, readRatio  =      0.793159
+writerThreadCount=  5, writeRatio =      6.206841
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =     1022170.0
+r1TotalPerSecond                  =    17020092.9
+r1ReadRatio                       =      0.360340
+r1WriteRatio                      =      5.639660
+{002R, 005W} :    18042262.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1780300.0
+writesPerSecond                   =    14938147.1
+totalPerSecond                    =    16718447.1
+numThreads                        = 8
+readerThreadCount=  3, readRatio  =      0.851897
+writerThreadCount=  5, writeRatio =      7.148103
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      593433.3
+r1TotalPerSecond                  =    15531580.5
+r1ReadRatio                       =      0.229249
+r1WriteRatio                      =      5.770751
+{003R, 005W} :    16718447.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2089390.0
+writesPerSecond                   =    12873325.7
+totalPerSecond                    =    14962715.7
+numThreads                        = 9
+readerThreadCount=  4, readRatio  =      1.256758
+writerThreadCount=  5, writeRatio =      7.743242
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      522347.5
+r1TotalPerSecond                  =    13395673.2
+r1ReadRatio                       =      0.233962
+r1WriteRatio                      =      5.766038
+{004R, 005W} :    14962715.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1810368.6
+writesPerSecond                   =    12119195.7
+totalPerSecond                    =    13929564.3
+numThreads                        = 10
+readerThreadCount=  5, readRatio  =      1.299659
+writerThreadCount=  5, writeRatio =      8.700341
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      362073.7
+r1TotalPerSecond                  =    12481269.4
+r1ReadRatio                       =      0.174056
+r1WriteRatio                      =      5.825944
+{005R, 005W} :    13929564.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2046942.9
+writesPerSecond                   =    11001734.3
+totalPerSecond                    =    13048677.1
+numThreads                        = 11
+readerThreadCount=  6, readRatio  =      1.725567
+writerThreadCount=  5, writeRatio =      9.274433
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      341157.1
+r1TotalPerSecond                  =    11342891.4
+r1ReadRatio                       =      0.180460
+r1WriteRatio                      =      5.819540
+{006R, 005W} :    13048677.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1748175.7
+writesPerSecond                   =    10289578.6
+totalPerSecond                    =    12037754.3
+numThreads                        = 12
+readerThreadCount=  7, readRatio  =      1.742693
+writerThreadCount=  5, writeRatio =     10.257307
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      249739.4
+r1TotalPerSecond                  =    10539318.0
+r1ReadRatio                       =      0.142176
+r1WriteRatio                      =      5.857824
+{007R, 005W} :    12037754.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1724598.6
+writesPerSecond                   =    10027082.9
+totalPerSecond                    =    11751681.4
+numThreads                        = 13
+readerThreadCount=  8, readRatio  =      1.907793
+writerThreadCount=  5, writeRatio =     11.092207
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      215574.8
+r1TotalPerSecond                  =    10242657.7
+r1ReadRatio                       =      0.126281
+r1WriteRatio                      =      5.873719
+{008R, 005W} :    11751681.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     4623264.3
+writesPerSecond                   =     8955222.9
+totalPerSecond                    =    13578487.1
+numThreads                        = 14
+readerThreadCount=  9, readRatio  =      4.766783
+writerThreadCount=  5, writeRatio =      9.233217
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      513696.0
+r1TotalPerSecond                  =     9468918.9
+r1ReadRatio                       =      0.325505
+r1WriteRatio                      =      5.674495
+{009R, 005W} :    13578487.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2424451.4
+writesPerSecond                   =     6750318.6
+totalPerSecond                    =     9174770.0
+numThreads                        = 15
+readerThreadCount= 10, readRatio  =      3.963780
+writerThreadCount=  5, writeRatio =     11.036220
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =      242445.1
+r1TotalPerSecond                  =     6992763.7
+r1ReadRatio                       =      0.208025
+r1WriteRatio                      =      5.791975
+{010R, 005W} :     9174770.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    11646444.3
+writesPerSecond                   =     5664025.7
+totalPerSecond                    =    17310470.0
+numThreads                        = 16
+readerThreadCount= 11, readRatio  =     10.764763
+writerThreadCount=  5, writeRatio =      5.235237
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =     1058767.7
+r1TotalPerSecond                  =     6722793.4
+r1ReadRatio                       =      0.944935
+r1WriteRatio                      =      5.055065
+{011R, 005W} :    17310470.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22825768.6
+totalPerSecond                    =    22825768.6
+numThreads                        = 6
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  6, writeRatio =      6.000000
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 006W} :    22825768.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1147437.1
+writesPerSecond                   =    19138714.3
+totalPerSecond                    =    20286151.4
+numThreads                        = 7
+readerThreadCount=  1, readRatio  =      0.395938
+writerThreadCount=  6, writeRatio =      6.604062
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =     1147437.1
+r1TotalPerSecond                  =    20286151.4
+r1ReadRatio                       =      0.395938
+r1WriteRatio                      =      6.604062
+{001R, 006W} :    20286151.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      998924.3
+writesPerSecond                   =    17001720.0
+totalPerSecond                    =    18000644.3
+numThreads                        = 8
+readerThreadCount=  2, readRatio  =      0.443950
+writerThreadCount=  6, writeRatio =      7.556050
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      499462.1
+r1TotalPerSecond                  =    17501182.1
+r1ReadRatio                       =      0.199771
+r1WriteRatio                      =      6.800229
+{002R, 006W} :    18000644.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1016358.6
+writesPerSecond                   =    16494120.0
+totalPerSecond                    =    17510478.6
+numThreads                        = 9
+readerThreadCount=  3, readRatio  =      0.522386
+writerThreadCount=  6, writeRatio =      8.477614
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      338786.2
+r1TotalPerSecond                  =    16832906.2
+r1ReadRatio                       =      0.140885
+r1WriteRatio                      =      6.859115
+{003R, 006W} :    17510478.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1575537.1
+writesPerSecond                   =    13096615.7
+totalPerSecond                    =    14672152.9
+numThreads                        = 10
+readerThreadCount=  4, readRatio  =      1.073828
+writerThreadCount=  6, writeRatio =      8.926172
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      393884.3
+r1TotalPerSecond                  =    13490500.0
+r1ReadRatio                       =      0.204380
+r1WriteRatio                      =      6.795620
+{004R, 006W} :    14672152.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1655008.6
+writesPerSecond                   =    12019220.0
+totalPerSecond                    =    13674228.6
+numThreads                        = 11
+readerThreadCount=  5, readRatio  =      1.331343
+writerThreadCount=  6, writeRatio =      9.668657
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      331001.7
+r1TotalPerSecond                  =    12350221.7
+r1ReadRatio                       =      0.187609
+r1WriteRatio                      =      6.812391
+{005R, 006W} :    13674228.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1598402.9
+writesPerSecond                   =    11276820.0
+totalPerSecond                    =    12875222.9
+numThreads                        = 12
+readerThreadCount=  6, readRatio  =      1.489748
+writerThreadCount=  6, writeRatio =     10.510252
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      266400.5
+r1TotalPerSecond                  =    11543220.5
+r1ReadRatio                       =      0.161550
+r1WriteRatio                      =      6.838450
+{006R, 006W} :    12875222.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1497601.4
+writesPerSecond                   =     9814152.9
+totalPerSecond                    =    11311754.3
+numThreads                        = 13
+readerThreadCount=  7, readRatio  =      1.721114
+writerThreadCount=  6, writeRatio =     11.278886
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      213943.1
+r1TotalPerSecond                  =    10028095.9
+r1ReadRatio                       =      0.149341
+r1WriteRatio                      =      6.850659
+{007R, 006W} :    11311754.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1300861.4
+writesPerSecond                   =     9330255.7
+totalPerSecond                    =    10631117.1
+numThreads                        = 14
+readerThreadCount=  8, readRatio  =      1.713090
+writerThreadCount=  6, writeRatio =     12.286910
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      162607.7
+r1TotalPerSecond                  =     9492863.4
+r1ReadRatio                       =      0.119906
+r1WriteRatio                      =      6.880094
+{008R, 006W} :    10631117.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     5520640.0
+writesPerSecond                   =     8541192.9
+totalPerSecond                    =    14061832.9
+numThreads                        = 15
+readerThreadCount=  9, readRatio  =      5.888962
+writerThreadCount=  6, writeRatio =      9.111038
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      613404.4
+r1TotalPerSecond                  =     9154597.3
+r1ReadRatio                       =      0.469035
+r1WriteRatio                      =      6.530965
+{009R, 006W} :    14061832.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    23725261.4
+writesPerSecond                   =     6105620.0
+totalPerSecond                    =    29830881.4
+numThreads                        = 16
+readerThreadCount= 10, readRatio  =     12.725208
+writerThreadCount=  6, writeRatio =      3.274792
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =     2372526.1
+r1TotalPerSecond                  =     8478146.1
+r1ReadRatio                       =      1.958881
+r1WriteRatio                      =      5.041119
+{010R, 006W} :    29830881.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     9195555.7
+writesPerSecond                   =     6353231.4
+totalPerSecond                    =    15548787.1
+numThreads                        = 17
+readerThreadCount= 11, readRatio  =     10.053803
+writerThreadCount=  6, writeRatio =      6.946197
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =      835959.6
+r1TotalPerSecond                  =     7189191.0
+r1ReadRatio                       =      0.813960
+r1WriteRatio                      =      6.186040
+{011R, 006W} :    15548787.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    23219555.7
+totalPerSecond                    =    23219555.7
+numThreads                        = 7
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  7, writeRatio =      7.000000
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 007W} :    23219555.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      489950.0
+writesPerSecond                   =    19908805.7
+totalPerSecond                    =    20398755.7
+numThreads                        = 8
+readerThreadCount=  1, readRatio  =      0.192149
+writerThreadCount=  7, writeRatio =      7.807851
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      489950.0
+r1TotalPerSecond                  =    20398755.7
+r1ReadRatio                       =      0.192149
+r1WriteRatio                      =      7.807851
+{001R, 007W} :    20398755.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      719541.4
+writesPerSecond                   =    17402842.9
+totalPerSecond                    =    18122384.3
+numThreads                        = 9
+readerThreadCount=  2, readRatio  =      0.357341
+writerThreadCount=  7, writeRatio =      8.642659
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      359770.7
+r1TotalPerSecond                  =    17762613.6
+r1ReadRatio                       =      0.162035
+r1WriteRatio                      =      7.837965
+{002R, 007W} :    18122384.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      942395.7
+writesPerSecond                   =    16257162.9
+totalPerSecond                    =    17199558.6
+numThreads                        = 10
+readerThreadCount=  3, readRatio  =      0.547919
+writerThreadCount=  7, writeRatio =      9.452081
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      314131.9
+r1TotalPerSecond                  =    16571294.8
+r1ReadRatio                       =      0.151651
+r1WriteRatio                      =      7.848349
+{003R, 007W} :    17199558.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1518941.4
+writesPerSecond                   =    12658157.1
+totalPerSecond                    =    14177098.6
+numThreads                        = 11
+readerThreadCount=  4, readRatio  =      1.178545
+writerThreadCount=  7, writeRatio =      9.821455
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      379735.4
+r1TotalPerSecond                  =    13037892.5
+r1ReadRatio                       =      0.233004
+r1WriteRatio                      =      7.766996
+{004R, 007W} :    14177098.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1381318.6
+writesPerSecond                   =    12093367.1
+totalPerSecond                    =    13474685.7
+numThreads                        = 12
+readerThreadCount=  5, readRatio  =      1.230145
+writerThreadCount=  7, writeRatio =     10.769855
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      276263.7
+r1TotalPerSecond                  =    12369630.9
+r1ReadRatio                       =      0.178672
+r1WriteRatio                      =      7.821328
+{005R, 007W} :    13474685.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1390427.1
+writesPerSecond                   =    11322275.7
+totalPerSecond                    =    12712702.9
+numThreads                        = 13
+readerThreadCount=  6, readRatio  =      1.421850
+writerThreadCount=  7, writeRatio =     11.578150
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      231737.9
+r1TotalPerSecond                  =    11554013.6
+r1ReadRatio                       =      0.160455
+r1WriteRatio                      =      7.839545
+{006R, 007W} :    12712702.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1413402.9
+writesPerSecond                   =    10159325.7
+totalPerSecond                    =    11572728.6
+numThreads                        = 14
+readerThreadCount=  7, readRatio  =      1.709851
+writerThreadCount=  7, writeRatio =     12.290149
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      201914.7
+r1TotalPerSecond                  =    10361240.4
+r1ReadRatio                       =      0.155900
+r1WriteRatio                      =      7.844100
+{007R, 007W} :    11572728.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1498535.7
+writesPerSecond                   =     9976775.7
+totalPerSecond                    =    11475311.4
+numThreads                        = 15
+readerThreadCount=  8, readRatio  =      1.958817
+writerThreadCount=  7, writeRatio =     13.041183
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      187317.0
+r1TotalPerSecond                  =    10164092.7
+r1ReadRatio                       =      0.147434
+r1WriteRatio                      =      7.852566
+{008R, 007W} :    11475311.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1476240.0
+writesPerSecond                   =     8461931.4
+totalPerSecond                    =     9938171.4
+numThreads                        = 16
+readerThreadCount=  9, readRatio  =      2.376679
+writerThreadCount=  7, writeRatio =     13.623321
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      164026.7
+r1TotalPerSecond                  =     8625958.1
+r1ReadRatio                       =      0.152124
+r1WriteRatio                      =      7.847876
+{009R, 007W} :     9938171.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1842351.4
+writesPerSecond                   =     7104732.9
+totalPerSecond                    =     8947084.3
+numThreads                        = 17
+readerThreadCount= 10, readRatio  =      3.500579
+writerThreadCount=  7, writeRatio =     13.499421
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      184235.1
+r1TotalPerSecond                  =     7288968.0
+r1ReadRatio                       =      0.202207
+r1WriteRatio                      =      7.797793
+{010R, 007W} :     8947084.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     7203305.7
+writesPerSecond                   =     5463071.4
+totalPerSecond                    =    12666377.1
+numThreads                        = 18
+readerThreadCount= 11, readRatio  =     10.236511
+writerThreadCount=  7, writeRatio =      7.763489
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =      654846.0
+r1TotalPerSecond                  =     6117917.4
+r1ReadRatio                       =      0.856299
+r1WriteRatio                      =      7.143701
+{011R, 007W} :    12666377.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22377951.4
+totalPerSecond                    =    22377951.4
+numThreads                        = 8
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  8, writeRatio =      8.000000
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 008W} :    22377951.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      349312.9
+writesPerSecond                   =    20171424.3
+totalPerSecond                    =    20520737.1
+numThreads                        = 9
+readerThreadCount=  1, readRatio  =      0.153202
+writerThreadCount=  8, writeRatio =      8.846798
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      349312.9
+r1TotalPerSecond                  =    20520737.1
+r1ReadRatio                       =      0.153202
+r1WriteRatio                      =      8.846798
+{001R, 008W} :    20520737.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      598787.1
+writesPerSecond                   =    17455584.3
+totalPerSecond                    =    18054371.4
+numThreads                        = 10
+readerThreadCount=  2, readRatio  =      0.331658
+writerThreadCount=  8, writeRatio =      9.668342
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      299393.6
+r1TotalPerSecond                  =    17754977.9
+r1ReadRatio                       =      0.151763
+r1WriteRatio                      =      8.848237
+{002R, 008W} :    18054371.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      846035.7
+writesPerSecond                   =    15198385.7
+totalPerSecond                    =    16044421.4
+numThreads                        = 11
+readerThreadCount=  3, readRatio  =      0.580039
+writerThreadCount=  8, writeRatio =     10.419961
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      282011.9
+r1TotalPerSecond                  =    15480397.6
+r1ReadRatio                       =      0.163956
+r1WriteRatio                      =      8.836044
+{003R, 008W} :    16044421.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1193027.1
+writesPerSecond                   =    12942588.6
+totalPerSecond                    =    14135615.7
+numThreads                        = 12
+readerThreadCount=  4, readRatio  =      1.012784
+writerThreadCount=  8, writeRatio =     10.987216
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      298256.8
+r1TotalPerSecond                  =    13240845.4
+r1ReadRatio                       =      0.202730
+r1WriteRatio                      =      8.797270
+{004R, 008W} :    14135615.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1203824.3
+writesPerSecond                   =    12319837.1
+totalPerSecond                    =    13523661.4
+numThreads                        = 13
+readerThreadCount=  5, readRatio  =      1.157210
+writerThreadCount=  8, writeRatio =     11.842790
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      240764.9
+r1TotalPerSecond                  =    12560602.0
+r1ReadRatio                       =      0.172514
+r1WriteRatio                      =      8.827486
+{005R, 008W} :    13523661.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1107828.6
+writesPerSecond                   =    11040240.0
+totalPerSecond                    =    12148068.6
+numThreads                        = 14
+readerThreadCount=  6, readRatio  =      1.276713
+writerThreadCount=  8, writeRatio =     12.723287
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      184638.1
+r1TotalPerSecond                  =    11224878.1
+r1ReadRatio                       =      0.148041
+r1WriteRatio                      =      8.851959
+{006R, 008W} :    12148068.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1097937.1
+writesPerSecond                   =     9915477.1
+totalPerSecond                    =    11013414.3
+numThreads                        = 15
+readerThreadCount=  7, readRatio  =      1.495363
+writerThreadCount=  8, writeRatio =     13.504637
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      156848.2
+r1TotalPerSecond                  =    10072325.3
+r1ReadRatio                       =      0.140150
+r1WriteRatio                      =      8.859850
+{007R, 008W} :    11013414.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1296947.1
+writesPerSecond                   =     9112208.6
+totalPerSecond                    =    10409155.7
+numThreads                        = 16
+readerThreadCount=  8, readRatio  =      1.993548
+writerThreadCount=  8, writeRatio =     14.006452
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      162118.4
+r1TotalPerSecond                  =     9274327.0
+r1ReadRatio                       =      0.157323
+r1WriteRatio                      =      8.842677
+{008R, 008W} :    10409155.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1511095.7
+writesPerSecond                   =     8594178.6
+totalPerSecond                    =    10105274.3
+numThreads                        = 17
+readerThreadCount=  9, readRatio  =      2.542101
+writerThreadCount=  8, writeRatio =     14.457899
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      167899.5
+r1TotalPerSecond                  =     8762078.1
+r1ReadRatio                       =      0.172459
+r1WriteRatio                      =      8.827541
+{009R, 008W} :    10105274.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2333807.1
+writesPerSecond                   =     5918238.6
+totalPerSecond                    =     8252045.7
+numThreads                        = 18
+readerThreadCount= 10, readRatio  =      5.090681
+writerThreadCount=  8, writeRatio =     12.909319
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      233380.7
+r1TotalPerSecond                  =     6151619.3
+r1ReadRatio                       =      0.341443
+r1WriteRatio                      =      8.658557
+{010R, 008W} :     8252045.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     3372261.4
+writesPerSecond                   =     5320537.1
+totalPerSecond                    =     8692798.6
+numThreads                        = 19
+readerThreadCount= 11, readRatio  =      7.370810
+writerThreadCount=  8, writeRatio =     11.629190
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =      306569.2
+r1TotalPerSecond                  =     5627106.4
+r1ReadRatio                       =      0.490327
+r1WriteRatio                      =      8.509673
+{011R, 008W} :     8692798.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22065112.9
+totalPerSecond                    =    22065112.9
+numThreads                        = 9
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  9, writeRatio =      9.000000
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 009W} :    22065112.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      405844.3
+writesPerSecond                   =    19699151.4
+totalPerSecond                    =    20104995.7
+numThreads                        = 10
+readerThreadCount=  1, readRatio  =      0.201862
+writerThreadCount=  9, writeRatio =      9.798138
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      405844.3
+r1TotalPerSecond                  =    20104995.7
+r1ReadRatio                       =      0.201862
+r1WriteRatio                      =      9.798138
+{001R, 009W} :    20104995.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      550571.4
+writesPerSecond                   =    16997154.3
+totalPerSecond                    =    17547725.7
+numThreads                        = 11
+readerThreadCount=  2, readRatio  =      0.345132
+writerThreadCount=  9, writeRatio =     10.654868
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      275285.7
+r1TotalPerSecond                  =    17272440.0
+r1ReadRatio                       =      0.159379
+r1WriteRatio                      =      9.840621
+{002R, 009W} :    17547725.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      734288.6
+writesPerSecond                   =    16177828.6
+totalPerSecond                    =    16912117.1
+numThreads                        = 12
+readerThreadCount=  3, readRatio  =      0.521015
+writerThreadCount=  9, writeRatio =     11.478985
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      244762.9
+r1TotalPerSecond                  =    16422591.4
+r1ReadRatio                       =      0.149040
+r1WriteRatio                      =      9.850960
+{003R, 009W} :    16912117.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1005031.4
+writesPerSecond                   =    13098282.9
+totalPerSecond                    =    14103314.3
+numThreads                        = 13
+readerThreadCount=  4, readRatio  =      0.926407
+writerThreadCount=  9, writeRatio =     12.073593
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      251257.9
+r1TotalPerSecond                  =    13349540.7
+r1ReadRatio                       =      0.188215
+r1WriteRatio                      =      9.811785
+{004R, 009W} :    14103314.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1225861.4
+writesPerSecond                   =    12986604.3
+totalPerSecond                    =    14212465.7
+numThreads                        = 14
+readerThreadCount=  5, readRatio  =      1.207536
+writerThreadCount=  9, writeRatio =     12.792464
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      245172.3
+r1TotalPerSecond                  =    13231776.6
+r1ReadRatio                       =      0.185291
+r1WriteRatio                      =      9.814709
+{005R, 009W} :    14212465.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1079464.3
+writesPerSecond                   =    11438184.3
+totalPerSecond                    =    12517648.6
+numThreads                        = 15
+readerThreadCount=  6, readRatio  =      1.293531
+writerThreadCount=  9, writeRatio =     13.706469
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      179910.7
+r1TotalPerSecond                  =    11618095.0
+r1ReadRatio                       =      0.154854
+r1WriteRatio                      =      9.845146
+{006R, 009W} :    12517648.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1364157.1
+writesPerSecond                   =    10860844.3
+totalPerSecond                    =    12225001.4
+numThreads                        = 16
+readerThreadCount=  7, readRatio  =      1.785400
+writerThreadCount=  9, writeRatio =     14.214600
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      194879.6
+r1TotalPerSecond                  =    11055723.9
+r1ReadRatio                       =      0.176270
+r1WriteRatio                      =      9.823730
+{007R, 009W} :    12225001.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1292800.0
+writesPerSecond                   =    10380625.7
+totalPerSecond                    =    11673425.7
+numThreads                        = 17
+readerThreadCount=  8, readRatio  =      1.882704
+writerThreadCount=  9, writeRatio =     15.117296
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      161600.0
+r1TotalPerSecond                  =    10542225.7
+r1ReadRatio                       =      0.153288
+r1WriteRatio                      =      9.846712
+{008R, 009W} :    11673425.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =    13159802.9
+writesPerSecond                   =     7868152.9
+totalPerSecond                    =    21027955.7
+numThreads                        = 18
+readerThreadCount=  9, readRatio  =     11.264835
+writerThreadCount=  9, writeRatio =      6.735165
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =     1462200.3
+r1TotalPerSecond                  =     9330353.2
+r1ReadRatio                       =      1.567144
+r1WriteRatio                      =      8.432856
+{009R, 009W} :    21027955.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1907545.7
+writesPerSecond                   =     6960574.3
+totalPerSecond                    =     8868120.0
+numThreads                        = 19
+readerThreadCount= 10, readRatio  =      4.086928
+writerThreadCount=  9, writeRatio =     14.913072
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      190754.6
+r1TotalPerSecond                  =     7151328.9
+r1ReadRatio                       =      0.266740
+r1WriteRatio                      =      9.733260
+{010R, 009W} :     8868120.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     9504720.0
+writesPerSecond                   =     5029278.6
+totalPerSecond                    =    14533998.6
+numThreads                        = 20
+readerThreadCount= 11, readRatio  =     13.079291
+writerThreadCount=  9, writeRatio =      6.920709
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =      864065.5
+r1TotalPerSecond                  =     5893344.0
+r1ReadRatio                       =      1.466172
+r1WriteRatio                      =      8.533828
+{011R, 009W} :    14533998.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    22368074.3
+totalPerSecond                    =    22368074.3
+numThreads                        = 10
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 10, writeRatio =     10.000000
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 010W} :    22368074.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      345062.9
+writesPerSecond                   =    20335128.6
+totalPerSecond                    =    20680191.4
+numThreads                        = 11
+readerThreadCount=  1, readRatio  =      0.183542
+writerThreadCount= 10, writeRatio =     10.816458
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      345062.9
+r1TotalPerSecond                  =    20680191.4
+r1ReadRatio                       =      0.183542
+r1WriteRatio                      =     10.816458
+{001R, 010W} :    20680191.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      514552.9
+writesPerSecond                   =    17079195.7
+totalPerSecond                    =    17593748.6
+numThreads                        = 12
+readerThreadCount=  2, readRatio  =      0.350956
+writerThreadCount= 10, writeRatio =     11.649044
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      257276.4
+r1TotalPerSecond                  =    17336472.1
+r1ReadRatio                       =      0.163242
+r1WriteRatio                      =     10.836758
+{002R, 010W} :    17593748.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      726222.9
+writesPerSecond                   =    15819658.6
+totalPerSecond                    =    16545881.4
+numThreads                        = 13
+readerThreadCount=  3, readRatio  =      0.570589
+writerThreadCount= 10, writeRatio =     12.429411
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      242074.3
+r1TotalPerSecond                  =    16061732.9
+r1ReadRatio                       =      0.165786
+r1WriteRatio                      =     10.834214
+{003R, 010W} :    16545881.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      940995.7
+writesPerSecond                   =    13060437.1
+totalPerSecond                    =    14001432.9
+numThreads                        = 14
+readerThreadCount=  4, readRatio  =      0.940899
+writerThreadCount= 10, writeRatio =     13.059101
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      235248.9
+r1TotalPerSecond                  =    13295686.1
+r1ReadRatio                       =      0.194630
+r1WriteRatio                      =     10.805370
+{004R, 010W} :    14001432.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1013218.6
+writesPerSecond                   =    12373558.6
+totalPerSecond                    =    13386777.1
+numThreads                        = 15
+readerThreadCount=  5, readRatio  =      1.135320
+writerThreadCount= 10, writeRatio =     13.864680
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      202643.7
+r1TotalPerSecond                  =    12576202.3
+r1ReadRatio                       =      0.177246
+r1WriteRatio                      =     10.822754
+{005R, 010W} :    13386777.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      910315.7
+writesPerSecond                   =    11410650.0
+totalPerSecond                    =    12320965.7
+numThreads                        = 16
+readerThreadCount=  6, readRatio  =      1.182136
+writerThreadCount= 10, writeRatio =     14.817864
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      151719.3
+r1TotalPerSecond                  =    11562369.3
+r1ReadRatio                       =      0.144340
+r1WriteRatio                      =     10.855660
+{006R, 010W} :    12320965.7
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1206604.3
+writesPerSecond                   =    10160322.9
+totalPerSecond                    =    11366927.1
+numThreads                        = 17
+readerThreadCount=  7, readRatio  =      1.804557
+writerThreadCount= 10, writeRatio =     15.195443
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      172372.0
+r1TotalPerSecond                  =    10332694.9
+r1ReadRatio                       =      0.183504
+r1WriteRatio                      =     10.816496
+{007R, 010W} :    11366927.1
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     5934040.0
+writesPerSecond                   =     9549202.9
+totalPerSecond                    =    15483242.9
+numThreads                        = 18
+readerThreadCount=  8, readRatio  =      6.898601
+writerThreadCount= 10, writeRatio =     11.101399
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      741755.0
+r1TotalPerSecond                  =    10290957.9
+r1ReadRatio                       =      0.792862
+r1WriteRatio                      =     10.207138
+{008R, 010W} :    15483242.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1066108.6
+writesPerSecond                   =     9124724.3
+totalPerSecond                    =    10190832.9
+numThreads                        = 19
+readerThreadCount=  9, readRatio  =      1.987675
+writerThreadCount= 10, writeRatio =     17.012325
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      118456.5
+r1TotalPerSecond                  =     9243180.8
+r1ReadRatio                       =      0.140971
+r1WriteRatio                      =     10.859029
+{009R, 010W} :    10190832.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1778955.7
+writesPerSecond                   =     6830172.9
+totalPerSecond                    =     8609128.6
+numThreads                        = 20
+readerThreadCount= 10, readRatio  =      4.132720
+writerThreadCount= 10, writeRatio =     15.867280
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      177895.6
+r1TotalPerSecond                  =     7008068.4
+r1ReadRatio                       =      0.279228
+r1WriteRatio                      =     10.720772
+{010R, 010W} :     8609128.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1706728.6
+writesPerSecond                   =     6729410.0
+totalPerSecond                    =     8436138.6
+numThreads                        = 21
+readerThreadCount= 11, readRatio  =      4.248543
+writerThreadCount= 10, writeRatio =     16.751457
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =      155157.1
+r1TotalPerSecond                  =     6884567.1
+r1ReadRatio                       =      0.247906
+r1WriteRatio                      =     10.752094
+{011R, 010W} :     8436138.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =           0.0
+writesPerSecond                   =    23343708.6
+totalPerSecond                    =    23343708.6
+numThreads                        = 11
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 11, writeRatio =     11.000000
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 011W} :    23343708.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      220275.7
+writesPerSecond                   =    20061598.6
+totalPerSecond                    =    20281874.3
+numThreads                        = 12
+readerThreadCount=  1, readRatio  =      0.130329
+writerThreadCount= 11, writeRatio =     11.869671
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      220275.7
+r1TotalPerSecond                  =    20281874.3
+r1ReadRatio                       =      0.130329
+r1WriteRatio                      =     11.869671
+{001R, 011W} :    20281874.3
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      505204.3
+writesPerSecond                   =    17333804.3
+totalPerSecond                    =    17839008.6
+numThreads                        = 13
+readerThreadCount=  2, readRatio  =      0.368163
+writerThreadCount= 11, writeRatio =     12.631837
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      252602.1
+r1TotalPerSecond                  =    17586406.4
+r1ReadRatio                       =      0.172362
+r1WriteRatio                      =     11.827638
+{002R, 011W} :    17839008.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      663758.6
+writesPerSecond                   =    15328361.4
+totalPerSecond                    =    15992120.0
+numThreads                        = 14
+readerThreadCount=  3, readRatio  =      0.581075
+writerThreadCount= 11, writeRatio =     13.418925
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      221252.9
+r1TotalPerSecond                  =    15549614.3
+r1ReadRatio                       =      0.170746
+r1WriteRatio                      =     11.829254
+{003R, 011W} :    15992120.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =      943648.6
+writesPerSecond                   =    13116551.4
+totalPerSecond                    =    14060200.0
+numThreads                        = 15
+readerThreadCount=  4, readRatio  =      1.006723
+writerThreadCount= 11, writeRatio =     13.993277
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      235912.1
+r1TotalPerSecond                  =    13352463.6
+r1ReadRatio                       =      0.212017
+r1WriteRatio                      =     11.787983
+{004R, 011W} :    14060200.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1038280.0
+writesPerSecond                   =    13275010.0
+totalPerSecond                    =    14313290.0
+numThreads                        = 16
+readerThreadCount=  5, readRatio  =      1.160633
+writerThreadCount= 11, writeRatio =     14.839367
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      207656.0
+r1TotalPerSecond                  =    13482666.0
+r1ReadRatio                       =      0.184820
+r1WriteRatio                      =     11.815180
+{005R, 011W} :    14313290.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1020775.7
+writesPerSecond                   =    11781325.7
+totalPerSecond                    =    12802101.4
+numThreads                        = 17
+readerThreadCount=  6, readRatio  =      1.355495
+writerThreadCount= 11, writeRatio =     15.644505
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      170129.3
+r1TotalPerSecond                  =    11951455.0
+r1ReadRatio                       =      0.170820
+r1WriteRatio                      =     11.829180
+{006R, 011W} :    12802101.4
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1234041.4
+writesPerSecond                   =    10426991.4
+totalPerSecond                    =    11661032.9
+numThreads                        = 18
+readerThreadCount=  7, readRatio  =      1.904869
+writerThreadCount= 11, writeRatio =     16.095131
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      176291.6
+r1TotalPerSecond                  =    10603283.1
+r1ReadRatio                       =      0.199514
+r1WriteRatio                      =     11.800486
+{007R, 011W} :    11661032.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1016361.4
+writesPerSecond                   =     9108498.6
+totalPerSecond                    =    10124860.0
+numThreads                        = 19
+readerThreadCount=  8, readRatio  =      1.907273
+writerThreadCount= 11, writeRatio =     17.092727
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      127045.2
+r1TotalPerSecond                  =     9235543.8
+r1ReadRatio                       =      0.165073
+r1WriteRatio                      =     11.834927
+{008R, 011W} :    10124860.0
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1112675.7
+writesPerSecond                   =     8323397.1
+totalPerSecond                    =     9436072.9
+numThreads                        = 20
+readerThreadCount=  9, readRatio  =      2.358345
+writerThreadCount= 11, writeRatio =     17.641655
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      123630.6
+r1TotalPerSecond                  =     8447027.8
+r1ReadRatio                       =      0.175632
+r1WriteRatio                      =     11.824368
+{009R, 011W} :     9436072.9
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     1545321.4
+writesPerSecond                   =     7088027.1
+totalPerSecond                    =     8633348.6
+numThreads                        = 21
+readerThreadCount= 10, readRatio  =      3.758883
+writerThreadCount= 11, writeRatio =     17.241117
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      154532.1
+r1TotalPerSecond                  =     7242559.3
+r1ReadRatio                       =      0.256040
+r1WriteRatio                      =     11.743960
+{010R, 011W} :     8633348.6
+
+Running test for 700 milliseconds...
+FastSlimReadWriteMutex:
+readsPerSecond                    =     2050732.9
+writesPerSecond                   =     6509145.7
+totalPerSecond                    =     8559878.6
+numThreads                        = 22
+readerThreadCount= 11, readRatio  =      5.270650
+writerThreadCount= 11, writeRatio =     16.729350
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =      186430.3
+r1TotalPerSecond                  =     6695576.0
+r1ReadRatio                       =      0.334126
+r1WriteRatio                      =     11.665874
+{011R, 011W} :     8559878.6
+
+
+csv =
+"FastSlimReadWriteMutex tps", 0.000000,180451065.714286,130037804.285714,356646101.428571,229895124.285714,260731381.428571,299489941.428571,404935202.857143,325987265.714286,370971234.285714,393429391.428571,451992457.142857,40029495.714286,32873990.000000,27317790.000000,23115522.857143,21525651.428571,16787151.428571,14224918.571429,14322971.428571,89907754.285714,35825950.000000,119065494.285714,89863267.142857,28031411.428571,26798831.428571,24692027.142857,20311755.714286,18318134.285714,15616101.428571,13595825.714286,12467172.857143,45409317.142857,58496964.285714,103741185.714286,78896568.571429,22990057.142857,21044511.428571,19982457.142857,20057132.857143,16608524.285714,14413950.000000,13395640.000000,11713475.714286,17194384.285714,20335607.142857,19814454.285714,46327898.571429,22065001.428571,19223260.000000,19843037.142857,18516268.571429,15217987.142857,14058375.714286,13192774.285714,11714560.000000,11604187.142857,10141170.000000,12561882.857143,26680198.571429,22775828.571429,19054810.000000,18042262.857143,16718447.142857,14962715.714286,13929564.285714,13048677.142857,12037754.285714,11751681.428571,13578487.142857,9174770.000000,17310470.000000,22825768.571429,20286151.428571,18000644.285714,17510478.571429,14672152.857143,13674228.571429,12875222.857143,11311754.285714,10631117.142857,14061832.857143,29830881.428571,15548787.142857,23219555.714286,20398755.714286,18122384.285714,17199558.571429,14177098.571429,13474685.714286,12712702.857143,11572728.571429,11475311.428571,9938171.428571,8947084.285714,12666377.142857,22377951.428571,20520737.142857,18054371.428571,16044421.428571,14135615.714286,13523661.428571,12148068.571429,11013414.285714,10409155.714286,10105274.285714,8252045.714286,8692798.571429,22065112.857143,20104995.714286,17547725.714286,16912117.142857,14103314.285714,14212465.714286,12517648.571429,12225001.428571,11673425.714286,21027955.714286,8868120.000000,14533998.571429,22368074.285714,20680191.428571,17593748.571429,16545881.428571,14001432.857143,13386777.142857,12320965.714286,11366927.142857,15483242.857143,10190832.857143,8609128.571429,8436138.571429,23343708.571429,20281874.285714,17839008.571429,15992120.000000,14060200.000000,14313290.000000,12802101.428571,11661032.857143,10124860.000000,9436072.857143,8633348.571429,8559878.571429,
+"FastSlimReadWriteMutex rps", 0.000000,180451065.714286,130037804.285714,356646101.428571,229895124.285714,260731381.428571,299489941.428571,404935202.857143,325987265.714286,370971234.285714,393429391.428571,451992457.142857, 0.000000,12186162.857143,9945932.857143,11787582.857143,8353014.285714,4367247.142857,3398654.285714,4295755.714286,82414530.000000,27801805.714286,114927561.428571,84957141.428571, 0.000000,7619520.000000,9264437.142857,8329421.428571,3794571.428571,3455407.142857,2568912.857143,2369534.285714,37309800.000000,50674471.428571,98516968.571429,74547207.142857, 0.000000,3466954.285714,4957651.428571,6021208.571429,3509192.857143,2620232.857143,2569837.142857,1992794.285714,7868811.428571,12056457.142857,12381584.285714,41103025.714286, 0.000000,1627974.285714,3674442.857143,1720134.285714,2317231.428571,2203927.142857,2030861.428571,1529857.142857,2386285.714286,1679064.285714,6390538.571429,21785494.285714, 0.000000,1579577.142857,2044340.000000,1780300.000000,2089390.000000,1810368.571429,2046942.857143,1748175.714286,1724598.571429,4623264.285714,2424451.428571,11646444.285714, 0.000000,1147437.142857,998924.285714,1016358.571429,1575537.142857,1655008.571429,1598402.857143,1497601.428571,1300861.428571,5520640.000000,23725261.428571,9195555.714286, 0.000000,489950.000000,719541.428571,942395.714286,1518941.428571,1381318.571429,1390427.142857,1413402.857143,1498535.714286,1476240.000000,1842351.428571,7203305.714286, 0.000000,349312.857143,598787.142857,846035.714286,1193027.142857,1203824.285714,1107828.571429,1097937.142857,1296947.142857,1511095.714286,2333807.142857,3372261.428571, 0.000000,405844.285714,550571.428571,734288.571429,1005031.428571,1225861.428571,1079464.285714,1364157.142857,1292800.000000,13159802.857143,1907545.714286,9504720.000000, 0.000000,345062.857143,514552.857143,726222.857143,940995.714286,1013218.571429,910315.714286,1206604.285714,5934040.000000,1066108.571429,1778955.714286,1706728.571429, 0.000000,220275.714286,505204.285714,663758.571429,943648.571429,1038280.000000,1020775.714286,1234041.428571,1016361.428571,1112675.714286,1545321.428571,2050732.857143,
+"FastSlimReadWriteMutex wps", 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,40029495.714286,20687827.142857,17371857.142857,11327940.000000,13172637.142857,12419904.285714,10826264.285714,10027215.714286,7493224.285714,8024144.285714,4137932.857143,4906125.714286,28031411.428571,19179311.428571,15427590.000000,11982334.285714,14523562.857143,12160694.285714,11026912.857143,10097638.571429,8099517.142857,7822492.857143,5224217.142857,4349361.428571,22990057.142857,17577557.142857,15024805.714286,14035924.285714,13099331.428571,11793717.142857,10825802.857143,9720681.428571,9325572.857143,8279150.000000,7432870.000000,5224872.857143,22065001.428571,17595285.714286,16168594.285714,16796134.285714,12900755.714286,11854448.571429,11161912.857143,10184702.857143,9217901.428571,8462105.714286,6171344.285714,4894704.285714,22775828.571429,17475232.857143,15997922.857143,14938147.142857,12873325.714286,12119195.714286,11001734.285714,10289578.571429,10027082.857143,8955222.857143,6750318.571429,5664025.714286,22825768.571429,19138714.285714,17001720.000000,16494120.000000,13096615.714286,12019220.000000,11276820.000000,9814152.857143,9330255.714286,8541192.857143,6105620.000000,6353231.428571,23219555.714286,19908805.714286,17402842.857143,16257162.857143,12658157.142857,12093367.142857,11322275.714286,10159325.714286,9976775.714286,8461931.428571,7104732.857143,5463071.428571,22377951.428571,20171424.285714,17455584.285714,15198385.714286,12942588.571429,12319837.142857,11040240.000000,9915477.142857,9112208.571429,8594178.571429,5918238.571429,5320537.142857,22065112.857143,19699151.428571,16997154.285714,16177828.571429,13098282.857143,12986604.285714,11438184.285714,10860844.285714,10380625.714286,7868152.857143,6960574.285714,5029278.571429,22368074.285714,20335128.571429,17079195.714286,15819658.571429,13060437.142857,12373558.571429,11410650.000000,10160322.857143,9549202.857143,9124724.285714,6830172.857143,6729410.000000,23343708.571429,20061598.571429,17333804.285714,15328361.428571,13116551.428571,13275010.000000,11781325.714286,10426991.428571,9108498.571429,8323397.142857,7088027.142857,6509145.714286,
+"FastSlimReadWriteMutex rr",-1.#IND00, 1.000000, 2.000000, 3.000000, 4.000000, 5.000000, 6.000000, 7.000000, 8.000000, 9.000000,10.000000,11.000000, 0.000000, 0.741386, 1.092248, 2.039769, 1.940247, 1.560925, 1.672458, 2.399366, 8.249909, 7.760242,10.617712,11.344855, 0.000000, 0.852969, 1.500798, 2.050394, 1.242890, 1.548905, 1.511589, 1.710557, 8.216331, 9.529028,11.395702,12.283344, 0.000000, 0.658975, 1.240501, 1.801217, 1.479021, 1.454276, 1.726572, 1.701283, 5.034023, 7.114491, 8.123393,12.421076, 0.000000, 0.423439, 1.111053, 0.650290, 1.218154, 1.410927, 1.539374, 1.436540, 2.467681, 2.152398, 7.122144,12.248125, 0.000000, 0.497379, 0.793159, 0.851897, 1.256758, 1.299659, 1.725567, 1.742693, 1.907793, 4.766783, 3.963780,10.764763, 0.000000, 0.395938, 0.443950, 0.522386, 1.073828, 1.331343, 1.489748, 1.721114, 1.713090, 5.888962,12.725208,10.053803, 0.000000, 0.192149, 0.357341, 0.547919, 1.178545, 1.230145, 1.421850, 1.709851, 1.958817, 2.376679, 3.500579,10.236511, 0.000000, 0.153202, 0.331658, 0.580039, 1.012784, 1.157210, 1.276713, 1.495363, 1.993548, 2.542101, 5.090681, 7.370810, 0.000000, 0.201862, 0.345132, 0.521015, 0.926407, 1.207536, 1.293531, 1.785400, 1.882704,11.264835, 4.086928,13.079291, 0.000000, 0.183542, 0.350956, 0.570589, 0.940899, 1.135320, 1.182136, 1.804557, 6.898601, 1.987675, 4.132720, 4.248543, 0.000000, 0.130329, 0.368163, 0.581075, 1.006723, 1.160633, 1.355495, 1.904869, 1.907273, 2.358345, 3.758883, 5.270650,
+"FastSlimReadWriteMutex wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 1.258614, 1.907752, 1.960231, 3.059753, 4.439075, 5.327542, 5.600634, 0.750091, 2.239758, 0.382288, 0.655145, 2.000000, 2.147031, 2.499202, 2.949606, 4.757110, 5.451095, 6.488411, 7.289443, 1.783669, 1.470972, 0.604298, 0.716656, 3.000000, 3.341025, 3.759499, 4.198783, 5.520979, 6.545724, 7.273428, 8.298717, 5.965977, 4.885509, 4.876607, 1.578924, 4.000000, 4.576561, 4.888947, 6.349710, 6.781846, 7.589073, 8.460626, 9.563460, 9.532319,10.847602, 6.877856, 2.751875, 5.000000, 5.502621, 6.206841, 7.148103, 7.743242, 8.700341, 9.274433,10.257307,11.092207, 9.233217,11.036220, 5.235237, 6.000000, 6.604062, 7.556050, 8.477614, 8.926172, 9.668657,10.510252,11.278886,12.286910, 9.111038, 3.274792, 6.946197, 7.000000, 7.807851, 8.642659, 9.452081, 9.821455,10.769855,11.578150,12.290149,13.041183,13.623321,13.499421, 7.763489, 8.000000, 8.846798, 9.668342,10.419961,10.987216,11.842790,12.723287,13.504637,14.006452,14.457899,12.909319,11.629190, 9.000000, 9.798138,10.654868,11.478985,12.073593,12.792464,13.706469,14.214600,15.117296, 6.735165,14.913072, 6.920709,10.000000,10.816458,11.649044,12.429411,13.059101,13.864680,14.817864,15.195443,11.101399,17.012325,15.867280,16.751457,11.000000,11.869671,12.631837,13.418925,13.993277,14.839367,15.644505,16.095131,17.092727,17.641655,17.241117,16.729350,
+"FastSlimReadWriteMutex r1rr",-1.#IND00, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000,-1.#IND00, 0.741386, 0.445111, 0.515063, 0.273674, 0.131411, 0.099439, 0.115344, 1.157830, 0.555930, 1.470537, 1.223069,-1.#IND00, 0.852969, 0.692761, 0.564370, 0.183938, 0.161320, 0.112130, 0.097307, 1.096209, 1.255594, 1.960418, 1.827284,-1.#IND00, 0.658975, 0.566471, 0.500423, 0.251076, 0.170176, 0.152231, 0.113813, 0.381641, 0.557081, 0.571170, 1.667861,-1.#IND00, 0.423439, 0.510174, 0.165053, 0.214876, 0.179251, 0.147159, 0.105040, 0.156725, 0.107856, 0.469175, 1.440321,-1.#IND00, 0.497379, 0.360340, 0.229249, 0.233962, 0.174056, 0.180460, 0.142176, 0.126281, 0.325505, 0.208025, 0.944935,-1.#IND00, 0.395938, 0.199771, 0.140885, 0.204380, 0.187609, 0.161550, 0.149341, 0.119906, 0.469035, 1.958881, 0.813960,-1.#IND00, 0.192149, 0.162035, 0.151651, 0.233004, 0.178672, 0.160455, 0.155900, 0.147434, 0.152124, 0.202207, 0.856299,-1.#IND00, 0.153202, 0.151763, 0.163956, 0.202730, 0.172514, 0.148041, 0.140150, 0.157323, 0.172459, 0.341443, 0.490327,-1.#IND00, 0.201862, 0.159379, 0.149040, 0.188215, 0.185291, 0.154854, 0.176270, 0.153288, 1.567144, 0.266740, 1.466172,-1.#IND00, 0.183542, 0.163242, 0.165786, 0.194630, 0.177246, 0.144340, 0.183504, 0.792862, 0.140971, 0.279228, 0.247906,-1.#IND00, 0.130329, 0.172362, 0.170746, 0.212017, 0.184820, 0.170820, 0.199514, 0.165073, 0.175632, 0.256040, 0.334126,
+"FastSlimReadWriteMutex r1wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,-1.#IND00, 1.258614, 1.554889, 1.484937, 1.726326, 1.868589, 1.900561, 1.884656, 0.842170, 1.444070, 0.529463, 0.776931,-1.#IND00, 2.147031, 2.307239, 2.435630, 2.816062, 2.838680, 2.887870, 2.902693, 1.903791, 1.744406, 1.039582, 1.172716,-1.#IND00, 3.341025, 3.433529, 3.499577, 3.748924, 3.829824, 3.847769, 3.886187, 3.618359, 3.442919, 3.428830, 2.332139,-1.#IND00, 4.576561, 4.489826, 4.834947, 4.785124, 4.820749, 4.852841, 4.894960, 4.843275, 4.892144, 4.530825, 3.559679,-1.#IND00, 5.502621, 5.639660, 5.770751, 5.766038, 5.825944, 5.819540, 5.857824, 5.873719, 5.674495, 5.791975, 5.055065,-1.#IND00, 6.604062, 6.800229, 6.859115, 6.795620, 6.812391, 6.838450, 6.850659, 6.880094, 6.530965, 5.041119, 6.186040,-1.#IND00, 7.807851, 7.837965, 7.848349, 7.766996, 7.821328, 7.839545, 7.844100, 7.852566, 7.847876, 7.797793, 7.143701,-1.#IND00, 8.846798, 8.848237, 8.836044, 8.797270, 8.827486, 8.851959, 8.859850, 8.842677, 8.827541, 8.658557, 8.509673,-1.#IND00, 9.798138, 9.840621, 9.850960, 9.811785, 9.814709, 9.845146, 9.823730, 9.846712, 8.432856, 9.733260, 8.533828,-1.#IND00,10.816458,10.836758,10.834214,10.805370,10.822754,10.855660,10.816496,10.207138,10.859029,10.720772,10.752094,-1.#IND00,11.869671,11.827638,11.829254,11.787983,11.815180,11.829180,11.800486,11.834927,11.824368,11.743960,11.665874,
+

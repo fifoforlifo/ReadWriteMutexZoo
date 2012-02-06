@@ -344,6 +344,10 @@
 			>
 		</File>
 		<File
+			RelativePath=".\fastslim_rwmutex.h"
+			>
+		</File>
+		<File
 			RelativePath=".\main.cpp"
 			>
 		</File>

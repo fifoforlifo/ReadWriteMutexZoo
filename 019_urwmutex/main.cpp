@@ -13,6 +13,7 @@
 #include "faircs_rwmutex.h"
 #include "qt_rwmutex.h"
 #include "cohort_rwmutex.h"
+#include "fastslim_rwmutex.h"
 // single reader, multiple writer -- these are just to get upper bounds on perf
 #include "ultraspin_single_rwmutex.h"
 #include "ultrasync_single_rwmutex.h"
@@ -85,7 +86,7 @@ public:
             HANDLE hThread = CreateThread(NULL, 0x20000, (LPTHREAD_START_ROUTINE)&WriterThreadProc, this, 0, NULL);
             threadHandles.push_back(hThread);
         }
-        long durationMilliseconds = 2000;
+        long durationMilliseconds = 700;
         printf("Running test for %d milliseconds...\n", durationMilliseconds);  fflush(stdout);
         // Allow all the threads to begin processing.
         SetEvent(m_hStartEvent);
@@ -282,10 +283,17 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     pName = "CohortReadWriteMutex";
     Test<CohortReadWriteMutex<Semaphore> > test_CohortReadWriteMutex(numReaders, numWriters, pName);
     stats = test_CohortReadWriteMutex.Execute();
+    statss.push_back(stats);
+#endif
+
+#if 01
+    pName = "FastSlimReadWriteMutex";
+    Test<FastSlimReadWriteMutex> test_FastSlimReadWriteMutex(numReaders, numWriters, pName);
+    stats = test_FastSlimReadWriteMutex.Execute();
     statss.push_back(stats);
 #endif
 }

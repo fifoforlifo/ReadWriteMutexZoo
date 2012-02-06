@@ -1,0 +1,2185 @@
+Running test for 300 milliseconds...
+warmup:
+readsPerSecond                    =   160477506.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =   160477506.7
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =   160477506.7
+r1TotalPerSecond                  =   160477506.7
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :   160477506.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =           0.0
+numThreads                        = 0
+readerThreadCount=  0, readRatio  =     -1.#IND00
+writerThreadCount=  0, writeRatio =     -1.#IND00
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 000W} :           0.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =     1800060.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =     1800060.0
+numThreads                        = 1
+readerThreadCount=  1, readRatio  =      1.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =     1800060.0
+r1TotalPerSecond                  =     1800060.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{001R, 000W} :     1800060.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =      208420.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =      208420.0
+numThreads                        = 2
+readerThreadCount=  2, readRatio  =      2.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =      104210.0
+r1TotalPerSecond                  =      104210.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{002R, 000W} :      208420.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =      222173.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =      222173.3
+numThreads                        = 3
+readerThreadCount=  3, readRatio  =      3.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =       74057.8
+r1TotalPerSecond                  =       74057.8
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{003R, 000W} :      222173.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       92613.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =       92613.3
+numThreads                        = 4
+readerThreadCount=  4, readRatio  =      4.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =       23153.3
+r1TotalPerSecond                  =       23153.3
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{004R, 000W} :       92613.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       45750.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =       45750.0
+numThreads                        = 5
+readerThreadCount=  5, readRatio  =      5.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        9150.0
+r1TotalPerSecond                  =        9150.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{005R, 000W} :       45750.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       47783.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =       47783.3
+numThreads                        = 6
+readerThreadCount=  6, readRatio  =      6.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        7963.9
+r1TotalPerSecond                  =        7963.9
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{006R, 000W} :       47783.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       55376.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =       55376.7
+numThreads                        = 7
+readerThreadCount=  7, readRatio  =      7.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        7911.0
+r1TotalPerSecond                  =        7911.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{007R, 000W} :       55376.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       46213.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =       46213.3
+numThreads                        = 8
+readerThreadCount=  8, readRatio  =      8.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        5776.7
+r1TotalPerSecond                  =        5776.7
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{008R, 000W} :       46213.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       46616.7
+writesPerSecond                   =           0.0
+totalPerSecond                    =       46616.7
+numThreads                        = 9
+readerThreadCount=  9, readRatio  =      9.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        5179.6
+r1TotalPerSecond                  =        5179.6
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{009R, 000W} :       46616.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       47980.0
+writesPerSecond                   =           0.0
+totalPerSecond                    =       47980.0
+numThreads                        = 10
+readerThreadCount= 10, readRatio  =     10.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        4798.0
+r1TotalPerSecond                  =        4798.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{010R, 000W} :       47980.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       45573.3
+writesPerSecond                   =           0.0
+totalPerSecond                    =       45573.3
+numThreads                        = 11
+readerThreadCount= 11, readRatio  =     11.000000
+writerThreadCount=  0, writeRatio =      0.000000
+r1NumThreads                      = 1
+r1ReadsPerSecond                  =        4143.0
+r1TotalPerSecond                  =        4143.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      0.000000
+{011R, 000W} :       45573.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =     2200670.0
+totalPerSecond                    =     2200670.0
+numThreads                        = 1
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  1, writeRatio =      1.000000
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 001W} :     2200670.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       52810.0
+writesPerSecond                   =       53180.0
+totalPerSecond                    =      105990.0
+numThreads                        = 2
+readerThreadCount=  1, readRatio  =      0.996509
+writerThreadCount=  1, writeRatio =      1.003491
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =       52810.0
+r1TotalPerSecond                  =      105990.0
+r1ReadRatio                       =      0.996509
+r1WriteRatio                      =      1.003491
+{001R, 001W} :      105990.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       60750.0
+writesPerSecond                   =       30163.3
+totalPerSecond                    =       90913.3
+numThreads                        = 3
+readerThreadCount=  2, readRatio  =      2.004656
+writerThreadCount=  1, writeRatio =      0.995344
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =       30375.0
+r1TotalPerSecond                  =       60538.3
+r1ReadRatio                       =      1.003496
+r1WriteRatio                      =      0.996504
+{002R, 001W} :       90913.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       56803.3
+writesPerSecond                   =       18923.3
+totalPerSecond                    =       75726.7
+numThreads                        = 4
+readerThreadCount=  3, readRatio  =      3.000440
+writerThreadCount=  1, writeRatio =      0.999560
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =       18934.4
+r1TotalPerSecond                  =       37857.8
+r1ReadRatio                       =      1.000293
+r1WriteRatio                      =      0.999707
+{003R, 001W} :       75726.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       36490.0
+writesPerSecond                   =        9126.7
+totalPerSecond                    =       45616.7
+numThreads                        = 5
+readerThreadCount=  4, readRatio  =      3.999635
+writerThreadCount=  1, writeRatio =      1.000365
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        9122.5
+r1TotalPerSecond                  =       18249.2
+r1ReadRatio                       =      0.999772
+r1WriteRatio                      =      1.000228
+{004R, 001W} :       45616.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       47646.7
+writesPerSecond                   =        9530.0
+totalPerSecond                    =       57176.7
+numThreads                        = 6
+readerThreadCount=  5, readRatio  =      4.999942
+writerThreadCount=  1, writeRatio =      1.000058
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        9529.3
+r1TotalPerSecond                  =       19059.3
+r1ReadRatio                       =      0.999965
+r1WriteRatio                      =      1.000035
+{005R, 001W} :       57176.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       37406.7
+writesPerSecond                   =        6230.0
+totalPerSecond                    =       43636.7
+numThreads                        = 7
+readerThreadCount=  6, readRatio  =      6.000611
+writerThreadCount=  1, writeRatio =      0.999389
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        6234.4
+r1TotalPerSecond                  =       12464.4
+r1ReadRatio                       =      1.000357
+r1WriteRatio                      =      0.999643
+{006R, 001W} :       43636.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       43443.3
+writesPerSecond                   =        6220.0
+totalPerSecond                    =       49663.3
+numThreads                        = 8
+readerThreadCount=  7, readRatio  =      6.998054
+writerThreadCount=  1, writeRatio =      1.001946
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        6206.2
+r1TotalPerSecond                  =       12426.2
+r1ReadRatio                       =      0.998889
+r1WriteRatio                      =      1.001111
+{007R, 001W} :       49663.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       40776.7
+writesPerSecond                   =        5093.3
+totalPerSecond                    =       45870.0
+numThreads                        = 9
+readerThreadCount=  8, readRatio  =      8.000654
+writerThreadCount=  1, writeRatio =      0.999346
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        5097.1
+r1TotalPerSecond                  =       10190.4
+r1ReadRatio                       =      1.000368
+r1WriteRatio                      =      0.999632
+{008R, 001W} :       45870.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       40076.7
+writesPerSecond                   =        4450.0
+totalPerSecond                    =       44526.7
+numThreads                        = 10
+readerThreadCount=  9, readRatio  =      9.000599
+writerThreadCount=  1, writeRatio =      0.999401
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        4453.0
+r1TotalPerSecond                  =        8903.0
+r1ReadRatio                       =      1.000333
+r1WriteRatio                      =      0.999667
+{009R, 001W} :       44526.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       42313.3
+writesPerSecond                   =        4270.0
+totalPerSecond                    =       46583.3
+numThreads                        = 11
+readerThreadCount= 10, readRatio  =      9.991699
+writerThreadCount=  1, writeRatio =      1.008301
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        4231.3
+r1TotalPerSecond                  =        8501.3
+r1ReadRatio                       =      0.995452
+r1WriteRatio                      =      1.004548
+{010R, 001W} :       46583.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       46433.3
+writesPerSecond                   =        4210.0
+totalPerSecond                    =       50643.3
+numThreads                        = 12
+readerThreadCount= 11, readRatio  =     11.002435
+writerThreadCount=  1, writeRatio =      0.997565
+r1NumThreads                      = 2
+r1ReadsPerSecond                  =        4221.2
+r1TotalPerSecond                  =        8431.2
+r1ReadRatio                       =      1.001330
+r1WriteRatio                      =      0.998670
+{011R, 001W} :       50643.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =      110990.0
+totalPerSecond                    =      110990.0
+numThreads                        = 2
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  2, writeRatio =      2.000000
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 002W} :      110990.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34896.7
+writesPerSecond                   =       69363.3
+totalPerSecond                    =      104260.0
+numThreads                        = 3
+readerThreadCount=  1, readRatio  =      1.004124
+writerThreadCount=  2, writeRatio =      1.995876
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =       34896.7
+r1TotalPerSecond                  =      104260.0
+r1ReadRatio                       =      1.004124
+r1WriteRatio                      =      1.995876
+{001R, 002W} :      104260.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       44976.7
+writesPerSecond                   =       45000.0
+totalPerSecond                    =       89976.7
+numThreads                        = 4
+readerThreadCount=  2, readRatio  =      1.999481
+writerThreadCount=  2, writeRatio =      2.000519
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =       22488.3
+r1TotalPerSecond                  =       67488.3
+r1ReadRatio                       =      0.999654
+r1WriteRatio                      =      2.000346
+{002R, 002W} :       89976.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       31723.3
+writesPerSecond                   =       21163.3
+totalPerSecond                    =       52886.7
+numThreads                        = 5
+readerThreadCount=  3, readRatio  =      2.999181
+writerThreadCount=  2, writeRatio =      2.000819
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =       10574.4
+r1TotalPerSecond                  =       31737.8
+r1ReadRatio                       =      0.999545
+r1WriteRatio                      =      2.000455
+{003R, 002W} :       52886.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34090.0
+writesPerSecond                   =       17070.0
+totalPerSecond                    =       51160.0
+numThreads                        = 6
+readerThreadCount=  4, readRatio  =      3.998045
+writerThreadCount=  2, writeRatio =      2.001955
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        8522.5
+r1TotalPerSecond                  =       25592.5
+r1ReadRatio                       =      0.999023
+r1WriteRatio                      =      2.000977
+{004R, 002W} :       51160.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       35583.3
+writesPerSecond                   =       14283.3
+totalPerSecond                    =       49866.7
+numThreads                        = 7
+readerThreadCount=  5, readRatio  =      4.994987
+writerThreadCount=  2, writeRatio =      2.005013
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        7116.7
+r1TotalPerSecond                  =       21400.0
+r1ReadRatio                       =      0.997664
+r1WriteRatio                      =      2.002336
+{005R, 002W} :       49866.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       38310.0
+writesPerSecond                   =       12786.7
+totalPerSecond                    =       51096.7
+numThreads                        = 8
+readerThreadCount=  6, readRatio  =      5.998043
+writerThreadCount=  2, writeRatio =      2.001957
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        6385.0
+r1TotalPerSecond                  =       19171.7
+r1ReadRatio                       =      0.999131
+r1WriteRatio                      =      2.000869
+{006R, 002W} :       51096.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       36096.7
+writesPerSecond                   =       10363.3
+totalPerSecond                    =       46460.0
+numThreads                        = 9
+readerThreadCount=  7, readRatio  =      6.992467
+writerThreadCount=  2, writeRatio =      2.007533
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        5156.7
+r1TotalPerSecond                  =       15520.0
+r1ReadRatio                       =      0.996778
+r1WriteRatio                      =      2.003222
+{007R, 002W} :       46460.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       36176.7
+writesPerSecond                   =        9043.3
+totalPerSecond                    =       45220.0
+numThreads                        = 10
+readerThreadCount=  8, readRatio  =      8.000147
+writerThreadCount=  2, writeRatio =      1.999853
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        4522.1
+r1TotalPerSecond                  =       13565.4
+r1ReadRatio                       =      1.000061
+r1WriteRatio                      =      1.999939
+{008R, 002W} :       45220.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       38766.7
+writesPerSecond                   =        8653.3
+totalPerSecond                    =       47420.0
+numThreads                        = 11
+readerThreadCount=  9, readRatio  =      8.992689
+writerThreadCount=  2, writeRatio =      2.007311
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        4307.4
+r1TotalPerSecond                  =       12960.7
+r1ReadRatio                       =      0.997028
+r1WriteRatio                      =      2.002972
+{009R, 002W} :       47420.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       38200.0
+writesPerSecond                   =        7633.3
+totalPerSecond                    =       45833.3
+numThreads                        = 12
+readerThreadCount= 10, readRatio  =     10.001455
+writerThreadCount=  2, writeRatio =      1.998545
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        3820.0
+r1TotalPerSecond                  =       11453.3
+r1ReadRatio                       =      1.000582
+r1WriteRatio                      =      1.999418
+{010R, 002W} :       45833.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       43313.3
+writesPerSecond                   =        7880.0
+totalPerSecond                    =       51193.3
+numThreads                        = 13
+readerThreadCount= 11, readRatio  =     10.998958
+writerThreadCount=  2, writeRatio =      2.001042
+r1NumThreads                      = 3
+r1ReadsPerSecond                  =        3937.6
+r1TotalPerSecond                  =       11817.6
+r1ReadRatio                       =      0.999590
+r1WriteRatio                      =      2.000410
+{011R, 002W} :       51193.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =      102160.0
+totalPerSecond                    =      102160.0
+numThreads                        = 3
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  3, writeRatio =      3.000000
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 003W} :      102160.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       22546.7
+writesPerSecond                   =       67466.7
+totalPerSecond                    =       90013.3
+numThreads                        = 4
+readerThreadCount=  1, readRatio  =      1.001926
+writerThreadCount=  3, writeRatio =      2.998074
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =       22546.7
+r1TotalPerSecond                  =       90013.3
+r1ReadRatio                       =      1.001926
+r1WriteRatio                      =      2.998074
+{001R, 003W} :       90013.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       17546.7
+writesPerSecond                   =       26360.0
+totalPerSecond                    =       43906.7
+numThreads                        = 5
+readerThreadCount=  2, readRatio  =      1.998178
+writerThreadCount=  3, writeRatio =      3.001822
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        8773.3
+r1TotalPerSecond                  =       35133.3
+r1ReadRatio                       =      0.998861
+r1WriteRatio                      =      3.001139
+{002R, 003W} :       43906.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       25193.3
+writesPerSecond                   =       25230.0
+totalPerSecond                    =       50423.3
+numThreads                        = 6
+readerThreadCount=  3, readRatio  =      2.997818
+writerThreadCount=  3, writeRatio =      3.002182
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        8397.8
+r1TotalPerSecond                  =       33627.8
+r1ReadRatio                       =      0.998910
+r1WriteRatio                      =      3.001090
+{003R, 003W} :       50423.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       27166.7
+writesPerSecond                   =       20383.3
+totalPerSecond                    =       47550.0
+numThreads                        = 7
+readerThreadCount=  4, readRatio  =      3.999299
+writerThreadCount=  3, writeRatio =      3.000701
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        6791.7
+r1TotalPerSecond                  =       27175.0
+r1ReadRatio                       =      0.999693
+r1WriteRatio                      =      3.000307
+{004R, 003W} :       47550.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       30620.0
+writesPerSecond                   =       18273.3
+totalPerSecond                    =       48893.3
+numThreads                        = 8
+readerThreadCount=  5, readRatio  =      5.010090
+writerThreadCount=  3, writeRatio =      2.989910
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        6124.0
+r1TotalPerSecond                  =       24397.3
+r1ReadRatio                       =      1.004044
+r1WriteRatio                      =      2.995956
+{005R, 003W} :       48893.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29866.7
+writesPerSecond                   =       14973.3
+totalPerSecond                    =       44840.0
+numThreads                        = 9
+readerThreadCount=  6, readRatio  =      5.994648
+writerThreadCount=  3, writeRatio =      3.005352
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        4977.8
+r1TotalPerSecond                  =       19951.1
+r1ReadRatio                       =      0.997995
+r1WriteRatio                      =      3.002005
+{006R, 003W} :       44840.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       33853.3
+writesPerSecond                   =       14503.3
+totalPerSecond                    =       48356.7
+numThreads                        = 10
+readerThreadCount=  7, readRatio  =      7.000758
+writerThreadCount=  3, writeRatio =      2.999242
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        4836.2
+r1TotalPerSecond                  =       19339.5
+r1ReadRatio                       =      1.000271
+r1WriteRatio                      =      2.999729
+{007R, 003W} :       48356.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34776.7
+writesPerSecond                   =       13050.0
+totalPerSecond                    =       47826.7
+numThreads                        = 11
+readerThreadCount=  8, readRatio  =      7.998536
+writerThreadCount=  3, writeRatio =      3.001464
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        4347.1
+r1TotalPerSecond                  =       17397.1
+r1ReadRatio                       =      0.999497
+r1WriteRatio                      =      3.000503
+{008R, 003W} :       47826.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       32366.7
+writesPerSecond                   =       10793.3
+totalPerSecond                    =       43160.0
+numThreads                        = 12
+readerThreadCount=  9, readRatio  =      8.999073
+writerThreadCount=  3, writeRatio =      3.000927
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        3596.3
+r1TotalPerSecond                  =       14389.6
+r1ReadRatio                       =      0.999691
+r1WriteRatio                      =      3.000309
+{009R, 003W} :       43160.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       36040.0
+writesPerSecond                   =       10863.3
+totalPerSecond                    =       46903.3
+numThreads                        = 13
+readerThreadCount= 10, readRatio  =      9.989056
+writerThreadCount=  3, writeRatio =      3.010944
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        3604.0
+r1TotalPerSecond                  =       14467.3
+r1ReadRatio                       =      0.996452
+r1WriteRatio                      =      3.003548
+{010R, 003W} :       46903.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       36583.3
+writesPerSecond                   =       10020.0
+totalPerSecond                    =       46603.3
+numThreads                        = 14
+readerThreadCount= 11, readRatio  =     10.989915
+writerThreadCount=  3, writeRatio =      3.010085
+r1NumThreads                      = 4
+r1ReadsPerSecond                  =        3325.8
+r1TotalPerSecond                  =       13345.8
+r1ReadRatio                       =      0.996798
+r1WriteRatio                      =      3.003202
+{011R, 003W} :       46603.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       78123.3
+totalPerSecond                    =       78123.3
+numThreads                        = 4
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  4, writeRatio =      4.000000
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 004W} :       78123.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        8963.3
+writesPerSecond                   =       35883.3
+totalPerSecond                    =       44846.7
+numThreads                        = 5
+readerThreadCount=  1, readRatio  =      0.999331
+writerThreadCount=  4, writeRatio =      4.000669
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        8963.3
+r1TotalPerSecond                  =       44846.7
+r1ReadRatio                       =      0.999331
+r1WriteRatio                      =      4.000669
+{001R, 004W} :       44846.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       20010.0
+writesPerSecond                   =       40043.3
+totalPerSecond                    =       60053.3
+numThreads                        = 6
+readerThreadCount=  2, readRatio  =      1.999223
+writerThreadCount=  4, writeRatio =      4.000777
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =       10005.0
+r1TotalPerSecond                  =       50048.3
+r1ReadRatio                       =      0.999534
+r1WriteRatio                      =      4.000466
+{002R, 004W} :       60053.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       19400.0
+writesPerSecond                   =       25970.0
+totalPerSecond                    =       45370.0
+numThreads                        = 7
+readerThreadCount=  3, readRatio  =      2.993167
+writerThreadCount=  4, writeRatio =      4.006833
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        6466.7
+r1TotalPerSecond                  =       32436.7
+r1ReadRatio                       =      0.996814
+r1WriteRatio                      =      4.003186
+{003R, 004W} :       45370.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21586.7
+writesPerSecond                   =       21596.7
+totalPerSecond                    =       43183.3
+numThreads                        = 8
+readerThreadCount=  4, readRatio  =      3.999074
+writerThreadCount=  4, writeRatio =      4.000926
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        5396.7
+r1TotalPerSecond                  =       26993.3
+r1ReadRatio                       =      0.999630
+r1WriteRatio                      =      4.000370
+{004R, 004W} :       43183.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       25963.3
+writesPerSecond                   =       20860.0
+totalPerSecond                    =       46823.3
+numThreads                        = 9
+readerThreadCount=  5, readRatio  =      4.990461
+writerThreadCount=  4, writeRatio =      4.009539
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        5192.7
+r1TotalPerSecond                  =       26052.7
+r1ReadRatio                       =      0.996571
+r1WriteRatio                      =      4.003429
+{005R, 004W} :       46823.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29286.7
+writesPerSecond                   =       19576.7
+totalPerSecond                    =       48863.3
+numThreads                        = 10
+readerThreadCount=  6, readRatio  =      5.993588
+writerThreadCount=  4, writeRatio =      4.006412
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        4881.1
+r1TotalPerSecond                  =       24457.8
+r1ReadRatio                       =      0.997865
+r1WriteRatio                      =      4.002135
+{006R, 004W} :       48863.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29926.7
+writesPerSecond                   =       17143.3
+totalPerSecond                    =       47070.0
+numThreads                        = 11
+readerThreadCount=  7, readRatio  =      6.993697
+writerThreadCount=  4, writeRatio =      4.006303
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        4275.2
+r1TotalPerSecond                  =       21418.6
+r1ReadRatio                       =      0.998021
+r1WriteRatio                      =      4.001979
+{007R, 004W} :       47070.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34316.7
+writesPerSecond                   =       17273.3
+totalPerSecond                    =       51590.0
+numThreads                        = 12
+readerThreadCount=  8, readRatio  =      7.982167
+writerThreadCount=  4, writeRatio =      4.017833
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        4289.6
+r1TotalPerSecond                  =       21562.9
+r1ReadRatio                       =      0.994667
+r1WriteRatio                      =      4.005333
+{008R, 004W} :       51590.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34436.7
+writesPerSecond                   =       15383.3
+totalPerSecond                    =       49820.0
+numThreads                        = 13
+readerThreadCount=  9, readRatio  =      8.985883
+writerThreadCount=  4, writeRatio =      4.014117
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        3826.3
+r1TotalPerSecond                  =       19209.6
+r1ReadRatio                       =      0.995932
+r1WriteRatio                      =      4.004068
+{009R, 004W} :       49820.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       34160.0
+writesPerSecond                   =       13703.3
+totalPerSecond                    =       47863.3
+numThreads                        = 14
+readerThreadCount= 10, readRatio  =      9.991782
+writerThreadCount=  4, writeRatio =      4.008218
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        3416.0
+r1TotalPerSecond                  =       17119.3
+r1ReadRatio                       =      0.997702
+r1WriteRatio                      =      4.002298
+{010R, 004W} :       47863.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       33513.3
+writesPerSecond                   =       12206.7
+totalPerSecond                    =       45720.0
+numThreads                        = 15
+readerThreadCount= 11, readRatio  =     10.995188
+writerThreadCount=  4, writeRatio =      4.004812
+r1NumThreads                      = 5
+r1ReadsPerSecond                  =        3046.7
+r1TotalPerSecond                  =       15253.3
+r1ReadRatio                       =      0.998689
+r1WriteRatio                      =      4.001311
+{011R, 004W} :       45720.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       52796.7
+totalPerSecond                    =       52796.7
+numThreads                        = 5
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  5, writeRatio =      5.000000
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 005W} :       52796.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        7080.0
+writesPerSecond                   =       35493.3
+totalPerSecond                    =       42573.3
+numThreads                        = 6
+readerThreadCount=  1, readRatio  =      0.997808
+writerThreadCount=  5, writeRatio =      5.002192
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        7080.0
+r1TotalPerSecond                  =       42573.3
+r1ReadRatio                       =      0.997808
+r1WriteRatio                      =      5.002192
+{001R, 005W} :       42573.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       16826.7
+writesPerSecond                   =       42066.7
+totalPerSecond                    =       58893.3
+numThreads                        = 7
+readerThreadCount=  2, readRatio  =      2.000000
+writerThreadCount=  5, writeRatio =      5.000000
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        8413.3
+r1TotalPerSecond                  =       50480.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      5.000000
+{002R, 005W} :       58893.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       19246.7
+writesPerSecond                   =       32116.7
+totalPerSecond                    =       51363.3
+numThreads                        = 8
+readerThreadCount=  3, readRatio  =      2.997729
+writerThreadCount=  5, writeRatio =      5.002271
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        6415.6
+r1TotalPerSecond                  =       38532.2
+r1ReadRatio                       =      0.998991
+r1WriteRatio                      =      5.001009
+{003R, 005W} :       51363.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21650.0
+writesPerSecond                   =       27103.3
+totalPerSecond                    =       48753.3
+numThreads                        = 9
+readerThreadCount=  4, readRatio  =      3.996650
+writerThreadCount=  5, writeRatio =      5.003350
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        5412.5
+r1TotalPerSecond                  =       32515.8
+r1ReadRatio                       =      0.998744
+r1WriteRatio                      =      5.001256
+{004R, 005W} :       48753.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       39466.7
+writesPerSecond                   =       39506.7
+totalPerSecond                    =       78973.3
+numThreads                        = 10
+readerThreadCount=  5, readRatio  =      4.997467
+writerThreadCount=  5, writeRatio =      5.002533
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        7893.3
+r1TotalPerSecond                  =       47400.0
+r1ReadRatio                       =      0.999156
+r1WriteRatio                      =      5.000844
+{005R, 005W} :       78973.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       27593.3
+writesPerSecond                   =       23086.7
+totalPerSecond                    =       50680.0
+numThreads                        = 11
+readerThreadCount=  6, readRatio  =      5.989082
+writerThreadCount=  5, writeRatio =      5.010918
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        4598.9
+r1TotalPerSecond                  =       27685.6
+r1ReadRatio                       =      0.996669
+r1WriteRatio                      =      5.003331
+{006R, 005W} :       50680.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29166.7
+writesPerSecond                   =       20833.3
+totalPerSecond                    =       50000.0
+numThreads                        = 12
+readerThreadCount=  7, readRatio  =      7.000000
+writerThreadCount=  5, writeRatio =      5.000000
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        4166.7
+r1TotalPerSecond                  =       25000.0
+r1ReadRatio                       =      1.000000
+r1WriteRatio                      =      5.000000
+{007R, 005W} :       50000.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       30586.7
+writesPerSecond                   =       19196.7
+totalPerSecond                    =       49783.3
+numThreads                        = 13
+readerThreadCount=  8, readRatio  =      7.987144
+writerThreadCount=  5, writeRatio =      5.012856
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        3823.3
+r1TotalPerSecond                  =       23020.0
+r1ReadRatio                       =      0.996525
+r1WriteRatio                      =      5.003475
+{008R, 005W} :       49783.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29213.3
+writesPerSecond                   =       16250.0
+totalPerSecond                    =       45463.3
+numThreads                        = 14
+readerThreadCount=  9, readRatio  =      8.995967
+writerThreadCount=  5, writeRatio =      5.004033
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        3245.9
+r1TotalPerSecond                  =       19495.9
+r1ReadRatio                       =      0.998955
+r1WriteRatio                      =      5.001045
+{009R, 005W} :       45463.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       33663.3
+writesPerSecond                   =       16870.0
+totalPerSecond                    =       50533.3
+numThreads                        = 15
+readerThreadCount= 10, readRatio  =      9.992414
+writerThreadCount=  5, writeRatio =      5.007586
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        3366.3
+r1TotalPerSecond                  =       20236.3
+r1ReadRatio                       =      0.998106
+r1WriteRatio                      =      5.001894
+{010R, 005W} :       50533.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       30630.0
+writesPerSecond                   =       14060.0
+totalPerSecond                    =       44690.0
+numThreads                        = 16
+readerThreadCount= 11, readRatio  =     10.966212
+writerThreadCount=  5, writeRatio =      5.033788
+r1NumThreads                      = 6
+r1ReadsPerSecond                  =        2784.5
+r1TotalPerSecond                  =       16844.5
+r1ReadRatio                       =      0.991851
+r1WriteRatio                      =      5.008149
+{011R, 005W} :       44690.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       51560.0
+totalPerSecond                    =       51560.0
+numThreads                        = 6
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  6, writeRatio =      6.000000
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 006W} :       51560.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        6800.0
+writesPerSecond                   =       40786.7
+totalPerSecond                    =       47586.7
+numThreads                        = 7
+readerThreadCount=  1, readRatio  =      1.000280
+writerThreadCount=  6, writeRatio =      5.999720
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        6800.0
+r1TotalPerSecond                  =       47586.7
+r1ReadRatio                       =      1.000280
+r1WriteRatio                      =      5.999720
+{001R, 006W} :       47586.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       12843.3
+writesPerSecond                   =       38573.3
+totalPerSecond                    =       51416.7
+numThreads                        = 8
+readerThreadCount=  2, readRatio  =      1.998314
+writerThreadCount=  6, writeRatio =      6.001686
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        6421.7
+r1TotalPerSecond                  =       44995.0
+r1ReadRatio                       =      0.999037
+r1WriteRatio                      =      6.000963
+{002R, 006W} :       51416.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       15750.0
+writesPerSecond                   =       31660.0
+totalPerSecond                    =       47410.0
+numThreads                        = 9
+readerThreadCount=  3, readRatio  =      2.989876
+writerThreadCount=  6, writeRatio =      6.010124
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        5250.0
+r1TotalPerSecond                  =       36910.0
+r1ReadRatio                       =      0.995665
+r1WriteRatio                      =      6.004335
+{003R, 006W} :       47410.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       19570.0
+writesPerSecond                   =       29440.0
+totalPerSecond                    =       49010.0
+numThreads                        = 10
+readerThreadCount=  4, readRatio  =      3.993063
+writerThreadCount=  6, writeRatio =      6.006937
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        4892.5
+r1TotalPerSecond                  =       34332.5
+r1ReadRatio                       =      0.997524
+r1WriteRatio                      =      6.002476
+{004R, 006W} :       49010.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21533.3
+writesPerSecond                   =       25966.7
+totalPerSecond                    =       47500.0
+numThreads                        = 11
+readerThreadCount=  5, readRatio  =      4.986667
+writerThreadCount=  6, writeRatio =      6.013333
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        4306.7
+r1TotalPerSecond                  =       30273.3
+r1ReadRatio                       =      0.995816
+r1WriteRatio                      =      6.004184
+{005R, 006W} :       47500.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       23756.7
+writesPerSecond                   =       23786.7
+totalPerSecond                    =       47543.3
+numThreads                        = 12
+readerThreadCount=  6, readRatio  =      5.996214
+writerThreadCount=  6, writeRatio =      6.003786
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        3959.4
+r1TotalPerSecond                  =       27746.1
+r1ReadRatio                       =      0.998919
+r1WriteRatio                      =      6.001081
+{006R, 006W} :       47543.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       24456.7
+writesPerSecond                   =       20980.0
+totalPerSecond                    =       45436.7
+numThreads                        = 13
+readerThreadCount=  7, readRatio  =      6.997359
+writerThreadCount=  6, writeRatio =      6.002641
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        3493.8
+r1TotalPerSecond                  =       24473.8
+r1ReadRatio                       =      0.999300
+r1WriteRatio                      =      6.000700
+{007R, 006W} :       45436.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29613.3
+writesPerSecond                   =       22226.7
+totalPerSecond                    =       51840.0
+numThreads                        = 14
+readerThreadCount=  8, readRatio  =      7.997428
+writerThreadCount=  6, writeRatio =      6.002572
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        3701.7
+r1TotalPerSecond                  =       25928.3
+r1ReadRatio                       =      0.999357
+r1WriteRatio                      =      6.000643
+{008R, 006W} :       51840.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       33296.7
+writesPerSecond                   =       22256.7
+totalPerSecond                    =       55553.3
+numThreads                        = 15
+readerThreadCount=  9, readRatio  =      8.990460
+writerThreadCount=  6, writeRatio =      6.009540
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        3699.6
+r1TotalPerSecond                  =       25956.3
+r1ReadRatio                       =      0.997731
+r1WriteRatio                      =      6.002269
+{009R, 006W} :       55553.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29636.7
+writesPerSecond                   =       17793.3
+totalPerSecond                    =       47430.0
+numThreads                        = 16
+readerThreadCount= 10, readRatio  =      9.997611
+writerThreadCount=  6, writeRatio =      6.002389
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        2963.7
+r1TotalPerSecond                  =       20757.0
+r1ReadRatio                       =      0.999454
+r1WriteRatio                      =      6.000546
+{010R, 006W} :       47430.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       31933.3
+writesPerSecond                   =       17443.3
+totalPerSecond                    =       49376.7
+numThreads                        = 17
+readerThreadCount= 11, readRatio  =     10.994397
+writerThreadCount=  6, writeRatio =      6.005603
+r1NumThreads                      = 7
+r1ReadsPerSecond                  =        2903.0
+r1TotalPerSecond                  =       20346.4
+r1ReadRatio                       =      0.998764
+r1WriteRatio                      =      6.001236
+{011R, 006W} :       49376.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       50030.0
+totalPerSecond                    =       50030.0
+numThreads                        = 7
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  7, writeRatio =      7.000000
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 007W} :       50030.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        5550.0
+writesPerSecond                   =       38996.7
+totalPerSecond                    =       44546.7
+numThreads                        = 8
+readerThreadCount=  1, readRatio  =      0.996708
+writerThreadCount=  7, writeRatio =      7.003292
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        5550.0
+r1TotalPerSecond                  =       44546.7
+r1ReadRatio                       =      0.996708
+r1WriteRatio                      =      7.003292
+{001R, 007W} :       44546.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       10060.0
+writesPerSecond                   =       35223.3
+totalPerSecond                    =       45283.3
+numThreads                        = 9
+readerThreadCount=  2, readRatio  =      1.999411
+writerThreadCount=  7, writeRatio =      7.000589
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        5030.0
+r1TotalPerSecond                  =       40253.3
+r1ReadRatio                       =      0.999669
+r1WriteRatio                      =      7.000331
+{002R, 007W} :       45283.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       15846.7
+writesPerSecond                   =       37016.7
+totalPerSecond                    =       52863.3
+numThreads                        = 10
+readerThreadCount=  3, readRatio  =      2.997667
+writerThreadCount=  7, writeRatio =      7.002333
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        5282.2
+r1TotalPerSecond                  =       42298.9
+r1ReadRatio                       =      0.999028
+r1WriteRatio                      =      7.000972
+{003R, 007W} :       52863.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       17030.0
+writesPerSecond                   =       29713.3
+totalPerSecond                    =       46743.3
+numThreads                        = 11
+readerThreadCount=  4, readRatio  =      4.007630
+writerThreadCount=  7, writeRatio =      6.992370
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        4257.5
+r1TotalPerSecond                  =       33970.8
+r1ReadRatio                       =      1.002625
+r1WriteRatio                      =      6.997375
+{004R, 007W} :       46743.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       16766.7
+writesPerSecond                   =       23563.3
+totalPerSecond                    =       40330.0
+numThreads                        = 12
+readerThreadCount=  5, readRatio  =      4.988842
+writerThreadCount=  7, writeRatio =      7.011158
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3353.3
+r1TotalPerSecond                  =       26916.7
+r1ReadRatio                       =      0.996656
+r1WriteRatio                      =      7.003344
+{005R, 007W} :       40330.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       22543.3
+writesPerSecond                   =       26313.3
+totalPerSecond                    =       48856.7
+numThreads                        = 13
+readerThreadCount=  6, readRatio  =      5.998431
+writerThreadCount=  7, writeRatio =      7.001569
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3757.2
+r1TotalPerSecond                  =       30070.6
+r1ReadRatio                       =      0.999575
+r1WriteRatio                      =      7.000425
+{006R, 007W} :       48856.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       23256.7
+writesPerSecond                   =       23266.7
+totalPerSecond                    =       46523.3
+numThreads                        = 14
+readerThreadCount=  7, readRatio  =      6.998495
+writerThreadCount=  7, writeRatio =      7.001505
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3322.4
+r1TotalPerSecond                  =       26589.0
+r1ReadRatio                       =      0.999624
+r1WriteRatio                      =      7.000376
+{007R, 007W} :       46523.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       26993.3
+writesPerSecond                   =       23610.0
+totalPerSecond                    =       50603.3
+numThreads                        = 15
+readerThreadCount=  8, readRatio  =      8.001449
+writerThreadCount=  7, writeRatio =      6.998551
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3374.2
+r1TotalPerSecond                  =       26984.2
+r1ReadRatio                       =      1.000340
+r1WriteRatio                      =      6.999660
+{008R, 007W} :       50603.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       28743.3
+writesPerSecond                   =       22386.7
+totalPerSecond                    =       51130.0
+numThreads                        = 16
+readerThreadCount=  9, readRatio  =      8.994589
+writerThreadCount=  7, writeRatio =      7.005411
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3193.7
+r1TotalPerSecond                  =       25580.4
+r1ReadRatio                       =      0.998798
+r1WriteRatio                      =      7.001202
+{009R, 007W} :       51130.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       30590.0
+writesPerSecond                   =       21440.0
+totalPerSecond                    =       52030.0
+numThreads                        = 17
+readerThreadCount= 10, readRatio  =      9.994811
+writerThreadCount=  7, writeRatio =      7.005189
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        3059.0
+r1TotalPerSecond                  =       24499.0
+r1ReadRatio                       =      0.998898
+r1WriteRatio                      =      7.001102
+{010R, 007W} :       52030.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       28226.7
+writesPerSecond                   =       17993.3
+totalPerSecond                    =       46220.0
+numThreads                        = 18
+readerThreadCount= 11, readRatio  =     10.992644
+writerThreadCount=  7, writeRatio =      7.007356
+r1NumThreads                      = 8
+r1ReadsPerSecond                  =        2566.1
+r1TotalPerSecond                  =       20559.4
+r1ReadRatio                       =      0.998497
+r1WriteRatio                      =      7.001503
+{011R, 007W} :       46220.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       52700.0
+totalPerSecond                    =       52700.0
+numThreads                        = 8
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  8, writeRatio =      8.000000
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 008W} :       52700.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        5486.7
+writesPerSecond                   =       43903.3
+totalPerSecond                    =       49390.0
+numThreads                        = 9
+readerThreadCount=  1, readRatio  =      0.999798
+writerThreadCount=  8, writeRatio =      8.000202
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        5486.7
+r1TotalPerSecond                  =       49390.0
+r1ReadRatio                       =      0.999798
+r1WriteRatio                      =      8.000202
+{001R, 008W} :       49390.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        9610.0
+writesPerSecond                   =       38480.0
+totalPerSecond                    =       48090.0
+numThreads                        = 10
+readerThreadCount=  2, readRatio  =      1.998336
+writerThreadCount=  8, writeRatio =      8.001664
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        4805.0
+r1TotalPerSecond                  =       43285.0
+r1ReadRatio                       =      0.999076
+r1WriteRatio                      =      8.000924
+{002R, 008W} :       48090.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       13363.3
+writesPerSecond                   =       35726.7
+totalPerSecond                    =       49090.0
+numThreads                        = 11
+readerThreadCount=  3, readRatio  =      2.994432
+writerThreadCount=  8, writeRatio =      8.005568
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        4454.4
+r1TotalPerSecond                  =       40181.1
+r1ReadRatio                       =      0.997732
+r1WriteRatio                      =      8.002268
+{003R, 008W} :       49090.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       17243.3
+writesPerSecond                   =       34506.7
+totalPerSecond                    =       51750.0
+numThreads                        = 12
+readerThreadCount=  4, readRatio  =      3.998454
+writerThreadCount=  8, writeRatio =      8.001546
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        4310.8
+r1TotalPerSecond                  =       38817.5
+r1ReadRatio                       =      0.999485
+r1WriteRatio                      =      8.000515
+{004R, 008W} :       51750.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       20880.0
+writesPerSecond                   =       33430.0
+totalPerSecond                    =       54310.0
+numThreads                        = 13
+readerThreadCount=  5, readRatio  =      4.997975
+writerThreadCount=  8, writeRatio =      8.002025
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        4176.0
+r1TotalPerSecond                  =       37606.0
+r1ReadRatio                       =      0.999415
+r1WriteRatio                      =      8.000585
+{005R, 008W} :       54310.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21540.0
+writesPerSecond                   =       28783.3
+totalPerSecond                    =       50323.3
+numThreads                        = 14
+readerThreadCount=  6, readRatio  =      5.992449
+writerThreadCount=  8, writeRatio =      8.007551
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        3590.0
+r1TotalPerSecond                  =       32373.3
+r1ReadRatio                       =      0.998044
+r1WriteRatio                      =      8.001956
+{006R, 008W} :       50323.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       24243.3
+writesPerSecond                   =       27863.3
+totalPerSecond                    =       52106.7
+numThreads                        = 15
+readerThreadCount=  7, readRatio  =      6.978953
+writerThreadCount=  8, writeRatio =      8.021047
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        3463.3
+r1TotalPerSecond                  =       31326.7
+r1ReadRatio                       =      0.994999
+r1WriteRatio                      =      8.005001
+{007R, 008W} :       52106.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       26923.3
+writesPerSecond                   =       27016.7
+totalPerSecond                    =       53940.0
+numThreads                        = 16
+readerThreadCount=  8, readRatio  =      7.986157
+writerThreadCount=  8, writeRatio =      8.013843
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        3365.4
+r1TotalPerSecond                  =       30382.1
+r1ReadRatio                       =      0.996928
+r1WriteRatio                      =      8.003072
+{008R, 008W} :       53940.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       23856.7
+writesPerSecond                   =       21333.3
+totalPerSecond                    =       45190.0
+numThreads                        = 17
+readerThreadCount=  9, readRatio  =      8.974626
+writerThreadCount=  8, writeRatio =      8.025374
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        2650.7
+r1TotalPerSecond                  =       23984.1
+r1ReadRatio                       =      0.994688
+r1WriteRatio                      =      8.005312
+{009R, 008W} :       45190.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       25653.3
+writesPerSecond                   =       20473.3
+totalPerSecond                    =       46126.7
+numThreads                        = 18
+readerThreadCount= 10, readRatio  =     10.010695
+writerThreadCount=  8, writeRatio =      7.989305
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        2565.3
+r1TotalPerSecond                  =       23038.7
+r1ReadRatio                       =      1.002141
+r1WriteRatio                      =      7.997859
+{010R, 008W} :       46126.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       30110.0
+writesPerSecond                   =       21916.7
+totalPerSecond                    =       52026.7
+numThreads                        = 19
+readerThreadCount= 11, readRatio  =     10.996092
+writerThreadCount=  8, writeRatio =      8.003908
+r1NumThreads                      = 9
+r1ReadsPerSecond                  =        2737.3
+r1TotalPerSecond                  =       24653.9
+r1ReadRatio                       =      0.999250
+r1WriteRatio                      =      8.000750
+{011R, 008W} :       52026.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       45746.7
+totalPerSecond                    =       45746.7
+numThreads                        = 9
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount=  9, writeRatio =      9.000000
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 009W} :       45746.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        4670.0
+writesPerSecond                   =       42116.7
+totalPerSecond                    =       46786.7
+numThreads                        = 10
+readerThreadCount=  1, readRatio  =      0.998148
+writerThreadCount=  9, writeRatio =      9.001852
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        4670.0
+r1TotalPerSecond                  =       46786.7
+r1ReadRatio                       =      0.998148
+r1WriteRatio                      =      9.001852
+{001R, 009W} :       46786.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        8830.0
+writesPerSecond                   =       39736.7
+totalPerSecond                    =       48566.7
+numThreads                        = 11
+readerThreadCount=  2, readRatio  =      1.999931
+writerThreadCount=  9, writeRatio =      9.000069
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        4415.0
+r1TotalPerSecond                  =       44151.7
+r1ReadRatio                       =      0.999962
+r1WriteRatio                      =      9.000038
+{002R, 009W} :       48566.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       13130.0
+writesPerSecond                   =       39506.7
+totalPerSecond                    =       52636.7
+numThreads                        = 12
+readerThreadCount=  3, readRatio  =      2.993351
+writerThreadCount=  9, writeRatio =      9.006649
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        4376.7
+r1TotalPerSecond                  =       43883.3
+r1ReadRatio                       =      0.997341
+r1WriteRatio                      =      9.002659
+{003R, 009W} :       52636.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       15430.0
+writesPerSecond                   =       34763.3
+totalPerSecond                    =       50193.3
+numThreads                        = 13
+readerThreadCount=  4, readRatio  =      3.996347
+writerThreadCount=  9, writeRatio =      9.003653
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        3857.5
+r1TotalPerSecond                  =       38620.8
+r1ReadRatio                       =      0.998813
+r1WriteRatio                      =      9.001187
+{004R, 009W} :       50193.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       17563.3
+writesPerSecond                   =       31653.3
+totalPerSecond                    =       49216.7
+numThreads                        = 14
+readerThreadCount=  5, readRatio  =      4.996004
+writerThreadCount=  9, writeRatio =      9.003996
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        3512.7
+r1TotalPerSecond                  =       35166.0
+r1ReadRatio                       =      0.998881
+r1WriteRatio                      =      9.001119
+{005R, 009W} :       49216.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       19196.7
+writesPerSecond                   =       28803.3
+totalPerSecond                    =       48000.0
+numThreads                        = 15
+readerThreadCount=  6, readRatio  =      5.998958
+writerThreadCount=  9, writeRatio =      9.001042
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        3199.4
+r1TotalPerSecond                  =       32002.8
+r1ReadRatio                       =      0.999740
+r1WriteRatio                      =      9.000260
+{006R, 009W} :       48000.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       22323.3
+writesPerSecond                   =       28716.7
+totalPerSecond                    =       51040.0
+numThreads                        = 16
+readerThreadCount=  7, readRatio  =      6.997910
+writerThreadCount=  9, writeRatio =      9.002090
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        3189.0
+r1TotalPerSecond                  =       31905.7
+r1ReadRatio                       =      0.999522
+r1WriteRatio                      =      9.000478
+{007R, 009W} :       51040.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       23963.3
+writesPerSecond                   =       27013.3
+totalPerSecond                    =       50976.7
+numThreads                        = 17
+readerThreadCount=  8, readRatio  =      7.991434
+writerThreadCount=  9, writeRatio =      9.008566
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        2995.4
+r1TotalPerSecond                  =       30008.8
+r1ReadRatio                       =      0.998181
+r1WriteRatio                      =      9.001819
+{008R, 009W} :       50976.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       27143.3
+writesPerSecond                   =       27216.7
+totalPerSecond                    =       54360.0
+numThreads                        = 18
+readerThreadCount=  9, readRatio  =      8.987859
+writerThreadCount=  9, writeRatio =      9.012141
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        3015.9
+r1TotalPerSecond                  =       30232.6
+r1ReadRatio                       =      0.997574
+r1WriteRatio                      =      9.002426
+{009R, 009W} :       54360.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       28286.7
+writesPerSecond                   =       25500.0
+totalPerSecond                    =       53786.7
+numThreads                        = 19
+readerThreadCount= 10, readRatio  =      9.992191
+writerThreadCount=  9, writeRatio =      9.007809
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        2828.7
+r1TotalPerSecond                  =       28328.7
+r1ReadRatio                       =      0.998517
+r1WriteRatio                      =      9.001483
+{010R, 009W} :       53786.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       26400.0
+writesPerSecond                   =       21646.7
+totalPerSecond                    =       48046.7
+numThreads                        = 20
+readerThreadCount= 11, readRatio  =     10.989316
+writerThreadCount=  9, writeRatio =      9.010684
+r1NumThreads                      = 10
+r1ReadsPerSecond                  =        2400.0
+r1TotalPerSecond                  =       24046.7
+r1ReadRatio                       =      0.998059
+r1WriteRatio                      =      9.001941
+{011R, 009W} :       48046.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       49146.7
+totalPerSecond                    =       49146.7
+numThreads                        = 10
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 10, writeRatio =     10.000000
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 010W} :       49146.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        4253.3
+writesPerSecond                   =       42550.0
+totalPerSecond                    =       46803.3
+numThreads                        = 11
+readerThreadCount=  1, readRatio  =      0.999644
+writerThreadCount= 10, writeRatio =     10.000356
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        4253.3
+r1TotalPerSecond                  =       46803.3
+r1ReadRatio                       =      0.999644
+r1WriteRatio                      =     10.000356
+{001R, 010W} :       46803.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        7863.3
+writesPerSecond                   =       39380.0
+totalPerSecond                    =       47243.3
+numThreads                        = 12
+readerThreadCount=  2, readRatio  =      1.997319
+writerThreadCount= 10, writeRatio =     10.002681
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3931.7
+r1TotalPerSecond                  =       43311.7
+r1ReadRatio                       =      0.998538
+r1WriteRatio                      =     10.001462
+{002R, 010W} :       47243.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       11270.0
+writesPerSecond                   =       37613.3
+totalPerSecond                    =       48883.3
+numThreads                        = 13
+readerThreadCount=  3, readRatio  =      2.997136
+writerThreadCount= 10, writeRatio =     10.002864
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3756.7
+r1TotalPerSecond                  =       41370.0
+r1ReadRatio                       =      0.998872
+r1WriteRatio                      =     10.001128
+{003R, 010W} :       48883.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       14570.0
+writesPerSecond                   =       36450.0
+totalPerSecond                    =       51020.0
+numThreads                        = 14
+readerThreadCount=  4, readRatio  =      3.998040
+writerThreadCount= 10, writeRatio =     10.001960
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3642.5
+r1TotalPerSecond                  =       40092.5
+r1ReadRatio                       =      0.999376
+r1WriteRatio                      =     10.000624
+{004R, 010W} :       51020.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       16116.7
+writesPerSecond                   =       32263.3
+totalPerSecond                    =       48380.0
+numThreads                        = 15
+readerThreadCount=  5, readRatio  =      4.996900
+writerThreadCount= 10, writeRatio =     10.003100
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3223.3
+r1TotalPerSecond                  =       35486.7
+r1ReadRatio                       =      0.999155
+r1WriteRatio                      =     10.000845
+{005R, 010W} :       48380.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       19006.7
+writesPerSecond                   =       31693.3
+totalPerSecond                    =       50700.0
+numThreads                        = 16
+readerThreadCount=  6, readRatio  =      5.998159
+writerThreadCount= 10, writeRatio =     10.001841
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3167.8
+r1TotalPerSecond                  =       34861.1
+r1ReadRatio                       =      0.999554
+r1WriteRatio                      =     10.000446
+{006R, 010W} :       50700.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21593.3
+writesPerSecond                   =       30866.7
+totalPerSecond                    =       52460.0
+numThreads                        = 17
+readerThreadCount=  7, readRatio  =      6.997458
+writerThreadCount= 10, writeRatio =     10.002542
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        3084.8
+r1TotalPerSecond                  =       33951.4
+r1ReadRatio                       =      0.999439
+r1WriteRatio                      =     10.000561
+{007R, 010W} :       52460.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       52600.0
+writesPerSecond                   =       65823.3
+totalPerSecond                    =      118423.3
+numThreads                        = 18
+readerThreadCount=  8, readRatio  =      7.995046
+writerThreadCount= 10, writeRatio =     10.004954
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        6575.0
+r1TotalPerSecond                  =       72398.3
+r1ReadRatio                       =      0.998987
+r1WriteRatio                      =     10.001013
+{008R, 010W} :      118423.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       24240.0
+writesPerSecond                   =       26976.7
+totalPerSecond                    =       51216.7
+numThreads                        = 19
+readerThreadCount=  9, readRatio  =      8.992385
+writerThreadCount= 10, writeRatio =     10.007615
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        2693.3
+r1TotalPerSecond                  =       29670.0
+r1ReadRatio                       =      0.998539
+r1WriteRatio                      =     10.001461
+{009R, 010W} :       51216.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       24210.0
+writesPerSecond                   =       24236.7
+totalPerSecond                    =       48446.7
+numThreads                        = 20
+readerThreadCount= 10, readRatio  =      9.994496
+writerThreadCount= 10, writeRatio =     10.005504
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        2421.0
+r1TotalPerSecond                  =       26657.7
+r1ReadRatio                       =      0.999000
+r1WriteRatio                      =     10.001000
+{010R, 010W} :       48446.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       29773.3
+writesPerSecond                   =       27130.0
+totalPerSecond                    =       56903.3
+numThreads                        = 21
+readerThreadCount= 11, readRatio  =     10.987757
+writerThreadCount= 10, writeRatio =     10.012243
+r1NumThreads                      = 11
+r1ReadsPerSecond                  =        2706.7
+r1TotalPerSecond                  =       29836.7
+r1ReadRatio                       =      0.997877
+r1WriteRatio                      =     10.002123
+{011R, 010W} :       56903.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =           0.0
+writesPerSecond                   =       92670.0
+totalPerSecond                    =       92670.0
+numThreads                        = 11
+readerThreadCount=  0, readRatio  =      0.000000
+writerThreadCount= 11, writeRatio =     11.000000
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =          -1.$
+r1TotalPerSecond                  =          -1.$
+r1ReadRatio                       =     -1.#IND00
+r1WriteRatio                      =     -1.#IND00
+{000R, 011W} :       92670.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        4270.0
+writesPerSecond                   =       47013.3
+totalPerSecond                    =       51283.3
+numThreads                        = 12
+readerThreadCount=  1, readRatio  =      0.999155
+writerThreadCount= 11, writeRatio =     11.000845
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        4270.0
+r1TotalPerSecond                  =       51283.3
+r1ReadRatio                       =      0.999155
+r1WriteRatio                      =     11.000845
+{001R, 011W} :       51283.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =        8210.0
+writesPerSecond                   =       45186.7
+totalPerSecond                    =       53396.7
+numThreads                        = 13
+readerThreadCount=  2, readRatio  =      1.998814
+writerThreadCount= 11, writeRatio =     11.001186
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        4105.0
+r1TotalPerSecond                  =       49291.7
+r1ReadRatio                       =      0.999358
+r1WriteRatio                      =     11.000642
+{002R, 011W} :       53396.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       23010.0
+writesPerSecond                   =       84403.3
+totalPerSecond                    =      107413.3
+numThreads                        = 14
+readerThreadCount=  3, readRatio  =      2.999069
+writerThreadCount= 11, writeRatio =     11.000931
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        7670.0
+r1TotalPerSecond                  =       92073.3
+r1ReadRatio                       =      0.999638
+r1WriteRatio                      =     11.000362
+{003R, 011W} :      107413.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       14930.0
+writesPerSecond                   =       41090.0
+totalPerSecond                    =       56020.0
+numThreads                        = 15
+readerThreadCount=  4, readRatio  =      3.997679
+writerThreadCount= 11, writeRatio =     11.002321
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        3732.5
+r1TotalPerSecond                  =       44822.5
+r1ReadRatio                       =      0.999275
+r1WriteRatio                      =     11.000725
+{004R, 011W} :       56020.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       15573.3
+writesPerSecond                   =       34333.3
+totalPerSecond                    =       49906.7
+numThreads                        = 16
+readerThreadCount=  5, readRatio  =      4.992787
+writerThreadCount= 11, writeRatio =     11.007213
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        3114.7
+r1TotalPerSecond                  =       37448.0
+r1ReadRatio                       =      0.998077
+r1WriteRatio                      =     11.001923
+{005R, 011W} :       49906.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       17423.3
+writesPerSecond                   =       31966.7
+totalPerSecond                    =       49390.0
+numThreads                        = 17
+readerThreadCount=  6, readRatio  =      5.997098
+writerThreadCount= 11, writeRatio =     11.002902
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        2903.9
+r1TotalPerSecond                  =       34870.6
+r1ReadRatio                       =      0.999315
+r1WriteRatio                      =     11.000685
+{006R, 011W} :       49390.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       44706.7
+writesPerSecond                   =       70280.0
+totalPerSecond                    =      114986.7
+numThreads                        = 18
+readerThreadCount=  7, readRatio  =      6.998377
+writerThreadCount= 11, writeRatio =     11.001623
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        6386.7
+r1TotalPerSecond                  =       76666.7
+r1ReadRatio                       =      0.999652
+r1WriteRatio                      =     11.000348
+{007R, 011W} :      114986.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       22213.3
+writesPerSecond                   =       30573.3
+totalPerSecond                    =       52786.7
+numThreads                        = 19
+readerThreadCount=  8, readRatio  =      7.995453
+writerThreadCount= 11, writeRatio =     11.004547
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        2776.7
+r1TotalPerSecond                  =       33350.0
+r1ReadRatio                       =      0.999100
+r1WriteRatio                      =     11.000900
+{008R, 011W} :       52786.7
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       22536.7
+writesPerSecond                   =       27606.7
+totalPerSecond                    =       50143.3
+numThreads                        = 20
+readerThreadCount=  9, readRatio  =      8.988898
+writerThreadCount= 11, writeRatio =     11.011102
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        2504.1
+r1TotalPerSecond                  =       30110.7
+r1ReadRatio                       =      0.997946
+r1WriteRatio                      =     11.002054
+{009R, 011W} :       50143.3
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       21033.3
+writesPerSecond                   =       23156.7
+totalPerSecond                    =       44190.0
+numThreads                        = 21
+readerThreadCount= 10, readRatio  =      9.995474
+writerThreadCount= 11, writeRatio =     11.004526
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        2103.3
+r1TotalPerSecond                  =       25260.0
+r1ReadRatio                       =      0.999208
+r1WriteRatio                      =     11.000792
+{010R, 011W} :       44190.0
+
+Running test for 300 milliseconds...
+SemaMutex<Semaphore>:
+readsPerSecond                    =       49390.0
+writesPerSecond                   =       49476.7
+totalPerSecond                    =       98866.7
+numThreads                        = 22
+readerThreadCount= 11, readRatio  =     10.990357
+writerThreadCount= 11, writeRatio =     11.009643
+r1NumThreads                      = 12
+r1ReadsPerSecond                  =        4490.0
+r1TotalPerSecond                  =       53966.7
+r1ReadRatio                       =      0.998394
+r1WriteRatio                      =     11.001606
+{011R, 011W} :       98866.7
+
+
+csv =
+"SemaMutex<Semaphore> tps", 0.000000,1800060.000000,208420.000000,222173.333333,92613.333333,45750.000000,47783.333333,55376.666667,46213.333333,46616.666667,47980.000000,45573.333333,2200670.000000,105990.000000,90913.333333,75726.666667,45616.666667,57176.666667,43636.666667,49663.333333,45870.000000,44526.666667,46583.333333,50643.333333,110990.000000,104260.000000,89976.666667,52886.666667,51160.000000,49866.666667,51096.666667,46460.000000,45220.000000,47420.000000,45833.333333,51193.333333,102160.000000,90013.333333,43906.666667,50423.333333,47550.000000,48893.333333,44840.000000,48356.666667,47826.666667,43160.000000,46903.333333,46603.333333,78123.333333,44846.666667,60053.333333,45370.000000,43183.333333,46823.333333,48863.333333,47070.000000,51590.000000,49820.000000,47863.333333,45720.000000,52796.666667,42573.333333,58893.333333,51363.333333,48753.333333,78973.333333,50680.000000,50000.000000,49783.333333,45463.333333,50533.333333,44690.000000,51560.000000,47586.666667,51416.666667,47410.000000,49010.000000,47500.000000,47543.333333,45436.666667,51840.000000,55553.333333,47430.000000,49376.666667,50030.000000,44546.666667,45283.333333,52863.333333,46743.333333,40330.000000,48856.666667,46523.333333,50603.333333,51130.000000,52030.000000,46220.000000,52700.000000,49390.000000,48090.000000,49090.000000,51750.000000,54310.000000,50323.333333,52106.666667,53940.000000,45190.000000,46126.666667,52026.666667,45746.666667,46786.666667,48566.666667,52636.666667,50193.333333,49216.666667,48000.000000,51040.000000,50976.666667,54360.000000,53786.666667,48046.666667,49146.666667,46803.333333,47243.333333,48883.333333,51020.000000,48380.000000,50700.000000,52460.000000,118423.333333,51216.666667,48446.666667,56903.333333,92670.000000,51283.333333,53396.666667,107413.333333,56020.000000,49906.666667,49390.000000,114986.666667,52786.666667,50143.333333,44190.000000,98866.666667,
+"SemaMutex<Semaphore> rps", 0.000000,1800060.000000,208420.000000,222173.333333,92613.333333,45750.000000,47783.333333,55376.666667,46213.333333,46616.666667,47980.000000,45573.333333, 0.000000,52810.000000,60750.000000,56803.333333,36490.000000,47646.666667,37406.666667,43443.333333,40776.666667,40076.666667,42313.333333,46433.333333, 0.000000,34896.666667,44976.666667,31723.333333,34090.000000,35583.333333,38310.000000,36096.666667,36176.666667,38766.666667,38200.000000,43313.333333, 0.000000,22546.666667,17546.666667,25193.333333,27166.666667,30620.000000,29866.666667,33853.333333,34776.666667,32366.666667,36040.000000,36583.333333, 0.000000,8963.333333,20010.000000,19400.000000,21586.666667,25963.333333,29286.666667,29926.666667,34316.666667,34436.666667,34160.000000,33513.333333, 0.000000,7080.000000,16826.666667,19246.666667,21650.000000,39466.666667,27593.333333,29166.666667,30586.666667,29213.333333,33663.333333,30630.000000, 0.000000,6800.000000,12843.333333,15750.000000,19570.000000,21533.333333,23756.666667,24456.666667,29613.333333,33296.666667,29636.666667,31933.333333, 0.000000,5550.000000,10060.000000,15846.666667,17030.000000,16766.666667,22543.333333,23256.666667,26993.333333,28743.333333,30590.000000,28226.666667, 0.000000,5486.666667,9610.000000,13363.333333,17243.333333,20880.000000,21540.000000,24243.333333,26923.333333,23856.666667,25653.333333,30110.000000, 0.000000,4670.000000,8830.000000,13130.000000,15430.000000,17563.333333,19196.666667,22323.333333,23963.333333,27143.333333,28286.666667,26400.000000, 0.000000,4253.333333,7863.333333,11270.000000,14570.000000,16116.666667,19006.666667,21593.333333,52600.000000,24240.000000,24210.000000,29773.333333, 0.000000,4270.000000,8210.000000,23010.000000,14930.000000,15573.333333,17423.333333,44706.666667,22213.333333,22536.666667,21033.333333,49390.000000,
+"SemaMutex<Semaphore> wps", 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,2200670.000000,53180.000000,30163.333333,18923.333333,9126.666667,9530.000000,6230.000000,6220.000000,5093.333333,4450.000000,4270.000000,4210.000000,110990.000000,69363.333333,45000.000000,21163.333333,17070.000000,14283.333333,12786.666667,10363.333333,9043.333333,8653.333333,7633.333333,7880.000000,102160.000000,67466.666667,26360.000000,25230.000000,20383.333333,18273.333333,14973.333333,14503.333333,13050.000000,10793.333333,10863.333333,10020.000000,78123.333333,35883.333333,40043.333333,25970.000000,21596.666667,20860.000000,19576.666667,17143.333333,17273.333333,15383.333333,13703.333333,12206.666667,52796.666667,35493.333333,42066.666667,32116.666667,27103.333333,39506.666667,23086.666667,20833.333333,19196.666667,16250.000000,16870.000000,14060.000000,51560.000000,40786.666667,38573.333333,31660.000000,29440.000000,25966.666667,23786.666667,20980.000000,22226.666667,22256.666667,17793.333333,17443.333333,50030.000000,38996.666667,35223.333333,37016.666667,29713.333333,23563.333333,26313.333333,23266.666667,23610.000000,22386.666667,21440.000000,17993.333333,52700.000000,43903.333333,38480.000000,35726.666667,34506.666667,33430.000000,28783.333333,27863.333333,27016.666667,21333.333333,20473.333333,21916.666667,45746.666667,42116.666667,39736.666667,39506.666667,34763.333333,31653.333333,28803.333333,28716.666667,27013.333333,27216.666667,25500.000000,21646.666667,49146.666667,42550.000000,39380.000000,37613.333333,36450.000000,32263.333333,31693.333333,30866.666667,65823.333333,26976.666667,24236.666667,27130.000000,92670.000000,47013.333333,45186.666667,84403.333333,41090.000000,34333.333333,31966.666667,70280.000000,30573.333333,27606.666667,23156.666667,49476.666667,
+"SemaMutex<Semaphore> rr",-1.#IND00, 1.000000, 2.000000, 3.000000, 4.000000, 5.000000, 6.000000, 7.000000, 8.000000, 9.000000,10.000000,11.000000, 0.000000, 0.996509, 2.004656, 3.000440, 3.999635, 4.999942, 6.000611, 6.998054, 8.000654, 9.000599, 9.991699,11.002435, 0.000000, 1.004124, 1.999481, 2.999181, 3.998045, 4.994987, 5.998043, 6.992467, 8.000147, 8.992689,10.001455,10.998958, 0.000000, 1.001926, 1.998178, 2.997818, 3.999299, 5.010090, 5.994648, 7.000758, 7.998536, 8.999073, 9.989056,10.989915, 0.000000, 0.999331, 1.999223, 2.993167, 3.999074, 4.990461, 5.993588, 6.993697, 7.982167, 8.985883, 9.991782,10.995188, 0.000000, 0.997808, 2.000000, 2.997729, 3.996650, 4.997467, 5.989082, 7.000000, 7.987144, 8.995967, 9.992414,10.966212, 0.000000, 1.000280, 1.998314, 2.989876, 3.993063, 4.986667, 5.996214, 6.997359, 7.997428, 8.990460, 9.997611,10.994397, 0.000000, 0.996708, 1.999411, 2.997667, 4.007630, 4.988842, 5.998431, 6.998495, 8.001449, 8.994589, 9.994811,10.992644, 0.000000, 0.999798, 1.998336, 2.994432, 3.998454, 4.997975, 5.992449, 6.978953, 7.986157, 8.974626,10.010695,10.996092, 0.000000, 0.998148, 1.999931, 2.993351, 3.996347, 4.996004, 5.998958, 6.997910, 7.991434, 8.987859, 9.992191,10.989316, 0.000000, 0.999644, 1.997319, 2.997136, 3.998040, 4.996900, 5.998159, 6.997458, 7.995046, 8.992385, 9.994496,10.987757, 0.000000, 0.999155, 1.998814, 2.999069, 3.997679, 4.992787, 5.997098, 6.998377, 7.995453, 8.988898, 9.995474,10.990357,
+"SemaMutex<Semaphore> wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 1.003491, 0.995344, 0.999560, 1.000365, 1.000058, 0.999389, 1.001946, 0.999346, 0.999401, 1.008301, 0.997565, 2.000000, 1.995876, 2.000519, 2.000819, 2.001955, 2.005013, 2.001957, 2.007533, 1.999853, 2.007311, 1.998545, 2.001042, 3.000000, 2.998074, 3.001822, 3.002182, 3.000701, 2.989910, 3.005352, 2.999242, 3.001464, 3.000927, 3.010944, 3.010085, 4.000000, 4.000669, 4.000777, 4.006833, 4.000926, 4.009539, 4.006412, 4.006303, 4.017833, 4.014117, 4.008218, 4.004812, 5.000000, 5.002192, 5.000000, 5.002271, 5.003350, 5.002533, 5.010918, 5.000000, 5.012856, 5.004033, 5.007586, 5.033788, 6.000000, 5.999720, 6.001686, 6.010124, 6.006937, 6.013333, 6.003786, 6.002641, 6.002572, 6.009540, 6.002389, 6.005603, 7.000000, 7.003292, 7.000589, 7.002333, 6.992370, 7.011158, 7.001569, 7.001505, 6.998551, 7.005411, 7.005189, 7.007356, 8.000000, 8.000202, 8.001664, 8.005568, 8.001546, 8.002025, 8.007551, 8.021047, 8.013843, 8.025374, 7.989305, 8.003908, 9.000000, 9.001852, 9.000069, 9.006649, 9.003653, 9.003996, 9.001042, 9.002090, 9.008566, 9.012141, 9.007809, 9.010684,10.000000,10.000356,10.002681,10.002864,10.001960,10.003100,10.001841,10.002542,10.004954,10.007615,10.005504,10.012243,11.000000,11.000845,11.001186,11.000931,11.002321,11.007213,11.002902,11.001623,11.004547,11.011102,11.004526,11.009643,
+"SemaMutex<Semaphore> r1rr",-1.#IND00, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000,-1.#IND00, 0.996509, 1.003496, 1.000293, 0.999772, 0.999965, 1.000357, 0.998889, 1.000368, 1.000333, 0.995452, 1.001330,-1.#IND00, 1.004124, 0.999654, 0.999545, 0.999023, 0.997664, 0.999131, 0.996778, 1.000061, 0.997028, 1.000582, 0.999590,-1.#IND00, 1.001926, 0.998861, 0.998910, 0.999693, 1.004044, 0.997995, 1.000271, 0.999497, 0.999691, 0.996452, 0.996798,-1.#IND00, 0.999331, 0.999534, 0.996814, 0.999630, 0.996571, 0.997865, 0.998021, 0.994667, 0.995932, 0.997702, 0.998689,-1.#IND00, 0.997808, 1.000000, 0.998991, 0.998744, 0.999156, 0.996669, 1.000000, 0.996525, 0.998955, 0.998106, 0.991851,-1.#IND00, 1.000280, 0.999037, 0.995665, 0.997524, 0.995816, 0.998919, 0.999300, 0.999357, 0.997731, 0.999454, 0.998764,-1.#IND00, 0.996708, 0.999669, 0.999028, 1.002625, 0.996656, 0.999575, 0.999624, 1.000340, 0.998798, 0.998898, 0.998497,-1.#IND00, 0.999798, 0.999076, 0.997732, 0.999485, 0.999415, 0.998044, 0.994999, 0.996928, 0.994688, 1.002141, 0.999250,-1.#IND00, 0.998148, 0.999962, 0.997341, 0.998813, 0.998881, 0.999740, 0.999522, 0.998181, 0.997574, 0.998517, 0.998059,-1.#IND00, 0.999644, 0.998538, 0.998872, 0.999376, 0.999155, 0.999554, 0.999439, 0.998987, 0.998539, 0.999000, 0.997877,-1.#IND00, 0.999155, 0.999358, 0.999638, 0.999275, 0.998077, 0.999315, 0.999652, 0.999100, 0.997946, 0.999208, 0.998394,
+"SemaMutex<Semaphore> r1wr",-1.#IND00, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000,-1.#IND00, 1.003491, 0.996504, 0.999707, 1.000228, 1.000035, 0.999643, 1.001111, 0.999632, 0.999667, 1.004548, 0.998670,-1.#IND00, 1.995876, 2.000346, 2.000455, 2.000977, 2.002336, 2.000869, 2.003222, 1.999939, 2.002972, 1.999418, 2.000410,-1.#IND00, 2.998074, 3.001139, 3.001090, 3.000307, 2.995956, 3.002005, 2.999729, 3.000503, 3.000309, 3.003548, 3.003202,-1.#IND00, 4.000669, 4.000466, 4.003186, 4.000370, 4.003429, 4.002135, 4.001979, 4.005333, 4.004068, 4.002298, 4.001311,-1.#IND00, 5.002192, 5.000000, 5.001009, 5.001256, 5.000844, 5.003331, 5.000000, 5.003475, 5.001045, 5.001894, 5.008149,-1.#IND00, 5.999720, 6.000963, 6.004335, 6.002476, 6.004184, 6.001081, 6.000700, 6.000643, 6.002269, 6.000546, 6.001236,-1.#IND00, 7.003292, 7.000331, 7.000972, 6.997375, 7.003344, 7.000425, 7.000376, 6.999660, 7.001202, 7.001102, 7.001503,-1.#IND00, 8.000202, 8.000924, 8.002268, 8.000515, 8.000585, 8.001956, 8.005001, 8.003072, 8.005312, 7.997859, 8.000750,-1.#IND00, 9.001852, 9.000038, 9.002659, 9.001187, 9.001119, 9.000260, 9.000478, 9.001819, 9.002426, 9.001483, 9.001941,-1.#IND00,10.000356,10.001462,10.001128,10.000624,10.000845,10.000446,10.000561,10.001013,10.001461,10.001000,10.002123,-1.#IND00,11.000845,11.000642,11.000362,11.000725,11.001923,11.000685,11.000348,11.000900,11.002054,11.000792,11.001606,
+
