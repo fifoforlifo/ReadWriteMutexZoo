@@ -342,6 +342,41 @@ I used a line size of 64 to match the i7.
 This is a standard trick, but worth mentioning.
 
 
+## Potential Improvements
+
+### Adding memory barrier annotations
+
+The code in this project works on x86 and x86\_64 processors, because the memory model is so strong.
+
+Other architectures would require explicit memory barriers between the various volatile loads and stores.
+
+### TlsGetValue and TlsSetValue should be abstracted from ReadWriteMutex classes
+
+Clearly it's not OK for every ReadWriteMutex object to allocate its own TLS slot, since TLS slots
+are a scarce and valuable resource.  This is one of the several reasons the code here is just for
+demonstration.
+
+A production-worthy class would make TLS a policy object; then the client can implement
+it however they want or need to.
+
+One great opportunity for clients is when they *already needed their own TLS data*.  In such cases,
+clients can place rwmutex-TLS-data into their own TLS structures, and avoid paying repeated TLS lookup costs.
+
+This also implies that public variants of the lock/unlock functions that accept a TLS-policy object
+need to exist.
+
+As a sidenote, removal of TLS data when a thread is destroyed should also be handled correctly.  (the
+sample code doesn't deal with that case at all)
+
+### ReadWriteMutex classes should be templated on synchronization primitive types
+
+Rather than hard-code a ReadWriteMutex to use CriticalSection, it ought to use a template type TMutex.
+
+This also opens the opportunity to benchmark using different primitive types, and specialize
+appropriately when porting across OSes.
+
+
+
 ## Reference Material
 
 I came up with most of the algorithms in this library by myself;
