@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <vector>
 #include "semaphore.h"
+#include "unslow_semaphore.h"
 #include "mutex.h"
 #include "sema_mutex.h"
 #include "critical_section.h"
@@ -220,10 +221,10 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 0
+#if 01
     // NOTE: is perfectly fair, but horribly slow
-    pName = "SemaMutex<Semaphore>";
-    Test<SemaMutex<Semaphore> > test_SemaMutex(numReaders, numWriters, pName);
+    pName = "SemaMutex<UnslowSemaphore>";
+    Test<SemaMutex<UnslowSemaphore> > test_SemaMutex(numReaders, numWriters, pName);
     stats = test_SemaMutex.Execute();
     statss.push_back(stats);
 #endif
@@ -290,7 +291,7 @@ void DoTests(
     statss.push_back(stats);
 #endif
 
-#if 01
+#if 0
     pName = "FastSlimReadWriteMutex";
     Test<FastSlimReadWriteMutex> test_FastSlimReadWriteMutex(numReaders, numWriters, pName);
     stats = test_FastSlimReadWriteMutex.Execute();

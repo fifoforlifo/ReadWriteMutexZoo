@@ -1,6 +1,5 @@
 #pragma once
 
-#include <intrin.h>
 #include "common.h"
 #include "scoped_locks.h"
 #include "critical_section.h"

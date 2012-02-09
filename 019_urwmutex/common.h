@@ -2,6 +2,7 @@
 
 #include <assert.h>
 #include <vector>
+#include <intrin.h>
 #include <Windows.h>
 
 #define CACHE_LINE_SIZE 64
