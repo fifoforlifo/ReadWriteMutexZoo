@@ -2,6 +2,7 @@
 #include <vector>
 #include "semaphore.h"
 #include "unslow_semaphore.h"
+#include "csev_semaphore.h"
 #include "mutex.h"
 #include "sema_mutex.h"
 #include "critical_section.h"
@@ -214,88 +215,128 @@ void DoTests(
     Stats stats;
 
 #if 0
-    // NOTE: is perfectly fair
-    pName = "Mutex";
-    Test<Mutex> test_Mutex(numReaders, numWriters, pName);
-    stats = test_Mutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is perfectly fair
+        pName = "Mutex";
+        Test<Mutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 01
-    // NOTE: is perfectly fair, but horribly slow
-    pName = "SemaMutex<UnslowSemaphore>";
-    Test<SemaMutex<UnslowSemaphore> > test_SemaMutex(numReaders, numWriters, pName);
-    stats = test_SemaMutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is perfectly fair, but horribly slow
+        pName = "SemaMutex<Semaphore>";
+        Test<SemaMutex<Semaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+
+#if 01
+    {
+        // NOTE: is perfectly fair, but still very slow
+        pName = "SemaMutex<UnslowSemaphore>";
+        Test<SemaMutex<UnslowSemaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+
+#if 01
+    {
+        // NOTE: is perfectly fair, but horribly slow
+        pName = "SemaMutex<CsevSemaphore>";
+        Test<SemaMutex<CsevSemaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
     // NOTE: is kind of fair
     pName = "CriticalSection";
-    Test<CriticalSection> test_CriticalSection(numReaders, numWriters, pName);
-    stats = test_CriticalSection.Execute();
+    Test<CriticalSection> test(numReaders, numWriters, pName);
+    stats = test.Execute();
     statss.push_back(stats);
 #endif
 
 #if 0
-    // NOTE: is not fair
-    pName = "SlimReadWriteLock";
-    Test<SlimReadWriteLock> test_SlimReadWriteLock(numReaders, numWriters, pName);
-    stats = test_SlimReadWriteLock.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is not fair
+        pName = "SlimReadWriteLock";
+        Test<SlimReadWriteLock> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    // NOTE: is kind of fair
-    pName = "UltraSpinReadWriteMutex";
-    Test<UltraSpinReadWriteMutex> test_UltraSpinReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_UltraSpinReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is kind of fair
+        pName = "UltraSpinReadWriteMutex";
+        Test<UltraSpinReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    // NOTE: is kind of fair
-    pName = "UltraFastReadWriteMutex";
-    Test<UltraFastReadWriteMutex> test_UltraFastReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_UltraFastReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is kind of fair
+        pName = "UltraFastReadWriteMutex";
+        Test<UltraFastReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    // NOTE: is kind of fair
-    pName = "UltraLightReadWriteMutex";
-    Test<UltraLightReadWriteMutex> test_UltraLightReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_UltraLightReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is kind of fair
+        pName = "UltraLightReadWriteMutex";
+        Test<UltraLightReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    // NOTE: is perfectly fair, but bog slow
-    pName = "FairReadWriteMutex";
-    Test<FairReadWriteMutex<Semaphore> > test_FairReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_FairReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        // NOTE: is perfectly fair, but bog slow
+        pName = "FairReadWriteMutex";
+        Test<FairReadWriteMutex<Semaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    pName = "FairCsReadWriteMutex";
-    Test<FairCsReadWriteMutex> test_FairCsReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_FairCsReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        pName = "FairCsReadWriteMutex";
+        Test<FairCsReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    pName = "CohortReadWriteMutex";
-    Test<CohortReadWriteMutex<Semaphore> > test_CohortReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_CohortReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        pName = "CohortReadWriteMutex";
+        Test<CohortReadWriteMutex<Semaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 
 #if 0
-    pName = "FastSlimReadWriteMutex";
-    Test<FastSlimReadWriteMutex> test_FastSlimReadWriteMutex(numReaders, numWriters, pName);
-    stats = test_FastSlimReadWriteMutex.Execute();
-    statss.push_back(stats);
+    {
+        pName = "FastSlimReadWriteMutex";
+        Test<FastSlimReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
 #endif
 }
 

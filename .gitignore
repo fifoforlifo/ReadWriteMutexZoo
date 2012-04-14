@@ -17,4 +17,5 @@ BuildLog.htm
 **/bin/**/*
 *.swp
 readme.html
+.~lock.*
 

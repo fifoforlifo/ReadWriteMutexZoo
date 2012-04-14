@@ -15,6 +15,7 @@ public:
         : m_event(NULL)
         , m_signalCount(0)
     {
+        assert(initialCount <= maxCount);
         m_event = CreateEventA(NULL, /* bManualReset */ FALSE, /* bInitialState */ FALSE, NULL);
         assert(m_event != NULL);
         if (initialCount > 0)
