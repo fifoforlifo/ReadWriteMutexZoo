@@ -336,6 +336,10 @@
 			>
 		</File>
 		<File
+			RelativePath=".\csev2_semaphore.h"
+			>
+		</File>
+		<File
 			RelativePath=".\csev_semaphore.h"
 			>
 		</File>
@@ -345,6 +349,10 @@
 		</File>
 		<File
 			RelativePath=".\faircs_rwmutex.h"
+			>
+		</File>
+		<File
+			RelativePath=".\fast_st_semaphore.h"
 			>
 		</File>
 		<File

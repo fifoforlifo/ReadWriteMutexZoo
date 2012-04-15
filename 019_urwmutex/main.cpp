@@ -3,6 +3,8 @@
 #include "semaphore.h"
 #include "unslow_semaphore.h"
 #include "csev_semaphore.h"
+#include "fast_st_semaphore.h"
+#include "csev2_semaphore.h"
 #include "mutex.h"
 #include "sema_mutex.h"
 #include "critical_section.h"
@@ -246,9 +248,30 @@ void DoTests(
 
 #if 01
     {
-        // NOTE: is perfectly fair, but horribly slow
+        // NOTE: is perfectly fair, better than UnslowSemaphore but still slow in the grand scheme of things
         pName = "SemaMutex<CsevSemaphore>";
         Test<SemaMutex<CsevSemaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+
+#if 01
+    {
+        // NOTE: is perfectly fair, better than UnslowSemaphore but still slow in the grand scheme of things
+        pName = "SemaMutex<FastStSemaphore>";
+        Test<SemaMutex<FastStSemaphore> > test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+
+#if 01
+    {
+        // NOTE: is perfectly fair, perf is consistently better than other Semaphore-based solutions
+        // even under contention
+        pName = "SemaMutex<Csev2Semaphore>";
+        Test<SemaMutex<Csev2Semaphore> > test(numReaders, numWriters, pName);
         stats = test.Execute();
         statss.push_back(stats);
     }

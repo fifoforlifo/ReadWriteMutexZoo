@@ -37,10 +37,11 @@ public:
         {
             {
                 CriticalSection::ScopedWriteLock lk(m_cs);
-                if (m_count > 0)
+                long oldCount = m_count;
+                if (oldCount > 0)
                 {
-                    count = m_count - 1;
-                    m_count -= count;
+                    count = oldCount - 1;
+                    m_count = count;
                     break;
                 }
             }
@@ -57,10 +58,12 @@ public:
         assert(delta > 0);
 
         long oldCount;
+        long count;
         {
             CriticalSection::ScopedWriteLock lk(m_cs);
             oldCount = m_count;
-            m_count = oldCount + 1;
+            count = m_count + delta;
+            m_count = count;
         }
         if (oldCount <= 0)
         {
