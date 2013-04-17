@@ -21,6 +21,8 @@
 // single reader, multiple writer -- these are just to get upper bounds on perf
 #include "ultraspin_single_rwmutex.h"
 #include "ultrasync_single_rwmutex.h"
+#include "win_futex_rec_ev.h"
+#include "win_futex_rec.h"
 
 
 //#define READER_LOOP_NL_SLEEP Sleep(0)
@@ -77,6 +79,8 @@ public:
 
     Stats Execute()
     {
+        printf("this = %p\n", this);
+
         std::vector<HANDLE> threadHandles;
 
         const SIZE_T stackSize = 0x10000;
@@ -172,7 +176,6 @@ private:
             READER_LOOP_NL_SLEEP;
             TMutex::ScopedReadLock lk(m_mutex);
             count += 1;
-            READER_LOOP_LK_SLEEP;
         }
 
         {
@@ -226,7 +229,7 @@ void DoTests(
     }
 #endif
 
-#if 01
+#if 0
     {
         // NOTE: is perfectly fair, but horribly slow
         pName = "SemaMutex<Semaphore>";
@@ -236,7 +239,7 @@ void DoTests(
     }
 #endif
 
-#if 01
+#if 0
     {
         // NOTE: is perfectly fair, but still very slow
         pName = "SemaMutex<UnslowSemaphore>";
@@ -246,7 +249,7 @@ void DoTests(
     }
 #endif
 
-#if 01
+#if 0
     {
         // NOTE: is perfectly fair, better than UnslowSemaphore but still slow in the grand scheme of things
         pName = "SemaMutex<CsevSemaphore>";
@@ -256,7 +259,7 @@ void DoTests(
     }
 #endif
 
-#if 01
+#if 0
     {
         // NOTE: is perfectly fair, better than UnslowSemaphore but still slow in the grand scheme of things
         pName = "SemaMutex<FastStSemaphore>";
@@ -266,7 +269,7 @@ void DoTests(
     }
 #endif
 
-#if 01
+#if 0
     {
         // NOTE: is perfectly fair, perf is consistently better than other Semaphore-based solutions
         // even under contention
@@ -357,6 +360,23 @@ void DoTests(
     {
         pName = "FastSlimReadWriteMutex";
         Test<FastSlimReadWriteMutex> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+
+#if 0
+    {
+        pName = "WinFutexRecEvC";
+        Test<WinFutexRecEvC> test(numReaders, numWriters, pName);
+        stats = test.Execute();
+        statss.push_back(stats);
+    }
+#endif
+#if 1
+    {
+        pName = "WinFutexRecC";
+        Test<WinFutexRecC> test(numReaders, numWriters, pName);
         stats = test.Execute();
         statss.push_back(stats);
     }
